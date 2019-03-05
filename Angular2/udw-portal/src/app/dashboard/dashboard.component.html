@@ -1,0 +1,37 @@
+<p>
+  <h2 align="center">
+  	<span class="badge badge-secondary"> Dash Board </span>
+    
+  </h2>
+  
+  <div class="grid grid-pad">
+   
+  <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" routerLink="../batchdetails" routerLinkActive="active"><h4 ><span >Batch Details</span></h4></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " routerLink="../batchdetails"><h4 ><span >DA Details</span></h4></a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link " routerLink="../batchdetails"><h4 ><span >PubSub Details</span></h4></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#"><h4 ><span >Incident Status</span></h4></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#"><h4 ><span >Data Statics</span></h4></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#"><h4 ><span >Control Mismatch</span></h4></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About</a>
+  </li>
+</ul>
+
+</div>
+
+<router-outlet></router-outlet>
+
+<app-messages></app-messages>

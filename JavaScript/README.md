@@ -72,15 +72,15 @@ NaN    ( true)
 
 
 If ( a === b ) {
-
+;
 } else if (  a === c ) {
-
+;
 } else {
-
+;
 }
 
 
-'use strict';      
+'use strict'; 
 //  cant use variable before defining , Cant use reserved words like undefined as variable name
 
  switch ( variable ) {
@@ -138,4 +138,5 @@ Try{
 } finally {
 	Close all;
 }
+
 

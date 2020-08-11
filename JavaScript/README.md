@@ -1,4 +1,4 @@
-    Var   : Global Scope   Hoisting
+Var   : Global Scope   Hoisting
 
 Let   : Block Scope    let currentResult; 
 
@@ -138,5 +138,9 @@ Try{
 } finally {
 	Close all;
 }
+
+
+
+
 
 

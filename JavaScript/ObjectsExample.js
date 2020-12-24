@@ -1,8 +1,9 @@
 const propKey = 'field 12';
 
 const objectExampl = {
-    [propkey] = 'Max'
+    title,
+    [propKey] : 'Max'
 
 };
 
-console.log( person['field 12']);
+console.log( objectExampl['field 12']);

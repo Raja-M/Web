@@ -1,4 +1,4 @@
-    Var   : Global Scope   Hoisting
+Var   : Global Scope   Hoisting
 
 let   : Block Scope    let currentResult; 
 
@@ -156,6 +156,29 @@ Try{
 } finally {
 	Close all;
 }
+
+Object : 
+
+const person = { name: 'Max', hobbies: ['sports', 'cooking'] } ;
+const person2 = Object.assign( {}, person);  // but spread operator recommended here
+
+Object destructering :
+
+const Movie = {
+    info: {
+      title,
+      [extraName]: extraValue
+    },
+    id: Math.random()
+  };
+
+  const { info, ...otherMovieMembers} = Movie;
+  const {title: movieTitle } = info;  // this carve out only title prop from info and give it a new named variable movieTitle 
+                                       // movieTitle is not a value of title in this case.
+
+  if ( info in mvoies) // if info is part of movies or not
+   
+
 
 
 Object : 

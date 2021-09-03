@@ -2,11 +2,13 @@ Var   : Global Scope   Hoisting
 
 Let   : Block Scope    let currentResult; 
 
+
+
 *****HOSTING
 
 ** open browser in cognitive mode.
 
-Const : 
+Const : use constants as much as possible.
 
 Quotes :
 
@@ -17,7 +19,7 @@ Quotes :
     `This is like 
        in new line `;  // white-space : pre  style should be used.
        
-*****     
+*****************    
 Only applicable for external script files.
 <script src="path/script.js"  defer>   Load In parallel to html parsing and waits to execute
 <script src="path/script.js"  async>   Load In parallel to html parsing does not wait to execute 
@@ -27,7 +29,7 @@ if we combine inline script with src= then inline script will be ignored.
         alert('hi');  // this will be ignored.
     </script>
 	
-
+*****************
 Shawdow variables
 
 Primitive  Data types.
@@ -46,6 +48,8 @@ Null or undefined or NaN all of them are false
 
 Null
 
+	Null  ( false ) datatype. (type of object) Never assigned by default. Need to assign manually to reset/clear variable.
+
 Undefined
 
 typeof
@@ -53,7 +57,6 @@ typeof
 Undefined  (true) datatype. ( type of undefined) default value of undefined variable. You should not assign this value to variable manually.
 
 
-Null  ( false ) datatype. (type of object) Never assigned by default. Need to assign manually to reset/clear variable.
 
 
 NaN    ( true)  Not a type. (type of number) Special value. Not a number ex: (3 * 'Hi')

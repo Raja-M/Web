@@ -1,0 +1,44 @@
+* {
+    margin: 2px;
+}
+
+body {
+    font-size: 24px;
+    color:rgb(29, 24, 24) ;
+    height: 100vh;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-header {
+    background-color: dodgerblue;
+    padding-top: 2rem;
+    padding-bottom: 2rem
+}
+
+.flex-main {
+    display: flex;
+
+}
+
+.flex-nav {
+    background-color: #b95f21;
+    padding-top: 3rem;
+}
+.flex-article {
+    background-color: #b95f21;
+    padding-top: 3rem;
+    flex: 1 1 10rem
+}
+.flex-aside {
+    background-color: #b95f21;
+    padding-top: 3rem;
+    
+    
+}
+.flex-footer {
+    background-color: #5070b5;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}

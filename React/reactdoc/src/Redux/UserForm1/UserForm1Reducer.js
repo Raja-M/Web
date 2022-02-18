@@ -2,7 +2,7 @@ import { SUBMIT_USER_FORM1 } from "./UserForm1Types";
 
 const initialState = {
     
-       username: 'test',
+       username: 'Test',
        gender: '',
        owns:[],
        comments: '',
@@ -12,7 +12,7 @@ const initialState = {
 
 
 const UserForm1Reducer = (state = initialState, action) => {
-    alert(  "in UserForm reducer")
+
    
     switch( action.type){
         case SUBMIT_USER_FORM1 : return{

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 import { connect } from 'react-redux'
 
-import { submitUserForm1 } from '../Redux/UserForm1/UserForm1Actions';
+import { submitUserForm1 } from '../../Redux/UserForm1/UserForm1Actions';
 
 import "./MainFormStyles.css"
 
@@ -93,21 +93,8 @@ export class MainForm extends Component {
   
   render() {
     const {username, gender, comments, topic, owns} = this.state
-    return (<div> 
-      <header className="flex-header">
-        <h2 style={{fontFamily: '-apple-system',
-                  fontSize: "2rem",
+    return (
 
-                  textAlign: "center"}}>Main Form
-        </h2>
-      </header>
-
-
-      <main >
-        <nav className="flex-nav">
-          navbar
-        </nav>
-        <section className="flex-main">
         <div className="flex-article">
           <form style={{ textAlign: "center"}} onSubmit={this.handleSubmit}>
             <div>
@@ -163,19 +150,7 @@ export class MainForm extends Component {
             <button type="submit">Submit</button>
           </form>
           
-          <article >
-            article
-          </article>
-         </div>
-         <aside className="flex-aside"> 
-            Side Menu
-         </aside>
-
-         </section>
-         <footer className="flex-footer">
-           Footer
-         </footer>
-      </main>
+          
       </div>
     );
   }

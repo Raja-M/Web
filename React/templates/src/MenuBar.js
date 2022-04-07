@@ -15,8 +15,8 @@ function MenuBar() {
   return (
   <div>
       <Router>  
-            <Routes>
-        <Route path="/" element={<Layout />}>
+        <Routes>
+          <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="dashboard" element={<Dashboard />} />
@@ -25,8 +25,8 @@ function MenuBar() {
                 acts like a catch-all for URLs that we don't have explicit
                 routes for. */}
           <Route path="*" element={<NoMatch />} />
-        </Route>
-      </Routes>
+          </Route>
+        </Routes>
    </Router>
     </div>
   );

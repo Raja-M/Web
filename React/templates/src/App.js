@@ -1,4 +1,4 @@
-//import logo from './logo.svg';
+//exports logo from './logo.svg';
 import './App.css';
 
 import { Provider } from 'react-redux'
@@ -10,6 +10,14 @@ import Body from './Body/Body';
 import MainForm from './Body/Forms/MainForm';
 
 import RdxAppContainer from './RdxAppContainer';
+import TestClass from './TestComponents/TestClass';
+import TestFunction from './TestComponents/TestFunction';
+import { FormExample } from './TestComponents/FormExample';
+import ErrorThrow from './TestComponents/ErrorThrow';
+import ErrorBoundary from './TestComponents/ErrorBoundary';
+import ClickCount from './TestComponents/ClickCount';
+import UseEffectMouseMove from './TestComponents/UseEffectMouseMove';
+import FirstCounter from './TestComponents/UseReducer';
 
  
 //const ReduxContainer = require('./Redux/ReduxContainer');
@@ -17,7 +25,25 @@ import RdxAppContainer from './RdxAppContainer';
 function App() {
   return (
     <>
+      <FirstCounter></FirstCounter>
+      <TestClass></TestClass>
+      <TestFunction name="Raja" heroName="Lead"></TestFunction>
+      <FormExample></FormExample>
+      <ErrorBoundary>
+      < ErrorThrow heroname='SuperMan'></ErrorThrow>
+      </ErrorBoundary>
+      <ErrorBoundary>
+      < ErrorThrow heroname='BatMan'></ErrorThrow>
+      </ErrorBoundary>
+      <ErrorBoundary>
+      < ErrorThrow heroname='joker'></ErrorThrow>
+      </ErrorBoundary>
+      <ClickCount></ClickCount>
+      <UseEffectMouseMove></UseEffectMouseMove>
+    </>
+  );
     
+    /*
     <Provider store={store} >
     <div className="App" >
     
@@ -31,9 +57,9 @@ function App() {
     
 
      </Provider>
-    </>
-    
-  );
+     */
+       
+  
 }
 
 

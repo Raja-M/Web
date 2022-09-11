@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 
 import HighOrderComponent from './HighOrderComponent'
 
- class ClickCount extends Component {
+ class HighOrderEXClickCount extends Component {
   static propTypes = {}  
 
   render() {
@@ -15,4 +15,4 @@ import HighOrderComponent from './HighOrderComponent'
   }
 }
 
-export default  HighOrderComponent (ClickCount  , 10)
+export default  HighOrderComponent (HighOrderEXClickCount  , 10)

@@ -15,9 +15,11 @@ import TestFunction from './TestComponents/TestFunction';
 import { FormExample } from './TestComponents/FormExample';
 import ErrorThrow from './TestComponents/ErrorThrow';
 import ErrorBoundary from './TestComponents/ErrorBoundary';
-import ClickCount from './TestComponents/ClickCount';
+import HighOrderEXClickCount from './TestComponents/HighOrderEXClickCount';
 import UseEffectMouseMove from './TestComponents/UseEffectMouseMove';
 import FirstCounter from './TestComponents/UseReducer';
+import CounterClass from './TestComponents/CounterClass';
+import CustomHookExample from './TestComponents/CustomHookExample';
 
  
 //const ReduxContainer = require('./Redux/ReduxContainer');
@@ -25,6 +27,8 @@ import FirstCounter from './TestComponents/UseReducer';
 function App() {
   return (
     <>
+      <CustomHookExample></CustomHookExample>
+      <CounterClass></CounterClass>
       <FirstCounter></FirstCounter>
       <TestClass></TestClass>
       <TestFunction name="Raja" heroName="Lead"></TestFunction>
@@ -38,7 +42,7 @@ function App() {
       <ErrorBoundary>
       < ErrorThrow heroname='joker'></ErrorThrow>
       </ErrorBoundary>
-      <ClickCount></ClickCount>
+      <HighOrderEXClickCount></HighOrderEXClickCount>
       <UseEffectMouseMove></UseEffectMouseMove>
     </>
   );

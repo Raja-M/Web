@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Navigate } from "react-router-dom";
+
 class AddContact extends React.Component {
 
     state = {
@@ -16,10 +18,14 @@ class AddContact extends React.Component {
         }
         this.props.addContactHandler( this.state );
         this.setState({name:"", email:""});
+  
+        <Navigate to="/" />
+        console.log("nav :",Navigate);
+
     }
     render() {
         return(
-            <div className="ui main">
+            <div className="ui main">   
                 <h2> Add Contact</h2>
                 <form className="ui form" onSubmit={this.add}>
                     <div className="field">

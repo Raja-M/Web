@@ -1,6 +1,7 @@
 import React from "react";
 
-import { Navigate } from "react-router-dom";
+import withNavigateHook from "./withNavigateHook";
+ 
 
 class AddContact extends React.Component {
 
@@ -18,9 +19,10 @@ class AddContact extends React.Component {
         }
         this.props.addContactHandler( this.state );
         this.setState({name:"", email:""});
-  
-        <Navigate to="/" />
-        console.log("nav :",Navigate);
+
+        
+        console.log("props : " , this.props);
+        this.props.navigation('/');
 
     }
     render() {
@@ -55,4 +57,4 @@ class AddContact extends React.Component {
     }
 }
 
-export default AddContact;
+export default  withNavigateHook(AddContact);

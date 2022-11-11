@@ -83,7 +83,7 @@ export const Navbar = () => {
                         return isActive ? { color: "red"} : {}        
                     }} 
                         to="/">Home</NavLink></Box>
-                    <Box><NavLink to="/info/1">Programs</NavLink></Box>
+                    <Box><NavLink to="/program">Programs</NavLink></Box>
                     <Box><NavLink>Customers</NavLink></Box>
                     <Box><NavLink>Producers</NavLink></Box>
                     <Box><NavLink>Approvals</NavLink></Box>

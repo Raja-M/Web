@@ -1,9 +1,11 @@
 import { Box, Divider, Stack, styled, Typography, createTheme, useMediaQuery, Paper } from '@mui/material';
 import React from 'react'
 import { useParams } from 'react-router-dom';
+import SideLeftNavbar from '../common/Navbar/SideLeftNavbar';
 import { Rightbar } from '../Rightbar';
 import { Sidebar } from '../Sidebar';
 import { ProgramsForm } from './ProgramsForm';
+
 
 export const Programs = ({ darkMode, setDarkMode }) => {
   const { id } = useParams()
@@ -13,13 +15,13 @@ export const Programs = ({ darkMode, setDarkMode }) => {
         marginTop: 2,
         justifyContent: 'space-between'
       }}>
-      <Sidebar darkMode={darkMode} setDarkMode={setDarkMode} ></Sidebar>
-      <div> 
-            <Paper> 
+      <SideLeftNavbar marginTop="50px"></SideLeftNavbar>
+      
+            <Paper  sx={{flex: 2}} > 
                 <ProgramsForm></ProgramsForm>
             </Paper>  
-        </div>
-      <Rightbar></Rightbar>
+      
+
     </Stack>
   )
 }

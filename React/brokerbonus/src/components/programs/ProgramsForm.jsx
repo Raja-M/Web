@@ -1,10 +1,19 @@
-import {TextField, FormControl, FormControlLabel, FormGroup, FormHelperText, FormLabel, Radio, RadioGroup, Switch, Grid } from '@mui/material'
+import {TextField, FormControl, FormControlLabel, FormGroup, FormHelperText, FormLabel, Radio, RadioGroup, Switch, Grid, Box } from '@mui/material'
 import React from 'react'
-import { Form } from 'react-router-dom'
+import { Form, useOutletContext } from 'react-router-dom'
 
 export const ProgramsForm = () => {
+
+    const obj = useOutletContext()
+
     return (
         <>
+            <Box sx={{
+
+flex: 4,
+padding: 2,
+display: { xs: 'none', sm: 'block' }}}> 
+
             <div>ProgramsForm</div>
             <form>
                 <paper sx={{ padding: 4 }}>
@@ -12,7 +21,7 @@ export const ProgramsForm = () => {
                           alignItems="center"
                           justify="center"
                           direction="column">
-                        <h1> Broker Bonus program editor</h1>
+                        <h1> {obj.head }</h1>
                         <Grid item>
                             <TextField
                                 id="bonusprogramname"
@@ -83,6 +92,7 @@ export const ProgramsForm = () => {
                 </paper>
 
             </form>
+            </Box>
         </>
     )
 }

@@ -31,7 +31,7 @@ export const Add = () => {
 
   return (
     <><Tooltip onClick={(e) => { setOpen(true) }}
-      title="Delete"
+      title="Add"
       sx={{ position: 'fixed', bottom: 20, left: { xs: '40%', md: 30 } }}>
       <Fab color="primary" aria-label="add">
         <AddIcon />

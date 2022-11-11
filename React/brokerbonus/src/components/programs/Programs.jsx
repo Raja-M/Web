@@ -15,7 +15,7 @@ export const Programs = ({ darkMode, setDarkMode }) => {
         marginTop: 2,
         justifyContent: 'space-between'
       }}>
-      <SideLeftNavbar marginTop="50px"></SideLeftNavbar>
+     
       
             <Paper  sx={{flex: 2}} > 
                 <ProgramsForm></ProgramsForm>

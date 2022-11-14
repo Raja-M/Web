@@ -7,7 +7,7 @@ import { Post } from './Post';
 export const Feed = () => {
     return (
         <Box sx={{
-     
+            display:{ xs: "block"},
             flex: 4,
             padding: 2,
         }}

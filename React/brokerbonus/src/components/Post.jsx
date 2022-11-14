@@ -26,7 +26,7 @@ export const Post = () => {
                 <CardHeader
                     avatar={
                         <Avatar sx={{ bgcolor: 'red' }} aria-label="recipe">
-                            R
+                            M
                         </Avatar>
                     }
                     action={
@@ -34,20 +34,18 @@ export const Post = () => {
                             <MoreVertIcon />
                         </IconButton>
                     }
-                    title="Shrimp and Chorizo Paella"
-                    subheader="September 14, 2016"
+                    title="Broker calculation stats"
+                    subheader="November 14, 2022"
                 />
                 <CardMedia
                     component="img"
                     height="20%"
-                    image="https://images.unsplash.com/photo-1666845270404-40def71fb33b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1933&q=80"
-                    alt="Paella dish"
+                    image="https://cdnl.tblsft.com/sites/default/files/histogram_edit.png"
+                    alt="Bonus Status"
                 />
                 <CardContent>
                     <Typography variant="body2" color="text.secondary">
-                        This impressive paella is a perfect party dish and a fun meal to cook
-                        together with your guests. Add 1 cup of frozen peas along with the mussels,
-                        if you like.
+                         Broker Bonus calculations Progress and stats.
                     </Typography>
                 </CardContent>
                 <CardActions disableSpacing>

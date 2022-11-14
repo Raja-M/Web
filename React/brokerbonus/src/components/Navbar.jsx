@@ -20,9 +20,10 @@ import { Badge, InputBase, Stack } from '@mui/material';
 
 import PriceChangeIcon from '@mui/icons-material/PriceChange';
 import MailIcon from '@mui/icons-material/Mail';
-import { Notifications } from '@mui/icons-material';
+import { Notifications, StickyNote2 } from '@mui/icons-material';
 import { flexbox } from '@mui/system';
 import { Link, NavLink } from 'react-router-dom';
+import { useTheme } from '@emotion/react';
 
 const pages = ['Home', 'News', 'Politics', 'Info', 'Money', 'Entertainment'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -62,10 +63,12 @@ const UserBox = styled(Box)(({ theme }) => ({
 
 export const Navbar = () => {
 
+    const currentTheme = useTheme()
+
     const [open, setOpen] = useState(false);
 
     return (
-        <AppBar position='sticky'>
+        <AppBar   style={{ position: "sticy", zIndex:  9999 }}>
             <StyledToolbar>
                 <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }} >
                     <PriceChangeIcon sx={{ display: { xs: 'flex', sm: 'flex' } }}></PriceChangeIcon>
@@ -77,18 +80,37 @@ export const Navbar = () => {
                 <Stack
                     direction="row"
                     spacing={4}
+                    
                     sx={{ display: { xs: "none", sm: "flex", flex: 4, marginLeft: 50 } }}
                 >
-                    <Box><NavLink style={ ( {isActive}) =>{
-                        return isActive ? { color: "red"} : {}        
-                    }} 
-                        to="/">Home</NavLink></Box>
-                    <Box><NavLink to="/program">Programs</NavLink></Box>
-                    <Box><NavLink>Customers</NavLink></Box>
-                    <Box><NavLink>Producers</NavLink></Box>
-                    <Box><NavLink>Approvals</NavLink></Box>
-                    <Box><NavLink>Issues</NavLink></Box>
-                    <Box><NavLink>Reports</NavLink></Box>
+                    <Box><NavLink style={  ( {isActive}) =>{
+                        return isActive ? { color: "red" , textDecoration: 'none' } : { color : "yellow" , textDecoration: 'none' }        
+                    } } 
+                        to="/"     >Home</NavLink></Box>
+                    <Box><NavLink   to="/program"  style={  ( {isActive}) =>{
+                        return isActive ? { color: "red" , textDecoration: 'none' } : { color : "yellow" , textDecoration: 'none' }        
+                    } } >Programs</NavLink
+                    ></Box>
+                    <Box><NavLink to="/customer" style={  ( {isActive}) =>{
+                        return isActive ? { color: "red" , textDecoration: 'none' } : { color : "yellow" , textDecoration: 'none' }        
+                    } }>Customers</NavLink>
+                    </Box>
+                    <Box><NavLink to="/producer"style={  ( {isActive}) =>{
+                        return isActive ? { color: "red" , textDecoration: 'none' } : { color : "yellow" , textDecoration: 'none' }        
+                    } }>Producers</NavLink>
+                    </Box>
+                    <Box><NavLink to="/approval" style={  ( {isActive}) =>{
+                        return isActive ? { color: "red" , textDecoration: 'none' } : { color : "yellow" , textDecoration: 'none' }        
+                    } }>Approvals</NavLink>
+                    </Box>
+                    <Box><NavLink to="/issues" style={  ( {isActive}) =>{
+                        return isActive ? { color: "red" , textDecoration: 'none' } : { color : "yellow" , textDecoration: 'none' }        
+                    } }>Issues</NavLink>
+                    </Box>
+                    <Box><NavLink to="/report" style={  ( {isActive}) =>{
+                        return isActive ? { color: "red" , textDecoration: 'none' } : { color : "yellow" , textDecoration: 'none' }        
+                    } }>Reports</NavLink>
+                    </Box>
                 </Stack>
                 <Search sx={{ display: { xs: "none", sm: "flex", flex: 4, } , marginLeft:5, marginRight:5 } }>  <InputBase placeholder='Search...'></InputBase></Search>
                 <Icons>

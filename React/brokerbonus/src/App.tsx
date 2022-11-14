@@ -30,27 +30,25 @@ function App() {
   return (
     <>    <ThemeProvider theme={darkTheme}>
       <Box bgcolor={darkTheme.palette.background.default} color={darkTheme.palette.text.primary} >
-
-        
         <Grid container direction="row" spacing={2} flex='1'>
           <Grid item xs={12}>
-            <Paper>xs12</Paper>
-          </Grid>
-          <Grid item xs={4} sm={4} sx={{ flexGrow:4}} >
-            <Paper>  xs12 md6 </Paper>
-          </Grid>
-          <Grid item xs={4} sm={4} >
-            <Paper>xs12 md6</Paper>
-          </Grid>
-          <Grid item xs={12}>
-            <Paper>xs12</Paper>
+          <Navbar></Navbar>
+            <Grid container direction="row" spacing={2} flex='1'>
+              <Grid item xs={12}>
+                <Body darkMode={darkMode} setDarkMode={setDarkMode} ></Body> 
+              </Grid>
+               
+              <Grid item xs={12}>
+                <Add></Add>
+              </Grid>
+            </Grid>
           </Grid>
         </Grid>
       </Box>
     </ThemeProvider>
- 
+
     </>
- 
+
   );
 }
 

@@ -7,11 +7,11 @@ import Switch from '@mui/material/Switch';
 
 export const Sidebar = ({darkMode, setDarkMode}) => {
     return (
-        <Box sx={{
+        <Box xs={12} sx={{
 
             flex: 2,
             padding: 2,
-            display: { xs: 'none', sm: 'block' }
+            display: { xs: 'flex', sm: 'block' }
         }}
         >
             <Box position={'fixed'}>
@@ -21,7 +21,7 @@ export const Sidebar = ({darkMode, setDarkMode}) => {
                             <ListItemIcon>
                                 <Home></Home>
                             </ListItemIcon>
-                            <ListItemText primary="Homepage" />
+                            <ListItemText primary="Home" />
                         </ListItemButton>
                     </ListItem>
                     <ListItem disablePadding>
@@ -29,7 +29,7 @@ export const Sidebar = ({darkMode, setDarkMode}) => {
                             <ListItemIcon>
                                 <Home></Home>
                             </ListItemIcon>
-                            <ListItemText primary="Pages" />
+                            <ListItemText primary="Programs" />
                         </ListItemButton>
                     </ListItem>
                     <ListItem disablePadding>
@@ -37,7 +37,7 @@ export const Sidebar = ({darkMode, setDarkMode}) => {
                             <ListItemIcon>
                                 <Home></Home>
                             </ListItemIcon>
-                            <ListItemText primary="Groups" />
+                            <ListItemText primary="Customers" />
                         </ListItemButton>
                     </ListItem>
                     <ListItem disablePadding>
@@ -45,7 +45,7 @@ export const Sidebar = ({darkMode, setDarkMode}) => {
                             <ListItemIcon>
                                 <Home></Home>
                             </ListItemIcon>
-                            <ListItemText primary="Marketplace" />
+                            <ListItemText primary="Producers" />
                         </ListItemButton>
                     </ListItem>
                     <ListItem disablePadding>
@@ -53,7 +53,7 @@ export const Sidebar = ({darkMode, setDarkMode}) => {
                             <ListItemIcon>
                                 <Home></Home>
                             </ListItemIcon>
-                            <ListItemText primary="Friends" />
+                            <ListItemText primary="Approvals" />
                         </ListItemButton>
                     </ListItem>
                     <ListItem disablePadding>
@@ -61,7 +61,7 @@ export const Sidebar = ({darkMode, setDarkMode}) => {
                             <ListItemIcon>
                                 <Home></Home>
                             </ListItemIcon>
-                            <ListItemText primary="Settings" />
+                            <ListItemText primary="Issues" />
                         </ListItemButton>
                     </ListItem>
                     <ListItem disablePadding>
@@ -69,7 +69,7 @@ export const Sidebar = ({darkMode, setDarkMode}) => {
                             <ListItemIcon>
                                 <Home></Home>
                             </ListItemIcon>
-                            <ListItemText primary="Profile" />
+                            <ListItemText primary="Reports" />
                         </ListItemButton>
                     </ListItem>
 
@@ -78,6 +78,7 @@ export const Sidebar = ({darkMode, setDarkMode}) => {
                             <ListItemIcon>
                                 <Home></Home>
                             </ListItemIcon>
+                            <ListItemText primary="Mode" />
                             <Switch onChange={e=>setDarkMode( darkMode ? false : true)}></Switch>
                         </ListItemButton>
                     </ListItem>

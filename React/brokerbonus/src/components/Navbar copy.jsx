@@ -23,7 +23,7 @@ export const Navbar = () => {
 
   return (
         
-    <AppBar position="static">
+    <AppBar position="sticky">
      
         <Toolbar disableGutters>
           <AdbIcon sx={{ ml:10, display: { xs: 'none', md: 'flex' ,  },  }} />

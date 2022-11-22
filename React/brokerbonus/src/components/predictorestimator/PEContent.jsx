@@ -7,13 +7,13 @@ import { Sidebar } from '../Sidebar';
 import { ProgramsForm } from './ProgramsForm';
 
 
-export const Content = ({ darkMode, setDarkMode }) => {
+export const PEContent = ({ darkMode, setDarkMode }) => {
   const { id } = useParams()
   return (
 
       
  
-                <ProgramsForm></ProgramsForm>
+                <ProgramsForm ></ProgramsForm>
    
       
 

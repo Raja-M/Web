@@ -16,8 +16,8 @@ export const ProgramsForm = () => {
             <form>
                 <paper sx={{}}>
                     <Grid container
-                        alignItems="left"
-                        justify="left"
+                        alignItems="center"
+                        justify="center"
                         direction="column">
                         <h1> {obj.head}</h1>
                         <Grid item>
@@ -26,6 +26,9 @@ export const ProgramsForm = () => {
                                 name="bonusprogramname"
                                 label="Bonus Program Name"
                                 type="text"
+                                required
+                                error
+                                helperText={'This is Bonus program name'}
                             >
 
                             </TextField>

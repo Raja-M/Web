@@ -111,6 +111,10 @@ export const Navbar = () => {
                         return isActive ? { color: "red" , textDecoration: 'none' } : { color : "yellow" , textDecoration: 'none' }        
                     } }>Reports</NavLink>
                     </Box>
+                    <Box><NavLink to="/predictorestimator" style={  ( {isActive}) =>{
+                        return isActive ? { color: "red" , textDecoration: 'none' } : { color : "yellow" , textDecoration: 'none' }        
+                    } }>PredictorEstimater</NavLink>
+                    </Box>
                 </Stack>
                 <Search sx={{ display: { xs: "none", sm: "flex", flex: 4, } , marginLeft:5, marginRight:5 } }>  <InputBase placeholder='Search...'></InputBase></Search>
                 <Icons>

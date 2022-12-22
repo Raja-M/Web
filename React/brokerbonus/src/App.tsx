@@ -11,9 +11,10 @@ import { text } from 'stream/consumers';
 import { palette } from '@mui/system';
 import { Palette } from '@mui/icons-material';
 import { Body } from './components/common/Body';
+import Counter from './redux/features/counter/Counter';
 
-
-
+import { Provider } from 'react-redux';
+import { Store } from  './redux/store/Store';
 
 function App() {
 
@@ -32,16 +33,24 @@ function App() {
       <Box bgcolor={darkTheme.palette.background.default} color={darkTheme.palette.text.primary} >
         <Grid container direction="row" spacing={2} flex='1'>
           <Grid item xs={12}>
-          <Navbar></Navbar>
-            <Grid container direction="row" spacing={2} flex='1'>
-              <Grid item xs={12}>
-                <Body darkMode={darkMode} setDarkMode={setDarkMode} ></Body> 
+            <Provider store={Store}>
+
+              <Navbar></Navbar>
+              <Grid container direction="row" spacing={2} flex='1'>
+                <Grid item xs={12}>
+ 
+ 
+                  <Body darkMode={darkMode} setDarkMode={setDarkMode} ></Body>
+                </Grid>
+
+
+                <Grid item xs={12}>
+                  <Add></Add>
+                </Grid>
+
               </Grid>
-               
-              <Grid item xs={12}>
-                <Add></Add>
-              </Grid>
-            </Grid>
+
+            </Provider>  
           </Grid>
         </Grid>
       </Box>

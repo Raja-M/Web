@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { useForm, Controller } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as Yup from 'yup';
-import { Box, Button, Grid, InputLabel, MenuItem, Paper, Typography } from '@mui/material';
+import { Box, Button, Grid, InputLabel, makeStyles, MenuItem, Paper, Typography } from '@mui/material';
 import Stack from '@mui/material/Stack';
 import { padding } from '@mui/system';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
@@ -16,6 +16,12 @@ import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 import Slider from '@mui/material/Slider';
 
+import { useSelector } from 'react-redux';
+import { selectAllMarkets } from '../../redux/features/markets/marketsSlice';
+import { useDispatch } from 'react-redux';
+import { nanoid } from "@reduxjs/toolkit";
+
+import { addPost } from '../../redux/features/requests/requestsSlice';
 
 export const ProgramsForm = () => {
 
@@ -56,9 +62,6 @@ export const ProgramsForm = () => {
         return `${scaledValue} ${units[unitIndex]}`;
     }
 
-    
-
-    
     function specfactLabelFormat(value) {
         const units = ['%'];
 
@@ -67,13 +70,10 @@ export const ProgramsForm = () => {
 
         return `${scaledValue} ${units[unitIndex]}`;
     }
-
-  
-    
+ 
     function eopcalculatValue(value) {
         return 2 ** value;
     }
-
 
     function netspecfactculateValue(value) {
         return 2 ** value;
@@ -105,7 +105,6 @@ export const ProgramsForm = () => {
         let unitIndex = 0;
         let scaledValue = value;
 
- 
 
         return `${scaledValue} ${units[unitIndex]}`;
     }
@@ -161,7 +160,7 @@ export const ProgramsForm = () => {
 
 
 
-    const rows: GridRowsProp = [
+    const rows1 = [
         { id: 1, PayeeCode: '0Y9445', BrokerName: 'A C MARMO & SONS INC' },
         { id: 2, PayeeCode: '0AC076', BrokerName: 'AARON B BERG' },
         { id: 3, PayeeCode: 'OTW946', BrokerName: 'AARON PAGLIA' },
@@ -176,13 +175,20 @@ export const ProgramsForm = () => {
         { id: 12, PayeeCode: 'OTW946', BrokerName: 'AARON PAGLIA' },
     ];
 
+    const dispatch = useDispatch();
+    const rows = useSelector( state => state.producers);
+    const markets = useSelector( selectAllMarkets )
+    const Markets = [];
+    markets.forEach( market =>   Markets.push(market.market))
 
-    const columns: GridColDef[] = [
-        { field: 'PayeeCode', headerName: 'PayeeCode', width: 200 },
-        { field: 'BrokerName', headerName: 'BrokerName', width: "100%" },
+    console.log(" Rows1 :" + rows1);
+
+    const columns = [
+        { field: 'payeeCode', headerName: 'PayeeCode', width: 200 },
+        { field: 'Name', headerName: 'BrokerName', width: "100%" },
     ];
 
-    const Markets = [
+    const Markets1 = [
         'Texas - Central',
         'Texas - Dallas',
         'Texas - Huston',
@@ -209,7 +215,6 @@ export const ProgramsForm = () => {
         netgrowth: 0,
         specbenrat: 0,
         specfact: 0 
-
 
     };
 
@@ -262,7 +267,17 @@ export const ProgramsForm = () => {
         }
     };
 
-    
+    const handlePopulateRequest = ( event) => {
+       
+        const postGetCurrentBonus =  { 
+                id: nanoid(),
+                market : values.Market,
+                brokerName: values.Broker
+            }
+        
+        console.log( "Values :" +  JSON.stringify ( postGetCurrentBonus) );
+        dispatch( addPost(postGetCurrentBonus ));
+    }
 
     const handleChangeNetPercent = (event, newValue) => {
         if (typeof newValue === 'number') {
@@ -303,7 +318,7 @@ export const ProgramsForm = () => {
 
     const handleRowSelectionBroker = (ids) => {    
              const selectedRowsData = ids.map((id) => rows.find((row) => row.id === id));
-             setValues( {...values , Broker : selectedRowsData[0].BrokerName  });    
+             setValues( {...values , Broker : selectedRowsData[0].Name  });    
     }
 
     const handleClose = () => {
@@ -436,6 +451,29 @@ export const ProgramsForm = () => {
                             </div>
                         </Grid>
                         <Grid item xs={3}> </Grid>
+
+
+                        <Grid item xs={1}> </Grid>
+                        <Grid item xs={2}> </Grid>
+                        <Grid item xs={1}> Minimum required</Grid>
+                        <Grid item xs={1}> Broker Actual</Grid>
+                        <Grid item xs={1}> Status</Grid>
+                        <Grid item xs={1}> </Grid>
+                        <Grid item xs={1}> Scenario1 </Grid>
+                        <Grid item xs={1}> Scenario2</Grid>
+                        <Grid item xs={1}> Scenario3</Grid>
+                        <Grid item xs={2}>  </Grid>
+
+                        <Grid item xs={1}> </Grid>
+                        <Grid item xs={2}> New Groups</Grid>
+                        <Grid item xs={1}> 2</Grid>
+                        <Grid item xs={1}> 12</Grid>
+                        <Grid item xs={1}> Met</Grid>
+                        <Grid item xs={1}> Estimated Ending Groups</Grid>
+                        <Grid item xs={1}> 15 </Grid>
+                        <Grid item xs={1}> 4</Grid>
+                        <Grid item xs={1}> 16</Grid>
+                        <Grid item xs={2}>  </Grid>
 
 
                         <Grid item xs={2}> </Grid>
@@ -640,13 +678,23 @@ export const ProgramsForm = () => {
 
                             <strong> Initial Bonus Amount </strong>
                         </Grid>
-                        <Grid item xs={3} align="left" >
+                        <Grid item xs={1} align="left" >
 
                             <div>
 
                              {"1443.88"} 
                             </div>
 
+                        </Grid>
+                        <Grid item xs={2} align="center" >
+                        <Button variant="contained" 
+  onClick={() => {
+    handlePopulateRequest();
+  }}
+>
+  Click me
+</Button>           
+                                        
                         </Grid>
                         <Grid item xs={2} align="center" >
 

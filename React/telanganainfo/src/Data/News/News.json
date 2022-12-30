@@ -1,0 +1,67 @@
+[
+    {
+      "id": 123456789,
+      "title": "This green crusader shows the way",
+      "content": "plant saplings and work for the conservation of plants throughout his life. And he has dedicated his entire life to planting trees, watering them, protecting them, and sensitising people by distributing plants.",
+      "time": "01-Jan-2023 09:40 a.m",
+      "Citiesid": 1,
+      "Media": [
+        {
+          "id": 12345678901,
+          "loation": "/Media/News/Politics/State/Telangana/Karimnanagar/Karimnanagar/12345678901"
+        },
+        {
+          "id": 12345678902,
+          "loation": "/Media/News/Politics/State/Telangana/Karimnanagar/Karimnanagar/12345678902"
+        },
+        {
+          "id": 12345678903,
+          "loation": "/Media/News/Politics/State/Telangana/Karimnanagar/Karimnanagar/12345678903"
+        }
+      ]
+    },
+    {
+      "id": 123456556,
+      "title": "12 best dramas on Netflix for when you want to feel something",
+      "content": "You gotta love that gut-punch of tragedy backed by a swelling orchestral score and how it can be a ruthless rush. Sometimes a tearjerker — that invites us to cry along with the characters — feels better than therapy. Other times, watching a protagonist persevere through hellish hardship can give us the hope that we need to persevere.",
+      "time": "01-Jan-2023 10:32 a.m",
+      "Citiesid": 1,
+      "Media": [
+        {
+          "id": 12345655601,
+          "loation": "/Media/News/Politics/State/Telangana/Karimnanagar/Karimnanagar/12345655601"
+        },
+        {
+          "id": 12345655602,
+          "loation": "/Media/News/Politics/State/Telangana/Karimnanagar/Karimnanagar/12345655602"
+        },
+        {
+          "id": 12345655603,
+          "loation": "/Media/News/Politics/State/Telangana/Karimnanagar/Karimnanagar/12345655603"
+        }
+      ]
+    },
+    
+   
+    {
+      "id": 123456557,
+      "title": "The way to celebrate the year end with family and friends",
+      "content": "As families and friends get ready to come together and prepare for the New Year celebrations, noted edible oil brand Gold drop has shared some interesting spread of food items that could become a part of the revelry and a hearty year-end meal. Mitesh Lohiya, Director, Sales and Marketing says, \"At Gold Drop, we\",ve taken a trip down memory lane and cherished the time you\": \"ve spent with us. We, the entire Lohiya Parivar take this opportunity to wish each one of you a brilliant year end and an even better 2023." , 
+       "time": "01-Jan-2023 10:32 a.m",       
+      "Citiesid": 1,       
+      "Media" : [ 
+          {
+            "id": 12345655701,
+            "loation": "/Media/News/Politics/State/Telangana/Karimnanagar/Karimnanagar/12345655701"
+          },
+          {
+            "id": 12345655702,
+            "loation": "/Media/News/Politics/State/Telangana/Karimnanagar/Karimnanagar/12345655702"
+          },
+          {
+            "id": 12345655703,
+            "loation": "/Media/News/Politics/State/Telangana/Karimnanagar/Karimnanagar/12345655703"
+          }
+        ]
+    } 
+  ]

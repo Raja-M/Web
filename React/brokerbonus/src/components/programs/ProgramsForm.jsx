@@ -52,9 +52,6 @@ export const ProgramsForm = () => {
                             </Box>
                             <FormGroup>
 
-
-
-
                                 <FormControl
                                     component="fieldset"
                                     variant="filled"

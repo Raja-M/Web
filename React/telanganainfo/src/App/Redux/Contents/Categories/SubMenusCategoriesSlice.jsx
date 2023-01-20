@@ -17,4 +17,4 @@ const SubMenusCategoriesSlice = createSlice ({
 
 export const selectAllSubMenusCategories = (state) => state.SubMenusCategories;
 
-export default SubMenusCategoriesSlice.reducer; 
+export default SubMenusCategoriesSlice.reducer;

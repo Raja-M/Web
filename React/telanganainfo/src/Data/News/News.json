@@ -8,15 +8,18 @@
       "Media": [
         {
           "id": 12345678901,
-          "loation": "/Media/News/Politics/State/Telangana/Karimnanagar/Karimnanagar/12345678901"
+          "type" : "thumbnail",
+          "path": "Media/News/Politics/State/Telangana/Karimnagar/Karimnagar/12345678901.jpg"
         },
         {
           "id": 12345678902,
-          "loation": "/Media/News/Politics/State/Telangana/Karimnanagar/Karimnanagar/12345678902"
+          "type" : "medium",
+          "path": "Media/News/Politics/State/Telangana/Karimnagar/Karimnagar/12345678902.jpg"
         },
         {
           "id": 12345678903,
-          "loation": "/Media/News/Politics/State/Telangana/Karimnanagar/Karimnanagar/12345678903"
+          "type" : "large",
+          "path": "Media/News/Politics/State/Telangana/Karimnagar/Karimnagar/12345678903.jpg"
         }
       ]
     },
@@ -29,15 +32,18 @@
       "Media": [
         {
           "id": 12345655601,
-          "loation": "/Media/News/Politics/State/Telangana/Karimnanagar/Karimnanagar/12345655601"
+          "type" : "thumbnail",
+          "path": "Media/News/Politics/State/Telangana/Karimnagar/Karimnagar/12345655601.jpg"
         },
         {
           "id": 12345655602,
-          "loation": "/Media/News/Politics/State/Telangana/Karimnanagar/Karimnanagar/12345655602"
+          "type" : "medium",
+          "path": "Media/News/Politics/State/Telangana/Karimnagar/Karimnagar/12345655602.jpg"
         },
         {
           "id": 12345655603,
-          "loation": "/Media/News/Politics/State/Telangana/Karimnanagar/Karimnanagar/12345655603"
+          "type" : "large",
+          "path": "Media/News/Politics/State/Telangana/Karimnagar/Karimnagar/12345655603.jpg"
         }
       ]
     },
@@ -52,15 +58,18 @@
       "Media" : [ 
           {
             "id": 12345655701,
-            "loation": "/Media/News/Politics/State/Telangana/Karimnanagar/Karimnanagar/12345655701"
+            "type" : "thumbnail",
+            "path": "Media/News/Politics/State/Telangana/Karimnagar/Karimnagar/12345655701.jpg"
           },
           {
             "id": 12345655702,
-            "loation": "/Media/News/Politics/State/Telangana/Karimnanagar/Karimnanagar/12345655702"
+            "type" : "medium",
+            "path": "Media/News/Politics/State/Telangana/Karimnagar/Karimnagar/12345655702.jpg"
           },
           {
             "id": 12345655703,
-            "loation": "/Media/News/Politics/State/Telangana/Karimnanagar/Karimnanagar/12345655703"
+            "type" : "large",
+            "path": "Media/News/Politics/State/Telangana/Karimnagar/Karimnagar/12345655703.jpg"
           }
         ]
     } 

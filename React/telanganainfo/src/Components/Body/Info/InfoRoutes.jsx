@@ -7,14 +7,7 @@ const InfoRoutes = () => {
     <>
 
     <Routes>
-        <Route element={<ConentMain></ConentMain>}>
-            <Route index element={<ProgramContent darkMode={darkMode} setDarkMode={setDarkMode} ></ProgramContent>}></Route>
-            <Route path="add" element={<ProgramAdd></ProgramAdd>} > </Route>
-            <Route path="list" element={<ProgramContent darkMode={darkMode} setDarkMode={setDarkMode} ></ProgramContent>}></Route>
-            <Route path="add" element={<ProgramAdd></ProgramAdd>} > </Route>
-            <Route path="edit" > </Route>
-            <Route path=":id" element={<ProgramEdit></ProgramEdit>}> </Route>
-        </Route>
+        
     </Routes>
 </>
   )

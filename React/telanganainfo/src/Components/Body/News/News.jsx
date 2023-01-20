@@ -1,29 +1,45 @@
 import { Box, Divider, Stack, styled, Typography, createTheme, useMediaQuery, Paper, List, ListItem, ListItemText, Avatar , ListItemAvatar} from '@mui/material';
 import React from 'react'
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { selectAllNews } from '../../../App/Redux/Contents/News/NewsSlice';
 import { useDispatch } from 'react-redux';
 import { useSelector } from 'react-redux';
 
-import news from '../../../Data/News/News.json'
  
-
+import news from '../../../Data/News/News.json'
+import { FiberPin, Google } from '@mui/icons-material';
 
 export const News = ({ darkMode, setDarkMode }) => {
   const { id } = useParams()
 
  // const news = useSelector( selectAllNews);
   return (
- 
-
-    <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+    <List   sx={{ width: '100%', maxWidth: '100%', bgcolor: 'background.paper' }}>
     { 
+   news.map( (newsItem) => {  
     
- news.map( (newsItem) => {  return (
+    const Media = newsItem.Media;
+
+    const thumbnail = Media.filter( (media) => media.type.toLowerCase().includes( 'thumbnail') )
+    
+    
+
+    const thumbnailPath = thumbnail[0].path;
+
+    console.log(" Thumbnail : " + thumbnail[0].path  +  thumbnailPath);
+
+    return (
   <>
+    <Link to={newsItem.id.toString()}> 
+
     <ListItem  key={ newsItem.id} alignItems="flex-start">
+
     <ListItemAvatar>
-         <Avatar alt="Cindy Baker" src={newsItem.Media?.[0].id} />
+        <Avatar
+            src={ require( `../../../${thumbnailPath}`  ) } 
+            variant="square"
+        >
+        </Avatar>     
        </ListItemAvatar>
        <ListItemText
          primary={newsItem.title}
@@ -42,8 +58,10 @@ export const News = ({ darkMode, setDarkMode }) => {
            </React.Fragment>
          }
        />
+      
      </ListItem>
      <Divider variant="inset" component="li" />  
+     </Link>
   </>  
  )
    }

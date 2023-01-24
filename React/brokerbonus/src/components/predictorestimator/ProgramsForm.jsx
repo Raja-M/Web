@@ -157,9 +157,6 @@ export const ProgramsForm = () => {
         return 2 ** value;
     }
 
-
-
-
     const rows1 = [
         { id: 1, PayeeCode: '0Y9445', BrokerName: 'A C MARMO & SONS INC' },
         { id: 2, PayeeCode: '0AC076', BrokerName: 'AARON B BERG' },

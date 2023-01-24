@@ -22,8 +22,6 @@ export const News = ({ darkMode, setDarkMode }) => {
 
     const thumbnail = Media.filter( (media) => media.type.toLowerCase().includes( 'thumbnail') )
     
-    
-
     const thumbnailPath = thumbnail[0].path;
 
     console.log(" Thumbnail : " + thumbnail[0].path  +  thumbnailPath);

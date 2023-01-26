@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "type": "kafkaTrigger",
+      "name": "event",
+      "direction": "in",
+      "topic": "%bylbIntegrationTopic%",
+      "brokerList": "BrokerList",
+      "consumerGroup": "%consumerGroup%",
+      "dataType": "string"
+    },
+    {
+      "name": "starter",
+      "type": "durableClient",
+      "direction": "in"
+    }
+  ]
+}

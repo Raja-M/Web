@@ -1,27 +1,117 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, nanoid, createAsyncThunk } from "@reduxjs/toolkit";
 
-const initialState = [
-    {   id : 123456789, 
-        title: "This green crusader shows the way"  , 
-        content : "plant saplings and work for the conservation of plants throughout his life. And he has dedicated his entire life to planting trees, watering them, protecting them, and sensitising people by distributing plants." ,
-        time: "01-Jan-2023 09:40 a.m",
-        Citiesid: 1,
-    },
-    {   id : 123456556, 
-        title: "12 best dramas on Netflix for when you want to feel something"  , 
-        content : "You gotta love that gut-punch of tragedy backed by a swelling orchestral score and how it can be a ruthless rush. Sometimes a tearjerker — that invites us to cry along with the characters — feels better than therapy. Other times, watching a protagonist persevere through hellish hardship can give us the hope that we need to persevere." ,
-        time: "01-Jan-2023 10:32 a.m",
-        Citiesid: 1,
-    },
- 
-]
+import { sub } from 'date-fns';
+import { format } from 'date-fns';
+import axios from "axios" ; 
 
-const NewsSlice = createSlice ({
-    name: 'News',
-    initialState,
-    reducers: {}
+const POST_URL = 'https://jsonplaceholder.typicode.com/posts'
+
+const initialState = {
+news : [],
+status: 'idle', 
+error: null
+}
+
+export const fetchPosts = createAsyncThunk( 'News/fetchPosts', async () => {
+    try {
+        const response = await axios.get(POST_URL)
+        return response.data;
+    } catch ( err ){
+        return err.message;
+    }
 })
 
-export const selectAllNews = (state) => state.News;
+export const addNewPost = createAsyncThunk( 'News/addNewPost', async (initialPost) => {
+    try {
+        const response = await axios.post(POST_URL, initialPost)
+        return response.data;
+    } catch ( err ){
+        return err.message;
+    }
+})
+
+const NewsSlice = createSlice({
+    name: 'News',
+    initialState,
+    reducers: {
+        newsAdded: {
+                reducer(state, action) {
+                state.news.push(action.payload);
+            },
+            prepare(title, content, submenucategory, userId  ) {
+                return {
+                    payload: {
+                        id: nanoid(),
+                        title: title,
+                        content: content,
+                        Submenucategory: submenucategory,
+                        userId: userId,
+                        time: new Date().toDateString(),
+                        reactions: {
+                            thumsUP: 0,
+                            wow: 0,
+                            heart: 0
+                        },
+                         
+                    }
+                }
+            }
+        },
+        reactionAdded( state, action){
+            const{ newsId, reaction } = action.payload
+            const existingNews = state.news.find( news => news.id === newsId    )
+            if ( existingNews){
+                existingNews.reactions[reaction]++;
+            }
+        },
+    },
+    extraReducers (builder) { 
+        builder
+        .addCase( fetchPosts.pending, (state, action) => {
+            state.status = 'loading'
+        })
+            .addCase( fetchPosts.fulfilled, ( state, action) => {
+                state.status = 'succeeded';
+                let min = 1;
+
+                const loadedPosts = action.payload.map( post => {
+                    
+                    post.content = post.body;
+                    post.time = new Date().toDateString();
+                    post.reactions =  {
+                        thumsUP: 0,
+                        wow: 0,
+                        heart: 0
+                    };
+                    return post;
+                });
+                state.news =  state.news.concat ( loadedPosts);
+            })
+            .addCase( fetchPosts.rejected, (state, action) => {
+                state.status = 'failed'
+                state.error = action.error.message
+            })
+            .addCase( addNewPost.fulfilled, (state, action) => {
+                action.payload.id = nanoid();
+                action.payload.content = action.payload.body;
+                action.payload.userId = Number(action.payload.userId);
+                action.payload.time = new Date();
+                action.payload.reactions =  {
+                    thumsUP: 0,
+                    wow: 0,
+                    heart: 0
+                };
+                state.news.push( action.payload)
+            })    
+        }
+})
+
+export const selectAllNews = (state) => state.News.news;
+export const selectAllNewsStatus = (state) => state.News.status;
+export const selectAllNewsErrors = (state) => state.News.error;
+
+export const selectNewsById = ( state, newsId ) => state.News.news.find( newsItem => newsItem.id === newsId )
+
+export const { newsAdded, reactionAdded,  } = NewsSlice.actions;
 
 export default NewsSlice.reducer; 

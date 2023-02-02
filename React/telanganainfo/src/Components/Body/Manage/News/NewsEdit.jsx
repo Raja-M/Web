@@ -1,82 +1,74 @@
-import { Grid, Box, Divider, Stack, styled, Typography, createTheme, useMediaQuery, Paper, FormControl, FromGroup, InputLabel, Select, MenuItem, FormHelperText, FormGroup, FormLabel, TextField, TextareaAutosize } from '@mui/material';
-import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom';
-import { useSelector, useDispatch } from 'react-redux';
+import React, { useEffect, useState }  from 'react'
+import { useParams } from "react-router-dom"
+import { styled } from '@mui/material/styles';
 
-import { selectAllNews , selectAllNewsStatus, selectAllNewsErrors, fetchPosts} from '../../../App/Redux/Contents/News/NewsSlice';
-import { addNewPost } from '../../../App/Redux/Contents/News/NewsSlice';
 
+// import news from '../../../Data/News/News.json'
+
+import { selectNewsById } from '../../../../App/Redux/Contents/News/NewsSlice';
+import { useSelector  } from 'react-redux';
 import { parseISO, formatDistanceToNow, format } from 'date-fns'
 
-import { selectAllStates } from '../../../App/Redux/Contents/Categories/StatesSlice';
-import { selectAllDistricts } from '../../../App/Redux/Contents/Categories/DistrictsSlice';
-import { selectAllCities } from '../../../App/Redux/Contents/Categories/CitiesSlice';
-import { selectAllMenus } from '../../../App/Redux/Contents/Categories/MenusSlice';
-import { selectAllSubMenus } from '../../../App/Redux/Contents/Categories/SubMenusSlice';
-import { selectAllSubMenusCategories } from '../../../App/Redux/Contents/Categories/SubMenusCategoriesSlice';
-import { selectAllCategorySpecialities } from '../../../App/Redux/Contents/Categories/CategorySpecialitiesSlice';
-
-import { DataGrid, GridRowsProp, GridColDef } from '@mui/x-data-grid';
 import { useForm, Controller } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as Yup from 'yup';
-import { NonceProvider } from 'react-select';
-import Author from '../../Common/Author';
-import Timeago from '../../Common/Timeago';
-import ReactionButton from '../../Common/ReactionButton';
 
-export const Manage = ({ darkMode, setDarkMode }) => {
+import Author from '../../../Common/Author';
+import ReactionButton from '../../../Common/ReactionButton';
 
-    const dispatch = useDispatch();
 
-    const { id } = useParams()
+import { selectAllStates } from '../../../../App/Redux/Contents/Categories/StatesSlice';
+import { selectAllNewsStatus } from '../../../../App/Redux/Contents/News/NewsSlice';
+import { selectAllDistricts } from '../../../../App/Redux/Contents/Categories/DistrictsSlice';
+import { selectAllCities } from '../../../../App/Redux/Contents/Categories/CitiesSlice';
+import { selectAllMenus } from '../../../../App/Redux/Contents/Categories/MenusSlice';
+import { selectAllSubMenus } from '../../../../App/Redux/Contents/Categories/SubMenusSlice';
+import { selectAllSubMenusCategories } from '../../../../App/Redux/Contents/Categories/SubMenusCategoriesSlice';
+import { selectAllCategorySpecialities } from '../../../../App/Redux/Contents/Categories/CategorySpecialitiesSlice';
+import { Grid, MenuItem, Select, TextareaAutosize, TextField } from '@mui/material';
 
-    const columns = [
-        { field: 'title', headerName: 'Title', width: 200 },
-        { field: 'content', headerName: 'Content', width: "100%" },
-    ];
 
-    const defaultFormValues = {
-        state: 'Telangana',
-        district: 'Karimnagar',
-        city: 'Karimnagar',
-        submenu: 'Politics',
-        submenucategory: 'State',
-        userId: 1,
-        time : new Date(),
-        title: 'News Title',
-        content: 'News Details',
-        
-    };
+export default function NewsEdit() {
 
-    const [formValues, setFormValues] = useState(defaultFormValues);
+  const [expanded, setExpanded] = React.useState(false);
 
-    const [ addRequestStatus, setAddRequestStatus] = useState( 'idle');
+  const handleExpandClick = () => {
+    setExpanded(!expanded);
+  };
 
-    const states = useSelector(selectAllStates)
-    const districts = useSelector(selectAllDistricts)
-    const cities = useSelector(selectAllCities)
-    const menus = useSelector(selectAllMenus)
-    const submenus = useSelector(selectAllSubMenus)
-    const submenuscategories = useSelector(selectAllSubMenusCategories)
+  const { id } = useParams()
 
-    const news = useSelector(selectAllNews);
-    const newsStatus = useSelector(selectAllNewsStatus);
-    const newsError = useSelector(selectAllNewsErrors);
+  const newsItem = useSelector(  (state) => selectNewsById( state, Number(id)) )
 
-    useEffect(  () => {
-        if( newsStatus === 'idle'){
-            dispatch( fetchPosts())
-        }
-    }, [ newsStatus,addRequestStatus,  dispatch] )
+  const defaultFormValues = {
+    state: 'Telangana',
+    district: 'Karimnagar',
+    city: 'Karimnagar',
+    menu: 'News',
+    submenu: 'Politics',
+    submenucategory: 'State',
+    userId: 1,
+    time : new Date(),
+    title: 'News Title',
+    content: 'News Details',
+    
+};
+
+  const [formValues, setFormValues] = useState({...defaultFormValues});
+
+  const [ addRequestStatus, setAddRequestStatus] = useState( 'idle');
  
-    const rows = news;
+  const states = useSelector(selectAllStates)
+  const districts = useSelector(selectAllDistricts)
+  const cities = useSelector(selectAllCities)
+  const menus = useSelector(selectAllMenus)
+  const submenus = useSelector(selectAllSubMenus)
+  const submenuscategories = useSelector(selectAllSubMenusCategories)
 
-    const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
-    const validationSchema = Yup.object().shape({
-        title: Yup.string()
-            .required('Title is required')
-            .min(6, 'Title must be least 6 characters'),
+  const validationSchema = Yup.object().shape({
+    title: Yup.string()
+        .required('Title is required')
+        .min(6, 'Title must be least 6 characters'),
     });
 
     const {
@@ -89,9 +81,7 @@ export const Manage = ({ darkMode, setDarkMode }) => {
         formState: { isSubmitting, isDirty, isValid, errors }
  
     } = useForm({
-        defaultValues: {
-   
-        },
+        defaultValues: { ...formValues , ...newsItem  },
         resolver: yupResolver(validationSchema)
 
     });
@@ -128,66 +118,36 @@ export const Manage = ({ darkMode, setDarkMode }) => {
     };
 
     const onSubmit = (data )  => {
-        setFormValues( { ...formValues, userId: 2 } );
+        setFormValues( { ...formValues } );
         console.log("Data :" ,data);
-        try{
-            setAddRequestStatus( 'pending ');
-            dispatch( 
-                addNewPost( {
-                        title: data.title,
-                        body: data.content,
-                        userId: '2'
-                        }
-                )
-            ).unwrap()
-        } catch(err){
-            console.error( ' Failed to save the Post' , err)
-        } finally {
-            setAddRequestStatus( 'idle')
-        }
 
     };
 
-    const orderedNews = news.slice().sort(  (a,b) =>  new Date(b.time)   -  new Date(a.time) )  ;                  
-    let  newsPosts;
-
-    if ( newsStatus === 'idle'){
-        newsPosts = <p> " Loading .... "</p> 
-    }else if ( newsStatus === 'loading'){
-        newsPosts = <p> " Loading .... "</p> 
-    }else if (  newsStatus === 'succeeded'){
-        newsPosts =    orderedNews.map( news => (
-            <Grid item xs={12}>
-                <article  style={{ display:'block' }} key={news.id}>
-                <h3>{news.title}</h3> 
-                        { <Author userId={news.userId} > </Author>}
-                        { formatDistanceToNow(  new Date(news.time)) + " ago" }
-                <p> {news.content.substring(0,100)}</p>
-                <ReactionButton post={news}> </ReactionButton>
-                </article>
-            </Grid>
-        ))
-    } else if (newsStatus === 'failed'){
-        newsPosts = <p> " Eror .... "</p> 
-    }
-
-    return (
-        <>
-            <Grid container
+ 
+  return (
+    <>
+        <Grid container
                 direction="row"
                 rowSpacing={4}
                 columnSpacing={8}
 
-            >
-                <Grid item xs={12} >
-                    <form onSubmit={handleSubmit(onSubmit)}>
-                            <FormControl required sx={{ paddingLeft: "0px", minWidth: 120 }}>
-                                <InputLabel id="demo-simple-select-required-label">Menu</InputLabel>
-                                <Controller
-                                name="Menu"
-                                control={control}
-                                render={
-                                    ({
+        >
+            <form onSubmit={handleSubmit(onSubmit)}>
+            <Grid item xs={12} >
+                <article  style={{ display:'block'  }}>
+                <h3>{newsItem.title}</h3> 
+                      { <Author userId={newsItem.userId} > </Author>}
+                      { formatDistanceToNow(  new Date(newsItem.time)) + " ago" }
+                <p> {newsItem.content}</p>
+                <ReactionButton post={newsItem}> </ReactionButton> 
+                </article>
+            </Grid>
+            <Grid item xs={12} >    
+                <Controller
+                    name="Menu"
+                        control={control}
+                            render={
+                            ({
                                         field : {
                                             name,
                                             value=formValues.menu,
@@ -203,11 +163,11 @@ export const Manage = ({ darkMode, setDarkMode }) => {
                                             error
                                         },
                                         formState,
-                                    }) => (
+                            }) => (
                                 <Select
                                     labelId="demo-simple-select-required-label"
                                     id="demo-simple-select-required"
-                                    value={ value }
+                                    value={ formValues.menu  }
                                     label="Menu"
                                     onChange={(e) => {  onChange(e); handleChangeSelectMenu(e)} }
                                     MenuProps={{
@@ -216,19 +176,14 @@ export const Manage = ({ darkMode, setDarkMode }) => {
                                 >
                                          
                                          {values.map((menu) => (
-                                        <MenuItem value={menu.Menu}>{menu.Menu}</MenuItem>
+                                        <MenuItem  key={menu.Menu} value={menu.Menu}>{menu.Menu}</MenuItem>
                                     ))}
  
                                 </Select>
-                                    )}
-                                    />
-                                <FormHelperText>Required</FormHelperText>
-                            </FormControl>
-
-                            <FormControl required sx={{ paddingLeft: "0px", minWidth: 120 }}>
-                                <InputLabel id="demo-simple-select-required-label">SubMenu</InputLabel>
-
-                                <Controller
+                            )}
+                />
+        
+                <Controller
                                 name="SubMenu"
                                 control={control}
                                 render={
@@ -249,33 +204,25 @@ export const Manage = ({ darkMode, setDarkMode }) => {
                                         },
                                         formState,
                                     }) => (
-
                                 <Select
-                            
                                     labelId="demo-simple-select-required-label"
                                     id="demo-simple-select-required"
-                                    value={value}
+                                    value={formValues.submenu}
                                     label="SubMenu"
                                     onChange={ (e) => {  onChange(e); handleChangeSelectSubMenu(e) } } 
                                     MenuProps={{
                                         PaperProps: { sx: { maxHeight: 200 } }
                                     }}
                                 >
-
                                     {values.map((submenu) => (
-                                        <MenuItem value={submenu.SubMenu}>{submenu.SubMenu}</MenuItem>
+                                        <MenuItem key={submenu.SubMenu}  value={submenu.SubMenu} >{submenu.SubMenu}</MenuItem>
                                     ))}
+
+
                                 </Select>
                                              )}
-                                             />
-                                <FormHelperText>Required</FormHelperText>
-                            </FormControl>
-
-                            <FormControl required sx={{ paddingLeft: "0px", minWidth: 120 }}>
-                                <InputLabel id="demo-simple-select-required-label">SubMenuCategory</InputLabel>
-                               
-                               
-                                <Controller
+                />
+                <Controller
                                 name="Submenucategory"
                                 control={control}
                                 render={
@@ -311,19 +258,13 @@ export const Manage = ({ darkMode, setDarkMode }) => {
 
                                     {values.map((submenucategory) => (
 
-                                        <MenuItem value={submenucategory.SubMenuCategory}>{submenucategory.SubMenuCategory}</MenuItem>
+                                        <MenuItem key={submenucategory.SubMenuCategory} value={submenucategory.SubMenuCategory}>{submenucategory.SubMenuCategory}</MenuItem>
                                     ))}
                                 </Select>
 
                                     )}
-                                    />
-                                <FormHelperText>Required</FormHelperText>
-                            </FormControl>
-                     
-                            <FormControl required sx={{ paddingLeft: "0px", minWidth: 120 }}>
-                                <InputLabel id="demo-simple-select-required-label">State</InputLabel>
-
-                                <Controller
+                />
+                <Controller
                                 name="State"
                                 control={control}
                                 render={
@@ -358,18 +299,12 @@ export const Manage = ({ darkMode, setDarkMode }) => {
 
                                     {values.map((state) => (
 
-                                        <MenuItem value={state.Name}>{state.Name}</MenuItem>
+                                        <MenuItem key={state.Name} value={state.Name}>{state.Name}</MenuItem>
                                     ))}
                                 </Select>
                                             )}
-                                            />
-                                <FormHelperText>Required</FormHelperText>
-                            </FormControl>
-
-
-                            <FormControl required sx={{ paddingLeft: "0px", minWidth: 120 }}>
-                                <InputLabel id="demo-simple-select-required-label">District</InputLabel>
-                                <Controller
+                />
+                <Controller
                                 name="District"
                                 control={control}
                                 render={
@@ -394,7 +329,7 @@ export const Manage = ({ darkMode, setDarkMode }) => {
                                   
                                     labelId="demo-simple-select-required-label"
                                     id="demo-simple-select-required"
-                                    value={value}
+                                    value={formValues.district}
                                     label="District *"
                                     onChange={ (e) => {  onChange(e); handleChangeSelectDistrict(e)} }
                                     MenuProps={{
@@ -404,17 +339,12 @@ export const Manage = ({ darkMode, setDarkMode }) => {
 
                                     {values.map((district) => (
 
-                                        <MenuItem value={district.Name}>{district.Name}</MenuItem>
+                                        <MenuItem key={district.Name} value={district.Name}>{district.Name}</MenuItem>
                                     ))}
                                 </Select>
                                 )}
-                                            />
-                                <FormHelperText>Required</FormHelperText>
-                            </FormControl>
-
-                            <FormControl required sx={{ paddingLeft: "0px", minWidth: 120 }}>
-                                <InputLabel id="demo-simple-select-required-label">City</InputLabel>
-                                <Controller
+                />
+                <Controller
                                 name="Cities"
                                 control={control}
                                 render={
@@ -439,28 +369,26 @@ export const Manage = ({ darkMode, setDarkMode }) => {
                                     
                                     labelId="demo-simple-select-required-label"
                                     id="demo-simple-select-required"
-                                    value={value}
+                                    value={formValues.city}
                                     label="City *"
                                     onChange={ (e) => {  onChange(e); handleChangeSelectCity(e) } }
                                     MenuProps={{
                                         PaperProps: { sx: { maxHeight: 200 } }
                                     }}
                                 >
-
                                     {values.map((city) => (
 
-                                        <MenuItem value={city.Name}>{city.Name}</MenuItem>
+                                        <MenuItem key={city.Name} value={city.Name}>{city.Name}</MenuItem>
                                     ))}
                                 </Select>
                                 )}
-                                            />
-                                <FormHelperText>Required</FormHelperText>
-                            </FormControl>
-                            
-                        <FormGroup>
-                        <Controller
+                />
+            </Grid>
+            <Grid item xs={12} >
+             
+                <Controller
                         name={"title"}
-                        defaultValue=''
+                    
                         rules={ {}}
                         control={control} 
                         render= { ( {field: {name, value=formValues.title, ref, onChange, onBlur,  },
@@ -481,19 +409,12 @@ export const Manage = ({ darkMode, setDarkMode }) => {
                             />
                             )
                         }
-                        />                             
-                            <FormControl variernt="filled">
-                            <FormLabel component="legent"> News Content</FormLabel>
-                            <Box
-                                sx={{
-                                    width: 1000,
-                                    hight: 100,
-                                    maxWidth: '100%',
-                                }}
-                            >
-                        <Controller
+                /> 
+            
+            </Grid>
+            <Grid item xs={12} > 
+                <Controller
                         name={"content"}
-                        defaultValue=''
                         rules={ {}}
                         control={control} 
                         render= { ( {field: {name, value=formValues.content, ref, onChange, onBlur,  },
@@ -510,43 +431,68 @@ export const Manage = ({ darkMode, setDarkMode }) => {
                                 />
                             )
                         }
-                        /> 
-                            </Box>
-                            </FormControl>  
-                            <FormControl> 
-                            <input disabled={!isValid && addRequestStatus === 'idle'}  type="submit" />  
-                            </FormControl> 
-                        </FormGroup>
-
-
-                        
-                    </form>
-                </Grid>
-                <Grid item xs={12}>
-                    <h2> Posts </h2>
-                </Grid>
- 
-                
-                {
-                    newsPosts
-                }
-
-
-     
-                {/*
-                    <Grid item xs={12}  >
-                        <div style={{ height: 300, width: '100%' }}>
-                            <DataGrid
-                                rows={rows}
-                                columns={columns}
-                                onSelectionModelChange={null}
-                            />
-                        </div>
-                    </Grid>
-                */
-                }
+                /> 
+             </Grid>
+            <Grid item xs={12} >
             </Grid>
-        </>
+            <Grid item xs={12} >
+                    <input disabled={!isValid && addRequestStatus === 'idle'}  type="submit" />  
+            </Grid>
+            </form>
+        </Grid>
 
-    )
+    </>
+  );
+
+
+  /*
+  const newsItem = news.filter( (newsItem) => { 
+  return newsItem.id.toString() == id  }  ); 
+
+  const medias = newsItem[0].Media;
+  const thumbNail = medias.filter( (media) =>  { return media.type.trim().toString().toLowerCase().includes("medium")}) ;
+  const thumbnailPath = thumbNail[0].path
+  const mediumImagePath = `../../../${thumbNail[0].path}` ; 
+  console.log( " Thumbnail 3 : " +  mediumImagePath );
+
+  return (
+    <Card sx={{ maxWidth: "100%" }}>
+      <CardHeader
+        avatar={
+          <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
+            
+          </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings">
+            <MoreVertIcon />
+          </IconButton>
+        }
+        title={newsItem[0].title}
+        subheader={newsItem[0].time}
+      />
+      <CardMedia
+        component="img"
+         
+        image={ require( `../../../${thumbnailPath}`  )}
+        alt="Paella dish"
+      />
+      <CardContent>
+        <Typography variant="body2" color="text.secondary">
+           {newsItem[0].content}
+        </Typography>
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton aria-label="add to favorites">
+          <FavoriteIcon />
+        </IconButton>
+        <IconButton aria-label="share">
+          <ShareIcon />
+        </IconButton>
+         
+      </CardActions>
+    </Card>
+  );
+
+  */
 }

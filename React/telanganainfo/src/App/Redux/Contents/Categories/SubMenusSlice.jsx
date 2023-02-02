@@ -5,6 +5,9 @@ const initialState = [
     {SubMenu: "Politics" ,  Menu: "News"},
     {SubMenu: "Sports" ,  Menu: "News"},
     {SubMenu: "Business", Menu: "News"},
+    {SubMenu: "Places" ,  Menu: "Info"},
+    {SubMenu: "Person" ,  Menu: "Info"},
+    {SubMenu: "Products", Menu: "Info"},
  
 ]
 

@@ -17,7 +17,15 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 import { useParams } from "react-router-dom"
 
-import news from '../../../Data/News/News.json'
+// import news from '../../../Data/News/News.json'
+
+import { selectNewsById } from '../../../App/Redux/Contents/News/NewsSlice';
+import { useSelector  } from 'react-redux';
+
+import Author from '../../Common/Author';
+import Timeago from '../../Common/Timeago';
+import ReactionButton from '../../Common/ReactionButton';
+import { parseISO, formatDistanceToNow, format } from 'date-fns'
 
 interface ExpandMoreProps extends IconButtonProps {
   expand: boolean;
@@ -34,8 +42,6 @@ const ExpandMore = styled((props: ExpandMoreProps) => {
   }),
 }));
 
-
-
 export default function NewsItem() {
   const [expanded, setExpanded] = React.useState(false);
 
@@ -45,17 +51,32 @@ export default function NewsItem() {
 
   const { id } = useParams()
 
+  console.log( " id + " + id );
+
+  const newsItem = useSelector(  (state) => selectNewsById( state, Number(id)) )
+
+  return (
+    <>
+        <article  style={{ display:'block'  }}>
+              <h3>{newsItem.title}</h3> 
+                      { <Author userId={newsItem.userId} > </Author>}
+                      { formatDistanceToNow(  new Date(newsItem.time)) + " ago" }
+              <p> {newsItem.content}</p>
+              <ReactionButton post={newsItem}> </ReactionButton> 
+        </article>
+    </>
+    
+  );
+  /*
   const newsItem = news.filter( (newsItem) => { 
   return newsItem.id.toString() == id  }  ); 
 
-  const medias = newsItem[0].Media;
 
-  const thumbNail = medias.filter( (media) =>  { return media.type.trim().toString().toLowerCase().includes("medium")}) ;
-
-  const thumbnailPath = thumbNail[0].path
-
-  const mediumImagePath = `../../../${thumbNail[0].path}` ; 
   
+  const medias = newsItem[0].Media;
+  const thumbNail = medias.filter( (media) =>  { return media.type.trim().toString().toLowerCase().includes("medium")}) ;
+  const thumbnailPath = thumbNail[0].path
+  const mediumImagePath = `../../../${thumbNail[0].path}` ; 
   console.log( " Thumbnail 3 : " +  mediumImagePath );
 
   return (
@@ -98,4 +119,6 @@ export default function NewsItem() {
     
     </Card>
   );
+
+  */
 }

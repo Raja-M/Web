@@ -10,8 +10,10 @@ import { ThemeProvider } from '@emotion/react';
 import Navbar from '../Components/Header/Navbar';
 
 import { Provider } from "react-redux";
+import { fetchUsers } from '../App/Redux/Contents/Users/UsersSlice';
 import { Store} from "./Redux/Store"
 
+Store.dispatch( fetchUsers () ); 
 function App() {
 
   const [darkMode, setDarkMode] = useState(false)

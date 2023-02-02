@@ -1,19 +1,99 @@
 import { Box, Divider, Stack, styled, Typography, createTheme, useMediaQuery, Paper, List, ListItem, ListItemText, Avatar , ListItemAvatar} from '@mui/material';
-import React from 'react'
-import { Link, useParams } from 'react-router-dom';
-import { selectAllNews } from '../../../App/Redux/Contents/News/NewsSlice';
-import { useDispatch } from 'react-redux';
-import { useSelector } from 'react-redux';
+import React , { useEffect, useState } from 'react'
+import { Link, NavLink, useParams } from 'react-router-dom';
+import { flushSync } from 'react-dom';
+import { useSelector , useDispatch} from 'react-redux';
+import { parseISO, formatDistanceToNow, format } from 'date-fns'
+import { selectAllNews , selectAllNewsStatus, selectAllNewsErrors, fetchPosts} from '../../../App/Redux/Contents/News/NewsSlice';
 
+import Author from '../../Common/Author';
+import Timeago from '../../Common/Timeago';
+import ReactionButton from '../../Common/ReactionButton';
  
-import news from '../../../Data/News/News.json'
+//import news from '../../../Data/News/News.json'
 import { FiberPin, Google } from '@mui/icons-material';
+import { nanoid } from '@reduxjs/toolkit';
 
-export const News = ({ darkMode, setDarkMode }) => {
-  const { id } = useParams()
+export const News = ({ Detail, darkMode, setDarkMode }) => {
 
- // const news = useSelector( selectAllNews);
-  return (
+  const dispatch = useDispatch();
+ 
+  let newsStatus = useSelector(selectAllNewsStatus);
+  let reRender = true;
+
+
+  useEffect(  () => {
+    console.log( " User effect News Status :" + newsStatus); 
+    if( newsStatus === 'idle' && reRender){
+        dispatch( fetchPosts())
+        console.log( "Calling dispatchs :" + newsStatus); 
+        reRender = false;
+        console.log( "Calling dispatchs :" + reRender); 
+         
+    } else if ( newsStatus !== 'idle'){
+      reRender = true;
+    }
+  }, [newsStatus  ] )
+ 
+
+  const news = useSelector(selectAllNews);
+  const newsError = useSelector(selectAllNewsErrors);
+
+ const orderedNews = news.slice().sort(  (a,b) =>  new Date(b.time)  -  new Date(a.time) )  ;                  
+  
+
+ return (
+  <>
+  { 
+
+    (
+      () => { 
+        
+        if ( newsStatus === 'idle'){
+            return( <p> " Loading .... "</p> )
+        }else if ( newsStatus === 'loading'){
+            return(  <p> " Loading .... "</p>  )
+        }else if (  newsStatus === 'succeeded'){  
+
+
+            return(   orderedNews.map( news => (
+            
+              <div key={news.id}>  
+
+              <Link    to={`${news.id}`} style={{ textDecoration: 'none'  }}  > 
+                    <article   style={{ display:'block'  }}>
+                    <h3>{  news.title + " " + news.userId}</h3> 
+                            <Author userId={news.userId} > </Author>
+                            {formatDistanceToNow(  new Date(news.time)) + " ago" }
+                    <p> {news.content.substring(0,100)}</p>
+                    </article>
+              </Link> 
+              <ReactionButton key={news.id} post={news}> </ReactionButton>
+              { Detail ? (  <NavLink to={`/manage/news/${news.id}` } >
+                              <button type="submit" >Edit</button>
+                            </NavLink> 
+                        ) : 
+                        (   ''
+                        ) 
+              }
+              </div>  
+              )
+            ));
+        } else if (newsStatus === 'failed'){
+            return ( <p> " Eror .... "</p> );
+        }
+      }  
+      ) ()
+  }
+  </>
+
+   )
+ 
+ }  
+ 
+  
+ 
+    /*
     <List   sx={{ width: '100%', maxWidth: '100%', bgcolor: 'background.paper' }}>
     { 
    news.map( (newsItem) => {  
@@ -57,12 +137,12 @@ export const News = ({ darkMode, setDarkMode }) => {
          }
        />
       
-     </ListItem>
-     <Divider variant="inset" component="li" />  
-     </Link>
+    </ListItem>
+    <Divider variant="inset" component="li" />  
+    </Link>
   </>  
  )
-   }
+  }
  )
   }
    </List>
@@ -71,5 +151,5 @@ export const News = ({ darkMode, setDarkMode }) => {
   )
   
   }
-     
+   */  
  

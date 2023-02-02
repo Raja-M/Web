@@ -6,6 +6,7 @@ import SubMenusCategoriesReducers from "./Contents/Categories/SubMenusCategories
 import StatesReducers from './Contents/Categories/StatesSlice';
 import DistrictsReducers from "./Contents/Categories/DistrictsSlice";
 import CitiesReducers from "./Contents/Categories/CitiesSlice";
+import UsersReducers from "./Contents/Users/UsersSlice";
 
 const reducer = {
     Menus: MenusReducers,
@@ -15,11 +16,11 @@ const reducer = {
     Districts: DistrictsReducers,
     Cities: CitiesReducers,
     News: NewReducers,
+    Users: UsersReducers
 }
 export const Store = configureStore({
     reducer : reducer,
-    devTools: process.env.NODE_ENV !== 'production',
-             
+    devTools: process.env.NODE_ENV !== 'production',             
 }
 
 );

@@ -11,11 +11,10 @@ import  NewsItem from './NewsItem';
 
 const NewsRoutes = ({ darkMode, setDarkMode }) => {
   return (
-      <>
+    <>
             <Routes>
                 <Route element={<BodyRouteElement></BodyRouteElement>}>
-                    <Route index element={<News darkMode={darkMode} setDarkMode={setDarkMode} ></News>}></Route>
-                    
+                    <Route index element={<News darkMode={darkMode} setDarkMode={setDarkMode} ></News>}></Route>    
                     <Route path=":id" element={<NewsItem darkMode={darkMode} setDarkMode={setDarkMode} ></NewsItem>}></Route>
                 </Route>
             </Routes>

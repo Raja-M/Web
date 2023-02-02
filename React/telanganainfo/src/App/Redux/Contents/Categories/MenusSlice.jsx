@@ -1,11 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = [
- 
     {Menu: "Home"  },
     {Menu: "News"  },
     {Menu: "Info"  },
- 
 ]
 
 const MenusSlice = createSlice ({

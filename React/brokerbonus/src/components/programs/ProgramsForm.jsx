@@ -10,9 +10,6 @@ export const ProgramsForm = () => {
 
     return (
         <>
-
-
-
             <form>
                 <paper sx={{}}>
                     <Grid container

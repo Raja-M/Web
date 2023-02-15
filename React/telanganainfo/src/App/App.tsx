@@ -11,9 +11,11 @@ import Navbar from '../Components/Header/Navbar';
 
 import { Provider } from "react-redux";
 import { fetchUsers } from '../App/Redux/Contents/Users/UsersSlice';
+import { fetchPosts } from '../App/Redux/Contents/News/NewsSlice';
 import { Store} from "./Redux/Store"
 
 Store.dispatch( fetchUsers () ); 
+
 function App() {
 
   const [darkMode, setDarkMode] = useState(false)

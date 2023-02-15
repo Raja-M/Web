@@ -71,6 +71,7 @@ const NewsSlice = createSlice({
             state.status = 'loading'
         })
             .addCase( fetchPosts.fulfilled, ( state, action) => {
+                console.log( " Full Filled");
                 state.status = 'succeeded';
                 let min = 1;
 
@@ -85,7 +86,8 @@ const NewsSlice = createSlice({
                     };
                     return post;
                 });
-                state.news =  state.news.concat ( loadedPosts);
+                state.news =  state.news.concat ( loadedPosts );
+
             })
             .addCase( fetchPosts.rejected, (state, action) => {
                 state.status = 'failed'
@@ -101,7 +103,7 @@ const NewsSlice = createSlice({
                     wow: 0,
                     heart: 0
                 };
-                state.news.push( action.payload)
+                state.news.push( action.payload )
             })    
         }
 })
@@ -110,8 +112,8 @@ export const selectAllNews = (state) => state.News.news;
 export const selectAllNewsStatus = (state) => state.News.status;
 export const selectAllNewsErrors = (state) => state.News.error;
 
-export const selectNewsById = ( state, newsId ) => state.News.news.find( newsItem => newsItem.id === newsId )
-
+export const selectNewsById = ( state, newsId ) => state.News.news.find( newsItem => newsItem.id === newsId );
+ 
 export const { newsAdded, reactionAdded,  } = NewsSlice.actions;
 
 export default NewsSlice.reducer; 

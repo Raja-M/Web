@@ -1,12 +1,11 @@
 import React, { useEffect, useState }  from 'react'
-import { useParams } from "react-router-dom"
+import { useParams, useNavigate } from "react-router-dom"
 import { styled } from '@mui/material/styles';
-
 
 // import news from '../../../Data/News/News.json'
 
-import { selectNewsById } from '../../../../App/Redux/Contents/News/NewsSlice';
-import { useSelector  } from 'react-redux';
+import { selectNewsById, editNews } from '../../../../App/Redux/Contents/News/NewsSlice';
+import { useSelector, useDispatch  } from 'react-redux';
 import { parseISO, formatDistanceToNow, format } from 'date-fns'
 
 import { useForm, Controller } from 'react-hook-form';
@@ -16,75 +15,93 @@ import * as Yup from 'yup';
 import Author from '../../../Common/Author';
 import ReactionButton from '../../../Common/ReactionButton';
 
-
-import { selectAllStates } from '../../../../App/Redux/Contents/Categories/StatesSlice';
+ 
+import { selectAllNews , fetchPosts} from '../../../../App/Redux/Contents/News/NewsSlice';
 import { selectAllNewsStatus } from '../../../../App/Redux/Contents/News/NewsSlice';
+import { selectAllStates } from '../../../../App/Redux/Contents/Categories/StatesSlice';
 import { selectAllDistricts } from '../../../../App/Redux/Contents/Categories/DistrictsSlice';
 import { selectAllCities } from '../../../../App/Redux/Contents/Categories/CitiesSlice';
 import { selectAllMenus } from '../../../../App/Redux/Contents/Categories/MenusSlice';
 import { selectAllSubMenus } from '../../../../App/Redux/Contents/Categories/SubMenusSlice';
 import { selectAllSubMenusCategories } from '../../../../App/Redux/Contents/Categories/SubMenusCategoriesSlice';
 import { selectAllCategorySpecialities } from '../../../../App/Redux/Contents/Categories/CategorySpecialitiesSlice';
+import { selectAllUsers } from '../../../../App/Redux/Contents/Users/UsersSlice';
 import { Grid, MenuItem, Select, TextareaAutosize, TextField } from '@mui/material';
 
+const NewsEdit = ( ) => {
 
-export default function NewsEdit() {
+    const navigate = useNavigate();
+    const { id } = useParams();
+    const newsStatus = useSelector(selectAllNewsStatus);
+    const [ addRequestStatus, setAddRequestStatus] = useState( 'idle');
+    const dispatch = useDispatch();
 
-  const [expanded, setExpanded] = React.useState(false);
+    useEffect(
+        () => {
+            
+            console.log( " Refreshing");
+   
+            console.log( " User effect News Status :" + newsStatus); 
+            setFormValues ({  ...defaultFormValues, ...newsItem});
+            if( newsStatus === 'idle'  ){
+                dispatch( fetchPosts())
+                console.log( "Calling dispatchs :" + newsStatus); 
+            }  
 
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
-  };
+        }, [ newsStatus ]  
+    )
 
-  const { id } = useParams()
+    const news = useSelector(selectAllNews);
+    const states = useSelector(selectAllStates)
+    const districts = useSelector(selectAllDistricts)
+    const cities = useSelector(selectAllCities)
+    const menus = useSelector(selectAllMenus)
+    const submenus = useSelector(selectAllSubMenus)
+    const submenuscategories = useSelector(selectAllSubMenusCategories)
+    const categoryspecialities = useSelector(selectAllCategorySpecialities)
+    const users = useSelector(selectAllUsers)
+      
+ 
 
-  const newsItem = useSelector(  (state) => selectNewsById( state, Number(id)) )
+    const newsItem = useSelector(  (state) => selectNewsById( state, Number(id)) )
 
-  const defaultFormValues = {
-    state: 'Telangana',
-    district: 'Karimnagar',
-    city: 'Karimnagar',
-    menu: 'News',
-    submenu: 'Politics',
-    submenucategory: 'State',
-    userId: 1,
-    time : new Date(),
-    title: 'News Title',
-    content: 'News Details',
+    const defaultFormValues = {
+        state: 'Telangana',
+        district: 'Karimnagar',
+        city: 'Karimnagar',
+        menu: 'Info',
+        submenu: 'Person',
+        submenucategory: 'Doctors',
+        categoryspeciality : 'FamilyMedicine',
+        userid: 1,
+        time : new Date(),
+        title:  'test',
+        content: 'News Details',
+        
+    };
     
-};
+    const [formValues, setFormValues] = useState({  ...defaultFormValues, ...newsItem});
+    
+    const validationSchema = Yup.object().shape({
+        title: Yup.string()
+            .required('Title is required')
+            .min(6, 'Title must be least 6 characters'),
+        });
+    
+        const {
+            register,
+            handleSubmit,
+            watch,
+            reset,
+            setValue,
+            control,
+            formState: { isSubmitting, isDirty, isValid, errors }
+     
+        } = useForm({
+            defaultValues: {   ...formValues ,  },
+            resolver: yupResolver(validationSchema)
+        });
 
-  const [formValues, setFormValues] = useState({...defaultFormValues});
-
-  const [ addRequestStatus, setAddRequestStatus] = useState( 'idle');
- 
-  const states = useSelector(selectAllStates)
-  const districts = useSelector(selectAllDistricts)
-  const cities = useSelector(selectAllCities)
-  const menus = useSelector(selectAllMenus)
-  const submenus = useSelector(selectAllSubMenus)
-  const submenuscategories = useSelector(selectAllSubMenusCategories)
-
-  const validationSchema = Yup.object().shape({
-    title: Yup.string()
-        .required('Title is required')
-        .min(6, 'Title must be least 6 characters'),
-    });
-
-    const {
-        register,
-        handleSubmit,
-        watch,
-        reset,
-        setValue,
-        control,
-        formState: { isSubmitting, isDirty, isValid, errors }
- 
-    } = useForm({
-        defaultValues: { ...formValues , ...newsItem  },
-        resolver: yupResolver(validationSchema)
-
-    });
 
     const handleChangeSelectMenu = (event) => {
         setFormValues({ ...formValues, menu: event.target.value });
@@ -98,21 +115,26 @@ export default function NewsEdit() {
         setFormValues({ ...formValues, submenucategory: event.target.value });
     };
 
+    const handleChangeSelectCategorySpeciality = (event) => {
+        setFormValues({ ...formValues, categoryspeciality: event.target.value });
+    };
     const handleChangeSelectState = (event) => {
         setFormValues({ ...formValues, state: event.target.value });
     };
     const handleChangeSelectDistrict = (event) => {
         setFormValues({ ...formValues, district: event.target.value });
     };
-
     const handleChangeSelectCity = (event) => {
         setFormValues({ ...formValues, city: event.target.value });
+    };
+
+    const handleChangeSelectUser = (event) => {
+        setFormValues({ ...formValues, userid: event.target.value });
     };
 
     const handleChangeTextFieldTitle = (event) => {
         setFormValues({ ...formValues, title: event.target.value });
     };
-
     const handleChangeTextareaContent = (event) => {
         setFormValues({ ...formValues, content: event.target.value });
     };
@@ -123,9 +145,11 @@ export default function NewsEdit() {
 
     };
 
- 
-  return (
-    <>
+    if ( newsItem){
+        return (
+            <>
+            { console.log( "Rendering")}
+            { console.log( "News Item : " + newsItem.title) }
         <Grid container
                 direction="row"
                 rowSpacing={4}
@@ -144,7 +168,7 @@ export default function NewsEdit() {
             </Grid>
             <Grid item xs={12} >    
                 <Controller
-                    name="Menu"
+                    name="menu"
                         control={control}
                             render={
                             ({
@@ -184,7 +208,7 @@ export default function NewsEdit() {
                 />
         
                 <Controller
-                                name="SubMenu"
+                                name="submenu"
                                 control={control}
                                 render={
                                     ({
@@ -223,7 +247,7 @@ export default function NewsEdit() {
                                              )}
                 />
                 <Controller
-                                name="Submenucategory"
+                                name="submenucategory"
                                 control={control}
                                 render={
                                     ({
@@ -265,7 +289,49 @@ export default function NewsEdit() {
                                     )}
                 />
                 <Controller
-                                name="State"
+                                name="categoryspeciality"
+                                control={control}
+                                render={
+                                    ({
+                                        field : {
+                                            name,
+                                            value=formValues.categoryspeciality,
+                                            values=categoryspecialities,
+                                            ref,
+                                            onChange,
+                                            onBlur,
+                                        },
+                                        fieldState: {
+                                            inValid,
+                                            isTouched,
+                                            isDirty,
+                                            error
+                                        },
+                                        formState,
+                                    }) => (      
+                               
+                                <Select
+                                  
+                                    labelId="demo-simple-select-required-label"
+                                    id="demo-simple-select-required"
+                                    value={value}
+                                    label="CategorySpeciality *"
+                                    onChange={ (e) => {  onChange(e); handleChangeSelectCategorySpeciality(e)} }
+                                    MenuProps={{
+                                        PaperProps: { sx: { maxHeight: 200 } }
+                                    }}
+                                >
+
+                                    {values.map((categoryspeciality) => (
+
+                                        <MenuItem key={categoryspeciality.CategorySpeciality} value={categoryspeciality.CategorySpeciality}>{categoryspeciality.CategorySpeciality}</MenuItem>
+                                    ))}
+                                </Select>
+
+                                    )}
+                />
+                <Controller
+                                name="state"
                                 control={control}
                                 render={
                                     ({
@@ -305,7 +371,7 @@ export default function NewsEdit() {
                                             )}
                 />
                 <Controller
-                                name="District"
+                                name="district"
                                 control={control}
                                 render={
                                     ({
@@ -345,7 +411,7 @@ export default function NewsEdit() {
                                 )}
                 />
                 <Controller
-                                name="Cities"
+                                name="city"
                                 control={control}
                                 render={
                                     ({
@@ -383,20 +449,60 @@ export default function NewsEdit() {
                                 </Select>
                                 )}
                 />
+
+                <Controller
+                                name="userid"
+                                control={control}
+                                render={
+                                    ({
+                                        field : {
+                                            name,
+                                            value=formValues.userid,
+                                            values=users,
+                                            ref,
+                                            onChange,
+                                            onBlur,
+                                        },
+                                        fieldState: {
+                                            inValid,
+                                            isTouched,
+                                            isDirty,
+                                            error
+                                        },
+                                        formState,
+                                    }) => ( 
+                                <Select
+                                    
+                                    labelId="demo-simple-select-required-label"
+                                    id="demo-simple-select-required"
+                                    value={value}
+                                    label="User *"
+                                    onChange={ (e) => {  onChange(e); handleChangeSelectUser(e) } }
+                                    MenuProps={{
+                                        PaperProps: { sx: { maxHeight: 200 } }
+                                    }}
+                                >
+                                    {values.map((user) => (
+
+                                        <MenuItem key={user.id} value={user.id}>{user.name}</MenuItem>
+                                    ))}
+                                </Select>
+                                )}
+                />
+
             </Grid>
             <Grid item xs={12} >
-             
+                                    
                 <Controller
                         name={"title"}
                     
                         rules={ {}}
                         control={control} 
-                        render= { ( {field: {name, value=formValues.title, ref, onChange, onBlur,  },
+                        render= { ( {field: {name, value="newsItem.title" , ref, onChange, onBlur,  },
                                     fieldState: {inValid, isTouched, isDirty, error},
                                     formState,
-                                    }) => (                                                    
+                                    }) => (                                                     
                             <TextField
-                                 
                                 id="title"
                                 name="title"
                                 label="Title"
@@ -417,7 +523,7 @@ export default function NewsEdit() {
                         name={"content"}
                         rules={ {}}
                         control={control} 
-                        render= { ( {field: {name, value=formValues.content, ref, onChange, onBlur,  },
+                        render= { ( {field: {name, value=newsItem.content? newsItem.content :formValues.content, ref, onChange, onBlur,  },
                                     fieldState: {inValid, isTouched, isDirty, error},
                                     formState,
                                     }) => (   
@@ -425,7 +531,7 @@ export default function NewsEdit() {
                                     aria-label="textarea"
                                     placeholder=""
                                     minRows={5}
-                                    value={value}
+                                    value={formValues.content}
                                     onChange={ (e) => { onChange(e); handleChangeTextareaContent(e) } }
                                     style={{ width: 1000 }}
                                 />
@@ -442,57 +548,13 @@ export default function NewsEdit() {
         </Grid>
 
     </>
-  );
 
+    );
+    } else {
+        return ( <> <p> loading .... </p></>)
+    }    
 
-  /*
-  const newsItem = news.filter( (newsItem) => { 
-  return newsItem.id.toString() == id  }  ); 
-
-  const medias = newsItem[0].Media;
-  const thumbNail = medias.filter( (media) =>  { return media.type.trim().toString().toLowerCase().includes("medium")}) ;
-  const thumbnailPath = thumbNail[0].path
-  const mediumImagePath = `../../../${thumbNail[0].path}` ; 
-  console.log( " Thumbnail 3 : " +  mediumImagePath );
-
-  return (
-    <Card sx={{ maxWidth: "100%" }}>
-      <CardHeader
-        avatar={
-          <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-            
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
-        title={newsItem[0].title}
-        subheader={newsItem[0].time}
-      />
-      <CardMedia
-        component="img"
-         
-        image={ require( `../../../${thumbnailPath}`  )}
-        alt="Paella dish"
-      />
-      <CardContent>
-        <Typography variant="body2" color="text.secondary">
-           {newsItem[0].content}
-        </Typography>
-      </CardContent>
-      <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
-        </IconButton>
-        <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton>
-         
-      </CardActions>
-    </Card>
-  );
-
-  */
+      
 }
+
+export default NewsEdit

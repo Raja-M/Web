@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 
-import { selectAllNews , selectAllNewsStatus, selectAllNewsErrors, fetchPosts} from '../../../App/Redux/Contents/News/NewsSlice';
-import { addNewPost } from '../../../App/Redux/Contents/News/NewsSlice';
+import { selectAllNews , selectAllNewsStatus, selectAllNewsErrors, fetchPosts, addNewPost} from '../../../App/Redux/Contents/News/NewsSlice';
+ 
 
 import { parseISO, formatDistanceToNow, format } from 'date-fns'
 

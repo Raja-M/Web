@@ -26,7 +26,10 @@ import Author from '../../Common/Author';
 import Timeago from '../../Common/Timeago';
 import ReactionButton from '../../Common/ReactionButton';
 import { parseISO, formatDistanceToNow, format } from 'date-fns'
+import { News } from './News';
+import  NewsList  from './NewsList';
 
+/*
 interface ExpandMoreProps extends IconButtonProps {
   expand: boolean;
 }
@@ -41,7 +44,7 @@ const ExpandMore = styled((props: ExpandMoreProps) => {
     duration: theme.transitions.duration.shortest,
   }),
 }));
-
+*/
 export default function NewsItem() {
   const [expanded, setExpanded] = React.useState(false);
 
@@ -64,6 +67,9 @@ export default function NewsItem() {
               <p> {newsItem.content}</p>
               <ReactionButton post={newsItem}> </ReactionButton> 
         </article>
+
+        <NewsList newsItem={newsItem}></NewsList>
+
     </>
     
   );

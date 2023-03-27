@@ -18,7 +18,7 @@ const ManageRoutes = ({ darkMode, setDarkMode }) => {
               <Route path="news/*" element={<NewsManageRoutes darkMode={darkMode} setDarkMode={setDarkMode} ></NewsManageRoutes>}></Route>
               <Route path="info/*" element={<InfoManage darkMode={darkMode} setDarkMode={setDarkMode} ></InfoManage>}></Route>
               <Route path="*" element={<NotFound></NotFound>} ></Route>
-              </Route>
+            </Route>
         </Routes>
     </>
   )

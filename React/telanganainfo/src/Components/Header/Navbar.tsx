@@ -24,6 +24,9 @@ import { flexbox } from '@mui/system';
 import { Link, NavLink } from 'react-router-dom';
 import { useTheme } from '@emotion/react';
 import { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { increaseCount, selectCounter} from '../../App/Redux/Contents/News/NewsSlice'
+
 
 
 const StyledToolBar = styled(Toolbar)({
@@ -57,6 +60,11 @@ const Navbar = () => {
   const currentTheme = useTheme();
   const [open, setOpen] = useState(false);
 
+  const dispatch = useDispatch()
+  const count = useSelector( selectCounter )
+
+
+
   return (
  
     <AppBar   sx={{  position: "sticy", zIndex:  9999 }}>
@@ -70,7 +78,8 @@ const Navbar = () => {
                     
                     sx={{ display: { xs: "none", sm: "flex", flex: 4, marginLeft: 50 } }}
           >
-              <Box><NavLink style={  ( {isActive}) =>{
+              <Box>
+                <NavLink style={  ( {isActive}) =>{
                         return isActive ? { color: "#69f0ae" , textDecoration: 'none' } : { color : "white" , textDecoration: 'none' }        
                     } } 
                         to="/"     >Home</NavLink></Box>
@@ -83,8 +92,14 @@ const Navbar = () => {
                       <Box><NavLink style={  ( {isActive}) =>{
                         return isActive ? { color: "#69f0ae" , textDecoration: 'none' } : { color : "white" , textDecoration: 'none' }        
                     } } 
-                        to="/info"     >Info</NavLink></Box>
-
+                        to="/info"     >Info
+                </NavLink>
+              </Box>
+              <button
+                onClick = { () =>  dispatch(  increaseCount({}) ) }>
+                  {count}
+              </button>      
+                    
           </Stack>
           <Icons>
                     <Badge badgeContent={4} color="error">
@@ -94,7 +109,7 @@ const Navbar = () => {
                         <Notifications color="action" />
                     </Badge>
                     <Avatar onClick={e => setOpen(true)} sx={{ width: 30, height: 30 }}></Avatar>
-                </Icons>
+          </Icons>
                   
              
         </StyledToolBar>

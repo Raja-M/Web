@@ -13,6 +13,7 @@ import ReactionButton from '../../Common/ReactionButton';
 //import news from '../../../Data/News/News.json'
 import { FiberPin, Google } from '@mui/icons-material';
 import { nanoid } from '@reduxjs/toolkit';
+import NewsEdit from '../Manage/News/NewsEdit';
 
 export const News = ({ Detail, darkMode, setDarkMode }) => {
 
@@ -21,29 +22,57 @@ export const News = ({ Detail, darkMode, setDarkMode }) => {
   let newsStatus = useSelector(selectAllNewsStatus);
   let reRender = true;
 
-
+/*
   useEffect(  () => {
     console.log( " User effect News Status :" + newsStatus); 
     if( newsStatus === 'idle' && reRender){
-        dispatch( fetchPosts())
+        
         console.log( "Calling dispatchs :" + newsStatus); 
         reRender = false;
         console.log( "Calling dispatchs :" + reRender); 
+        dispatch( fetchPosts())
          
     } else if ( newsStatus !== 'idle'){
       reRender = true;
     }
   }, [newsStatus  ] )
  
-
+*/
   const news = useSelector(selectAllNews);
   const newsError = useSelector(selectAllNewsErrors);
 
- const orderedNews = news.slice().sort(  (a,b) =>  new Date(b.time)  -  new Date(a.time) )  ;                  
-  
+ const orderedNews = news.slice().sort(  (a,b) =>  (   news.indexOf(b) -  news.indexOf(a) )   ) ;  
+ 
 
  return (
   <>
+{ 
+
+(
+  () => { 
+    
+
+        return(   
+          
+         
+        
+          <div >  
+ 
+          { Detail ? (   
+                            <NewsEdit darkMode={darkMode} setDarkMode={setDarkMode} ></NewsEdit>
+                        
+                    ) : 
+                    (   ''
+                    ) 
+          }
+          </div>  
+          )
+ 
+  }  
+  ) ()
+}
+
+
   { 
 
     (
@@ -56,16 +85,18 @@ export const News = ({ Detail, darkMode, setDarkMode }) => {
         }else if (  newsStatus === 'succeeded'){  
 
 
-            return(   orderedNews.map( news => (
+            return(   
+              
+              orderedNews.map( news => (
             
               <div key={news.id}>  
 
               <Link    to={`${news.id}`} style={{ textDecoration: 'none'  }}  > 
                     <article   style={{ display:'block'  }}>
-                    <h3>{  news.title + " " + news.userId}</h3> 
+                    <h3>{  news.title + " " + news.id}</h3> 
                             <Author userId={news.userId} > </Author>
                             {formatDistanceToNow(  new Date(news.time)) + " ago" }
-                    <p> {news.content.substring(0,100)}</p>
+                    <p> {news.content?.substring(0,100)}</p>
                     </article>
               </Link> 
               <ReactionButton key={news.id} post={news}> </ReactionButton>
@@ -78,9 +109,11 @@ export const News = ({ Detail, darkMode, setDarkMode }) => {
               }
               </div>  
               )
-            ));
+            )
+            
+            );
         } else if (newsStatus === 'failed'){
-            return ( <p> " Eror .... "</p> );
+            return ( <p> " Error .... "</p> );
         }
       }  
       ) ()

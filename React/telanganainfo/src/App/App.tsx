@@ -15,8 +15,11 @@ import { fetchPosts } from '../App/Redux/Contents/News/NewsSlice';
 import { Store} from "./Redux/Store"
 
 Store.dispatch( fetchUsers () ); 
+Store.dispatch( fetchPosts());
 
 function App() {
+
+  alert( " In App tsx");
 
   const [darkMode, setDarkMode] = useState(false)
 
@@ -36,13 +39,12 @@ function App() {
           <Grid container direction="row" spacing={2} flex="1" style={{margin:"10px" }}>
           <Provider store={Store}>
             <Navbar></Navbar>
-            
             <Grid container direction="row" spacing={2} flex="1">
                   <Grid item xs={12} style={{marginTop:"70px" }}>
                     <Body darkMode={darkMode} setDarkMode={setDarkMode} ></Body>
                   </Grid>
             </Grid>
-            </Provider>
+          </Provider>
           </Grid>
         </Box>
         </ThemeProvider>

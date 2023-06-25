@@ -46,6 +46,7 @@ const ExpandMore = styled((props: ExpandMoreProps) => {
 }));
 */
 export default function NewsItem() {
+  /*
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {

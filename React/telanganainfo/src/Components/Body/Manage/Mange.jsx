@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 
-import { selectAllNews , selectAllNewsStatus, selectAllNewsErrors, fetchPosts, addNewPost} from '../../../App/Redux/Contents/News/NewsSlice';
+import { selectAllNews } from '../../../App/Redux/Contents/News/NewsSlice';
  
 
 import { parseISO, formatDistanceToNow, format } from 'date-fns'
@@ -25,7 +25,17 @@ import Author from '../../Common/Author';
 import Timeago from '../../Common/Timeago';
 import ReactionButton from '../../Common/ReactionButton';
 
+import { useGetPostsQuery } from '../../../App/Redux/Contents/News/NewsSlice';
+
+
 export const Manage = ({ darkMode, setDarkMode }) => {
+/*
+    const {
+        isLoading,
+        isSuccess,
+        isError,
+        error
+    } = useGetPostsQuery()
 
     const dispatch = useDispatch();
 
@@ -61,14 +71,8 @@ export const Manage = ({ darkMode, setDarkMode }) => {
     const submenuscategories = useSelector(selectAllSubMenusCategories)
 
     const news = useSelector(selectAllNews);
-    const newsStatus = useSelector(selectAllNewsStatus);
-    const newsError = useSelector(selectAllNewsErrors);
+ 
 
-    useEffect(  () => {
-        if( newsStatus === 'idle'){
-            dispatch( fetchPosts())
-        }
-    }, [ newsStatus,addRequestStatus,  dispatch] )
  
     const rows = news;
 
@@ -130,32 +134,18 @@ export const Manage = ({ darkMode, setDarkMode }) => {
     const onSubmit = (data )  => {
         setFormValues( { ...formValues, userId: 2 } );
         console.log("Data :" ,data);
-        try{
-            setAddRequestStatus( 'pending ');
-            dispatch( 
-                addNewPost( {
-                        title: data.title,
-                        body: data.content,
-                        userId: '2'
-                        }
-                )
-            ).unwrap()
-        } catch(err){
-            console.error( ' Failed to save the Post' , err)
-        } finally {
-            setAddRequestStatus( 'idle')
-        }
+        
 
     };
 
     const orderedNews = news.slice().sort(  (a,b) =>  new Date(b.time)   -  new Date(a.time) )  ;                  
     let  newsPosts;
 
-    if ( newsStatus === 'idle'){
+    if (  isLoading ){
         newsPosts = <p> " Loading .... "</p> 
-    }else if ( newsStatus === 'loading'){
+    }else if (  isLoading){ 
         newsPosts = <p> " Loading .... "</p> 
-    }else if (  newsStatus === 'succeeded'){
+    }else if ( isSuccess  ){
         newsPosts =    orderedNews.map( news => (
             <Grid item xs={12}>
                 <article  style={{ display:'block' }} key={news.id}>
@@ -167,7 +157,7 @@ export const Manage = ({ darkMode, setDarkMode }) => {
                 </article>
             </Grid>
         ))
-    } else if (newsStatus === 'failed'){
+    } else if ( isError ){
         newsPosts = <p> " Eror .... "</p> 
     }
 
@@ -543,10 +533,11 @@ export const Manage = ({ darkMode, setDarkMode }) => {
                             />
                         </div>
                     </Grid>
-                */
+                //
                 }
             </Grid>
         </>
 
     )
+    */
 }

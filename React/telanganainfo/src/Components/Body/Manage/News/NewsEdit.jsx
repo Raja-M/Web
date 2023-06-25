@@ -15,9 +15,6 @@ import * as Yup from 'yup';
 import Author from '../../../Common/Author';
 import ReactionButton from '../../../Common/ReactionButton';
 
-
-import { selectAllNews } from '../../../../App/Redux/Contents/News/NewsSlice';
-import { selectAllNewsStatus } from '../../../../App/Redux/Contents/News/NewsSlice';
 import { selectAllStates } from '../../../../App/Redux/Contents/Categories/StatesSlice';
 import { selectAllDistricts } from '../../../../App/Redux/Contents/Categories/DistrictsSlice';
 import { selectAllCities } from '../../../../App/Redux/Contents/Categories/CitiesSlice';
@@ -26,7 +23,6 @@ import { selectAllSubMenus } from '../../../../App/Redux/Contents/Categories/Sub
 import { selectAllSubMenusCategories } from '../../../../App/Redux/Contents/Categories/SubMenusCategoriesSlice';
 import { selectAllCategorySpecialities } from '../../../../App/Redux/Contents/Categories/CategorySpecialitiesSlice';
 import { selectAllUsers } from '../../../../App/Redux/Contents/Users/UsersSlice';
-import { fetchPosts, addNewPost, updatePost , deletePost} from '../../../../App/Redux/Contents/News/NewsSlice';
 
 import {  Grid, MenuItem, Select, TextareaAutosize, TextField } from '@mui/material';
 import { LensRounded } from '@mui/icons-material';
@@ -34,15 +30,24 @@ import { LensRounded } from '@mui/icons-material';
 import Button from '@mui/material/Button';
 import DeleteIcon from '@mui/icons-material/Delete';
 
+import { useGetPostsQuery } from '../../../../App/Redux/Contents/News/NewsSlice';
+
 
 const NewsEdit = () => {
+/*
+    const {
+        isLoading,
+        isSuccess,
+        isError,
+        error
+    } = useGetPostsQuery()
+
 
     const navigate = useNavigate();
     const { id } = useParams();
 
     console.log("Id Value : " + id);
-    const newsStatus = useSelector(selectAllNewsStatus);
-    console.log("newsStatus : " + newsStatus);
+ 
     const [addRequestStatus, setAddRequestStatus] = useState('idle');
     const dispatch = useDispatch();
 
@@ -65,13 +70,7 @@ const NewsEdit = () => {
 
     const [formValues, setFormValues] = useState({ ...defaultFormValues, ...newsItem });
 
-    useEffect(() => {
-        setFormValues ({  ...defaultFormValues, ...newsItem});
-        if (newsStatus === 'idle' && id) {
-            dispatch(fetchPosts())
-        }
-    }, [newsStatus]
-    )
+ 
 
     const states = useSelector(selectAllStates)
     const districts = useSelector(selectAllDistricts)
@@ -145,7 +144,7 @@ const NewsEdit = () => {
     const handleDelete = () =>{
         try{
             setAddRequestStatus( 'pending')
-            dispatch( deletePost({id  } )).unwrap()
+  
             setFormValues ({  ...defaultFormValues,});
         } catch (err){
             console.error('Failed to delete teh post', err)
@@ -166,15 +165,7 @@ const NewsEdit = () => {
             try{
                 setAddRequestStatus( 'pending ');
                 
-                dispatch( 
-                    updatePost( {
-                            id: data.id,
-                            title: data.title,
-                            body: data.content,
-                            userId: '2'
-                            }
-                    )
-                ).unwrap()
+                
                            
                 navigate(`/manage/news/${data.id}`)
             } catch(err){
@@ -187,17 +178,7 @@ const NewsEdit = () => {
             console.log( "Adding new ");
             try{
                 setAddRequestStatus( 'pending ');
-                dispatch( 
-                    addNewPost( {
-                            title: data.title,
-                            body: data.content,
-                            city: data.city,
-                            categoryspeciality: data.categoryspeciality,
-                            userId: '2',
-
-                            }
-                    )
-                ).unwrap()
+                
             } catch(err){
                 console.error( ' Failed to save the Post' , err)
             } finally {
@@ -214,7 +195,7 @@ const NewsEdit = () => {
         () => {
             return(
                 <>
-                { newsStatus == 'succeeded' ?
+                { isSuccess ?
                     (
                         <Grid container
                         direction="row"
@@ -642,6 +623,7 @@ const NewsEdit = () => {
 	}
     </>
     )
+    */
 
 }
 

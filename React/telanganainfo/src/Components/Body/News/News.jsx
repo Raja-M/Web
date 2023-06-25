@@ -4,7 +4,6 @@ import { Link, NavLink, useParams } from 'react-router-dom';
 import { flushSync } from 'react-dom';
 import { useSelector , useDispatch} from 'react-redux';
 import { parseISO, formatDistanceToNow, format } from 'date-fns'
-import { selectAllNews , selectAllNewsStatus, selectAllNewsErrors, fetchPosts} from '../../../App/Redux/Contents/News/NewsSlice';
 
 import Author from '../../Common/Author';
 import Timeago from '../../Common/Timeago';
@@ -14,88 +13,50 @@ import ReactionButton from '../../Common/ReactionButton';
 import { FiberPin, Google } from '@mui/icons-material';
 import { nanoid } from '@reduxjs/toolkit';
 import NewsEdit from '../Manage/News/NewsEdit';
+ 
+import { selectNewsById, selectNewsIds, selectAllNews } from '../../../App/Redux/Contents/News/NewsSlice';
+import { useGetNewsQuery } from '../../../App/Redux/Contents/News/NewsSlice';
 
 export const News = ({ Detail, darkMode, setDarkMode }) => {
-
-  const dispatch = useDispatch();
  
-  let newsStatus = useSelector(selectAllNewsStatus);
-  let reRender = true;
+  const {
+    isLoading,
+    isSuccess,
+    isError,
+    error
+  } = useGetNewsQuery()
 
-/*
-  useEffect(  () => {
-    console.log( " User effect News Status :" + newsStatus); 
-    if( newsStatus === 'idle' && reRender){
-        
-        console.log( "Calling dispatchs :" + newsStatus); 
-        reRender = false;
-        console.log( "Calling dispatchs :" + reRender); 
-        dispatch( fetchPosts())
-         
-    } else if ( newsStatus !== 'idle'){
-      reRender = true;
-    }
-  }, [newsStatus  ] )
- 
-*/
+  const orderedPostIds = useSelector(selectNewsIds)
   const news = useSelector(selectAllNews);
-  const newsError = useSelector(selectAllNewsErrors);
-
- const orderedNews = news.slice().sort(  (a,b) =>  (   news.indexOf(b) -  news.indexOf(a) )   ) ;  
- 
+   
 
  return (
   <>
-{ 
-
-(
-  () => { 
-    
-
-        return(   
-          
-         
-        
-          <div >  
  
-          { Detail ? (   
-                            <NewsEdit darkMode={darkMode} setDarkMode={setDarkMode} ></NewsEdit>
-                        
-                    ) : 
-                    (   ''
-                    ) 
-          }
-          </div>  
-          )
- 
-  }  
-  ) ()
-}
-
 
   { 
 
     (
       () => { 
         
-        if ( newsStatus === 'idle'){
+        if ( isLoading ){
             return( <p> " Loading .... "</p> )
-        }else if ( newsStatus === 'loading'){
+        }else if ( isLoading ){
             return(  <p> " Loading .... "</p>  )
-        }else if (  newsStatus === 'succeeded'){  
+        }else if (  isSuccess ){  
 
 
             return(   
               
-              orderedNews.map( news => (
+              news.map( news => (
             
               <div key={news.id}>  
 
               <Link    to={`${news.id}`} style={{ textDecoration: 'none'  }}  > 
                     <article   style={{ display:'block'  }}>
-                    <h3>{  news.title + " " + news.id}</h3> 
+                      <h3>{  news.title + " " + news.id}</h3> 
                             <Author userId={news.userId} > </Author>
-                            {formatDistanceToNow(  new Date(news.time)) + " ago" }
+                            
                     <p> {news.content?.substring(0,100)}</p>
                     </article>
               </Link> 
@@ -112,7 +73,7 @@ export const News = ({ Detail, darkMode, setDarkMode }) => {
             )
             
             );
-        } else if (newsStatus === 'failed'){
+        } else if ( isError){
             return ( <p> " Error .... "</p> );
         }
       }  
@@ -121,7 +82,7 @@ export const News = ({ Detail, darkMode, setDarkMode }) => {
   </>
 
    )
- 
+   
  }  
  
   

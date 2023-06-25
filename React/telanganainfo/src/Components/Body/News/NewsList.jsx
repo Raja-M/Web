@@ -4,7 +4,7 @@ import { Link, NavLink, useParams } from 'react-router-dom';
 import { flushSync } from 'react-dom';
 import { useSelector , useDispatch} from 'react-redux';
 import { parseISO, formatDistanceToNow, format } from 'date-fns'
-import { selectAllNews , selectAllNewsStatus, selectAllNewsErrors, fetchPosts} from '../../../App/Redux/Contents/News/NewsSlice';
+import { selectAllNews} from '../../../App/Redux/Contents/News/NewsSlice';
 
 import Author from '../../Common/Author';
 import Timeago from '../../Common/Timeago';
@@ -16,16 +16,26 @@ import { nanoid } from '@reduxjs/toolkit';
 import NewsEdit from '../Manage/News/NewsEdit';
  
 
+
+import { useGetPostsQuery } from '../../../App/Redux/Contents/News/NewsSlice';
+
 let NewsList = ({newsItem}) => {
+/*
+   const {
+    isLoading,
+    isSuccess,
+    isError,
+    error
+  } = useGetPostsQuery() 
 
   const dispatch = useDispatch();
  
-  let newsStatus = useSelector(selectAllNewsStatus);
+ 
   let reRender = true;
  
 
   const allnews = useSelector(selectAllNews);
-  const newsError = useSelector(selectAllNewsErrors);
+
 
   const news = allnews.filter( ( n) =>  n.userId === newsItem.userId )
 
@@ -43,11 +53,11 @@ let NewsList = ({newsItem}) => {
     (
       () => { 
         
-        if ( newsStatus === 'idle'){
+        if ( isLoading ){
             return( <p> " Loading .... "</p> )
-        }else if ( newsStatus === 'loading'){
+        }else if ( isLoading ){
             return(  <p> " Loading .... "</p>  )
-        }else if (  newsStatus === 'succeeded'){  
+        }else if ( isSuccess ){  
 
 
             return(   
@@ -70,7 +80,7 @@ let NewsList = ({newsItem}) => {
             )
             
             );
-        } else if (newsStatus === 'failed'){
+        } else if ( isError ){
             return ( <p> " Error .... "</p> );
         }
       }  
@@ -79,6 +89,7 @@ let NewsList = ({newsItem}) => {
   </>
 
    )
+   */
  
  }  
  NewsList = React.memo( NewsList)

@@ -4,14 +4,17 @@ import { createRoot }from 'react-dom/client';
 
 import store from "./Redux/Store";
 import {userAdded, userRemoved, userUpdated } from "./Redux/Actions";
-
+import { Provider } from 'react-redux';
+import {useSelector} from 'react-redux';
 
 import "./index.css";
 
 import Header from "./Header";
 import Footer from "./Footer";
+import UserList from "./UserList";
 
 console.log( store.getState() );
+/*
 store.dispatch( userAdded  (
                     {
                         "id":100,
@@ -87,22 +90,26 @@ store.dispatch( userUpdated (
                   )
 );
 
-console.log( store.getState() );
+console.log( " Store State : " + store.getState() );
+*/
 
-
-const App = () => (
- 
- 
+const App = () =>{
+  return (
   <div className="container">
     
+    <Provider store={store}>
     <Header  > </Header>
     
     <div style={{  padding:"25px"}}> 
-      Home Page Content
+      Home Page Content Body
+      <h1> User List </h1>
+        <UserList></UserList>
     </div>
     <Footer></Footer>
+    </Provider>
   </div>
-);
+  )
+};
 const container = document.getElementById('app');
 const root = createRoot(container);
 

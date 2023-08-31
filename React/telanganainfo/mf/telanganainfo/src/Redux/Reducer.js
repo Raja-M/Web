@@ -101,6 +101,7 @@ let users =
 let lastId = 0;
 
 export default function reducer(state = users,action) {
+    console.log( " In Reducer")
     switch( action.type ){
         case actions.USER_ADDED:
             return [
@@ -118,4 +119,5 @@ export default function reducer(state = users,action) {
             return state;
         
     }
+    return state;
 }

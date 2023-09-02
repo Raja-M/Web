@@ -1,11 +1,33 @@
 import React from 'react'
-import { UseSelector, useSelector } from 'react-redux/es/hooks/useSelector'
+import {  useSelector , useDispatch } from 'react-redux'
+import { userAdded } from './Redux/Actions';
 
 function UserList() {
     const users = useSelector( (state) => state )
+    const dispatch = useDispatch();
     console.log(" users List " + users.length)
+
+    const increment = () => {
+        console.log( "increment ");
+        dispatch(userAdded() );
+    }
+    const decrement = () => {
+        
+    }
+
     return (
-        <> {users[0].id} </>
+        <>  <p> {users[0].id}  </p>
+          
+            <button onClick={increment}>
+                Increment
+            </button>
+            <button onClick={decrement}>
+                Decrement
+            </button>           
+ 
+        </>
+
+
     )
 }
 

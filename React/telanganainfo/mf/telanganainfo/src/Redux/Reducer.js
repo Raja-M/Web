@@ -101,16 +101,21 @@ let users =
 let lastId = 0;
 
 export default function reducer(state = users,action) {
+ 
     console.log( " In Reducer id :" +  state[0].id + 1)
     switch( action.type ){
         case actions.USER_ADDED:
+            console.log( " In Reducer : >> " +  JSON.stringify (state  ))
             console.log(" users List 1" + users.length);
-            state[0].id =  state[0].id + 1 ;
+            
+            
+            users[0].id  = users[0].id + 1 ;
             console.log(" users List 2" + users.length);
-             console.log( "Action payload : " +  action.payload); 
+            console.log( "Action payload : " +  action.payload); 
+             
             return [
 
-                    ...state
+                    ...users
                     
                      
             ];

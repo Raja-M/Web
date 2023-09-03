@@ -3,7 +3,7 @@ import {  useSelector , useDispatch } from 'react-redux'
 import { userAdded } from './Redux/Actions';
 
 function UserList() {
-    const users = useSelector( (state) => state )
+    const users = useSelector( (state) => state.users )
     const dispatch = useDispatch();
     console.log(" users List " + users.length)
 

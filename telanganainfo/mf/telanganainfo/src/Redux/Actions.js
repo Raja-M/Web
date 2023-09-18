@@ -2,7 +2,7 @@ import * as actions from "./ActionTypes";
 
 export const  userAdded = user  => {
     return {
-        type: actions.USER_ADDED  ,
+        type: actions.POST_ADDED  ,
         payload : user
     } 
 }
@@ -19,4 +19,6 @@ export const userUpdated = user => {
         payload : user
     } 
 }
+
+
     

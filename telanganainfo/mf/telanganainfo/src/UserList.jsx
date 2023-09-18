@@ -1,9 +1,10 @@
 import React from 'react'
 import {  useSelector , useDispatch } from 'react-redux'
 import { userAdded } from './Redux/Actions';
+import { postsActions} from './Redux/PostsReducer'
 
 function UserList() {
-    const users = useSelector( (state) => state )
+    const users = useSelector( (state) => state.users )
     const dispatch = useDispatch();
     console.log(" users List " + users.length)
 
@@ -14,6 +15,8 @@ function UserList() {
     const decrement = () => {
         
     }
+
+    dispatch( postsActions.postAdded()  );
 
     return (
         <>  <p> {users[0].id}  </p>

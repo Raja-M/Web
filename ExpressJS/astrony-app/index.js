@@ -1,4 +1,9 @@
 var express = require("express"); 
+var https = require("https");
+var path = require("path");
+var fs = require("fs");
+
+
 var app = express();
  
 app.use(express.static('public'));
@@ -9,6 +14,13 @@ app.use('/css', express.static(__dirname + '/public/css'));
 app.use('/js', express.static(__dirname + '/public/js'));
 app.use('/images', express.static(__dirname + '/public/images'));
 app.use('/scss', express.static(__dirname + '/public/scss'));
+
+const sslServer = https.createServer(
+    { 
+        key: fs.readFileSync(path.join(__dirname, 'certs', 'astrony.com.key')),
+        cert: fs.readFileSync(path.join(__dirname, 'certs', 'astrony.com.crt')),
+    },app
+)
  
 var server = app.listen(80, function(){
     var port = server.address().port;

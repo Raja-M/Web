@@ -12,7 +12,7 @@ console.log( "myDate : " + currDate.getTimezoneOffset() );
 
 function getWeekDay(pDate){
    let days = ['SU', 'MO','TU','WE','TH','FR','SA'];
-   console.log(" getDate :  " + pDate.getDay()); 
+    
    return(  days[pDate.getDay() ]);
 }
 

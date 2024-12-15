@@ -7,10 +7,12 @@ let inputString = '';
 let currentLine = 0;
 
 process.stdin.on('data', function(inputStdin) {
+    console.log(" Test 1 ");
     inputString += inputStdin;
 });
 
 process.stdin.on('end', function() {
+    console.log(" Test  2");
     inputString = inputString.split('\n');
 
     main();
@@ -60,8 +62,11 @@ function plusMinus(arr, n) {
 }
  
 function main() {
+
+    console.log(" Test ")
     const n = parseInt(readLine().trim(), 10);
   
+    console.log( " you entered : " + n);
     const arr = readLine().replace(/\s+$/g, '').split(' ').map(arrTemp => parseInt(arrTemp, 10));
 
     plusMinus(arr, n);

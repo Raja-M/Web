@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import ClassBasedcomponent from './basics/class-based-component';
+import UseReducerExample from './basics/testcomponents/user-reducer'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <header className="App-header">
         TGNews
         <ClassBasedcomponent></ClassBasedcomponent>
+        <UseReducerExample></UseReducerExample>
       </header>
     </div>
   );

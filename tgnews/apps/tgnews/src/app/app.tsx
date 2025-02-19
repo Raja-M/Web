@@ -1,20 +1,19 @@
-import React from 'react'
-import Sidebar from './components/common/Sidebar'
-import Rightbar from './components/common/Rightbar'
-import Content from './components/common/Content'
-import { Box, Container, Stack } from '@mui/material'
- 
-function app() {
-  return (
-    <Box>
-      <Stack direction="row" spacing={2} justifyContent={'space-between'}  >
-        <Sidebar></Sidebar>
-        <Content></Content>
-        <Rightbar></Rightbar>
-      </Stack>
+// Uncomment this line to use CSS modules
+// import styles from './app.module.css';
 
-    </Box>
-  )
+import MainBody from "./components/mainbody/MainBody";
+import MainFooter from "./components/mainfooter/MainFooter";
+import MainHeader from "./components/mainheader/MainHeader";
+
+export function App() {
+
+  return ( 
+    <>
+      <MainHeader></MainHeader>
+      <MainBody></MainBody>
+      <MainFooter></MainFooter>
+    </>
+  );
 }
 
-export default app
+export default App;

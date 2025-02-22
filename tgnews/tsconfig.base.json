@@ -16,15 +16,5 @@
     "baseUrl": ".",
     "paths": {}
   },
-  "exclude": ["node_modules", "tmp"],
-  "include": [
-    "**/*.ts",
-    "**/*.js",
-    "cypress.config.ts",
-    "**/*.cy.ts",
-    "**/*.cy.tsx",
-    "**/*.cy.js",
-    "**/*.cy.jsx",
-    "**/*.d.ts"
-  ]
+  "exclude": ["node_modules", "tmp"]
 }

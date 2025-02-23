@@ -4,6 +4,7 @@ import React from 'react';
 import Sidebar from '../common/Sidebar';
 import Content from '../common/Content';
 import Rightbar from '../common/Rightbar';
+ 
 
 const MainBody = () => {
   return (
@@ -16,7 +17,7 @@ const MainBody = () => {
         justifyContent: 'center',
         alignItems: 'flex-start',
       }}
-    >
+    > 
     <Sidebar></Sidebar>
     <Content>
        </Content>

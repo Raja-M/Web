@@ -7,10 +7,12 @@ import NxWelcome from './nx-welcome';
 
 export function App() {
   return (
-    <>
+    <>  <h1>TGNEWS</h1>
+      
       <MainHeader></MainHeader>
       <MainBody></MainBody>
       <MainFooter></MainFooter>
+      
     </>
   );
 }

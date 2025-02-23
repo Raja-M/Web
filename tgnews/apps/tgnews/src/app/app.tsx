@@ -3,7 +3,7 @@
 import MainBody from './components/mainbody/MainBody';
 import MainFooter from './components/mainfooter/MainFooter';
 import MainHeader from './components/mainheader/MainHeader';
-import NxWelcome from './nx-welcome';
+ 
 
 export function App() {
   return (

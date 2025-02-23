@@ -15,14 +15,14 @@ function Rightbar() {
 
 
     <Box    sx={{   border: "1px" , borderStyle: "Sold", borderColor: "black" , paddingBottom: 2 }} >
-      <img src="..\assets\ads\pnc.png" style={{ height: "100%", width: "100%", objectFit: "fill" }} alt="Logo" />
+      <img src="/assets/ads/pnc.png" style={{ height: "100%", width: "100%", objectFit: "fill" }} alt="Logo" />
     </Box>
     <Box    sx={{   border: "1px" , borderStyle: "Sold", borderColor: "black" , paddingBottom: 2 }} >
-      <img src="..\assets\ads\mirai.webp" style={{ height: "100%", width: "100%", objectFit: "fill" }} alt="Logo" />
+      <img src="/assets/ads/mirai.webp" style={{ height: "100%", width: "100%", objectFit: "fill" }} alt="Logo" />
     </Box>
 
     <Box    sx={{   border: "1px" , borderStyle: "Sold", borderColor: "black" , paddingBottom: 2 }} >
-      <img src="..\assets\ads\eppy.jpg" style={{ height: "100%", width: "100%", objectFit: "fill" }} alt="Logo" />
+      <img src="/assets/ads/eppy.jpg" style={{ height: "100%", width: "100%", objectFit: "fill" }} alt="Logo" />
     </Box>
   
   </Box>

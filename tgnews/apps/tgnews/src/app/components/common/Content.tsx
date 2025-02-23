@@ -10,14 +10,14 @@ function Content() {
             Drones deployed for surveillance of Akkampally reservoir sdfdsf dasfdsf dsa f asdfdas f
           </Typography>
           <Box    sx={{ height: "50vh",  width: "100%",  border: "1px" , borderStyle: "Sold", borderColor: "black" }} >
-            <img src="public\assets\Drones.jpeg" style={{ height: "100%", width: "100%", objectFit: "cover" }} alt="Logo" />
+            <img src="/assets/Drones.jpeg" style={{ height: "100%", width: "100%", objectFit: "cover" }} alt="Logo" />
           </Box>
         </Box> 
 
 
         <Box     sx={{   display: "flex", flexDirection: "row", justifyContent: "flex-start", alignItems: "flex-start",   paddingBottom: 2,  }}>
            <Box    sx={{ flex: 1, height: "15vh", alignSelf: "flex-start", paddingRight: 2,    }}>
-            <img src="assets/RevanthReddy.jpg" style={{ height: "100%", width: "100%", objectFit: "fill" }} alt="Logo" />
+            <img src="/assets/RevanthReddy.jpg" style={{ height: "100%", width: "100%", objectFit: "fill" }} alt="Logo" />
           </Box>
            <Box sx={{ flex: 2,   alignSelf: "flex-start",   }}> 
             <Typography  sx={{ fontSize: "1rem", color: "black" }} > Hyderabad: Telangana Chief Minister A. Revanth Reddy 
@@ -29,7 +29,7 @@ function Content() {
         </Box>
         <Box     sx={{   display: "flex", flexDirection: "row", justifyContent: "flex-start", alignItems: "flex-start",   paddingBottom: 2,  }}>
            <Box    sx={{ flex: 1, height: "15vh", alignSelf: "flex-start", paddingRight: 2,    }}>
-            <img src="..\assets\SridharBabu.jpeg" style={{ height: "100%", width: "100%", objectFit: "fill" }} alt="Logo" />
+            <img src="/assets/SridharBabu.jpeg" style={{ height: "100%", width: "100%", objectFit: "fill" }} alt="Logo" />
           </Box>
            <Box sx={{ flex: 2,   alignSelf: "flex-start",   }}> 
             <Typography  sx={{ fontSize: "1rem", color: "black" }} > Hyderabad: Telangana IT and Industries Minister Duddilla Sridhar Babu emphasized on Friday 
@@ -43,7 +43,7 @@ function Content() {
 
         <Box     sx={{   display: "flex", flexDirection: "row", justifyContent: "flex-start", alignItems: "flex-start",   paddingBottom: 2,  }}>
            <Box    sx={{ flex: 1, height: "15vh", alignSelf: "flex-start", paddingRight: 2,    }}>
-            <img src="..\assets\TGDam.jpg" style={{ height: "100%", width: "100%", objectFit: "fill" }} alt="Logo" />
+            <img src="/assets/TGDam.jpg" style={{ height: "100%", width: "100%", objectFit: "fill" }} alt="Logo" />
           </Box>
            <Box sx={{ flex: 2,   alignSelf: "flex-start",   }}> 
             <Typography  sx={{ fontSize: "1rem", color: "black" }} >  

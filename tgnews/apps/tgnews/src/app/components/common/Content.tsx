@@ -10,7 +10,7 @@ function Content() {
             Drones deployed for surveillance of Akkampally reservoir sdfdsf dasfdsf dsa f asdfdas f
           </Typography>
           <Box    sx={{ height: "50vh",  width: "100%",  border: "1px" , borderStyle: "Sold", borderColor: "black" }} >
-            <img src="..\assets\Drones.jpeg" style={{ height: "100%", width: "100%", objectFit: "cover" }} alt="Logo" />
+            <img src="public\assets\Drones.jpeg" style={{ height: "100%", width: "100%", objectFit: "cover" }} alt="Logo" />
           </Box>
         </Box> 
 

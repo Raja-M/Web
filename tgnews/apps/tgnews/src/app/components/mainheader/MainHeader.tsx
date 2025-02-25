@@ -50,7 +50,7 @@ const MainHeader = () => {
                   }}
                 >
                   <img
-                    src="TGNews.jpg"
+                    src="/assets/TGNews.jpg"
                     style={{ height: '100%', width: '100%', objectFit: 'fill' }}
                     alt="Logo"
                   />
@@ -88,12 +88,12 @@ const MainHeader = () => {
                   }}
                 >
                   <img
-                    src="..\assets\kakatiya.jpg"
+                    src="/assets/kakatiya.jpg"
                     style={{ height: '80%', width: '100%', objectFit: 'fill' }}
                     alt="Logo"
                   />
                   <img
-                    src="..\assets\tgst.jpeg"
+                    src="/assets/tgst.jpeg"
                     style={{ height: '100%', width: '100%', objectFit: 'fill' }}
                     alt="Logo"
                   />
@@ -110,7 +110,7 @@ const MainHeader = () => {
               <Box
                 sx={{
                 height: '100%',
-                margin: '0 10%',
+                margin: '0 10% 0 20%',
                 }}
               >
                 <Box
@@ -128,8 +128,7 @@ const MainHeader = () => {
                     onClick={handleClick}
                     sx={{ flex: 1, color: 'white' }}
                   >
-                    {' '}
-                    &#127968;Home
+                    Home
                   </Button>
                   <Button
                     onClick={handleClick}

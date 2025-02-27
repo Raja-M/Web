@@ -7,10 +7,10 @@ function Content() {
        
        <Box    sx={{  width: "100%",  display: "flex", flexDirection: "column",    paddingBottom: 2, py: 2  }} >
           <Typography  variant="h1" sx={{ fontSize: "2rem", fontWeight: "bold", color: "black" }} >
-            Drones deployed for surveillance of Akkampally reservoir sdfdsf dasfdsf dsa f asdfdas f
+          The election process for the Telangana Legislative Council (MLC) is in progress
           </Typography>
           <Box    sx={{ height: "50vh",  width: "100%",  border: "1px" , borderStyle: "Sold", borderColor: "black" }} >
-            <img src="/assets/Drones.jpeg" style={{ height: "100%", width: "100%", objectFit: "cover" }} alt="Logo" />
+            <img src="/assets/MLC.png" style={{ height: "100%", width: "100%", objectFit: "cover" }} alt="Logo" />
           </Box>
         </Box> 
 

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #message {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Page</h1>
+    <button id="myButton">Click Me!</button>
+    <p id="message">Hello there!</p>
+
+    <script>
+        // Get elements from the HTML
+        const button = document.getElementById('myButton');
+        const message = document.getElementById('message');
+
+        // Add click event listener to the button
+        button.addEventListener('click', function() {
+            // Change the message text when button is clicked
+            message.textContent = 'You clicked the button! Great job!';
+            
+            // Optional: Change button text too
+            button.textContent = 'Click Again!';
+            
+            // Optional: Add some random color to the message
+            const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+            message.style.color = randomColor;
+        });
+    </script>
+</body>
+</html>

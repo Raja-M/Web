@@ -1,0 +1,58 @@
+.roundabout  {
+}
+.roundabout-holder {
+	list-style: none;
+	width:780px;
+	height: 280px;
+	margin: 30px auto 20px auto;
+}
+
+.roundabout-moveable-item {
+	height: 290px;
+	width: 360px;
+	cursor: pointer;
+}
+
+.roundabout-moveable-item img {
+  width: 100%;
+}
+
+.roundabout-in-focus {
+	cursor: auto;
+}
+.roundabout-description {
+	height:30px;
+	overflow:hidden;
+	display: block;
+	text-align: center;
+  position: relative;
+  z-index: 102;
+}
+li.roundabout-moveable-item .roundabout-shadow { 
+	overflow:hidden;
+	position:relative; 
+	top:0px;
+	z-index:100; 
+}
+	
+li.roundabout-moveable-item .roundabout-shadow img {
+	width:100%;
+	position:relative;
+}
+	
+li.roundabout-moveable-item p.caption {
+	font-size:14px !important;
+	color:#858585;
+	display:none;
+	margin:0;
+}
+
+.roundabout-in-focus p.caption { 
+	display:block !important;
+}
+
+.roundabout-moveable-item a img{
+	display:block;
+}
+.roundabout-in-focus {
+	cursor: auto; }

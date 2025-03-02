@@ -24,7 +24,6 @@ function Content() {
             met Congress leader Rahul Gandhi in Delhi on Saturday and extended an invitation for two public meetings in the state. 
             The events will mark the completion of a detailed caste survey and the categorization of Scheduled Castes.
             </Typography>
-
            </Box>
         </Box>
         <Box     sx={{   display: "flex", flexDirection: "row", justifyContent: "flex-start", alignItems: "flex-start",   paddingBottom: 2,  }}>

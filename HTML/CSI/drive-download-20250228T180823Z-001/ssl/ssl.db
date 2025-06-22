@@ -1,0 +1,105 @@
+--- 
+files: 
+  certificate: 
+    csikarimnagardiocese_com_afce2_64e93_1502150399_1e14f58bfdf252d850762eeb163f335a: 
+      created: '1494314119'
+      domains: 
+        - csikarimnagardiocese.com
+        - mail.csikarimnagardiocese.com
+        - www.csikarimnagardiocese.com
+      friendly_name: csikarimnagardiocese.com, mail.csikarimnagardiocese.com, and www.csikarimnagardiocese.com 2
+      id: csikarimnagardiocese_com_afce2_64e93_1502150399_1e14f58bfdf252d850762eeb163f335a
+      is_self_signed: 0
+      issuer.commonName: cPanel, Inc. Certification Authority
+      issuer.organizationName: cPanel, Inc.
+      modulus: afce2619c73f5195a7ef2d1584dd0c60e12a83803d12c0a4857404f256af71dc7a073c51fbeffdf560d8a887f2260bb543083bd7acddef87c9054267a7d1c57add9366777cf5a0e762cbfb0659101c9fd5fc02bb7856bfbfd6862e6391ce42d36bdaacbf97f4f7d433db45e4b57902b7c4d827f171e72ec793b9cd4618928d42c197a49622aefa114f924723c2f49c7e9fff2d79cbe6a7efceadb9102434c760873f65183c4f6d85f762c775ad8fac6e065f4a15bb4a594dd68c30e98f22e6af50d678737c4cac4d59a1c0b7b3bf69759fe462df4d13662e40300964c7031d2299838bb67311c1e59e1572054df7a254830f400e0f7481f927d47779b9e64e93
+      modulus_length: 2048
+      not_after: '1502150399'
+      not_before: '1494288000'
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: csikarimnagardiocese.com
+      validation_type: dv
+    csikarimnagardiocese_com_c726f_09e9b_1495497599_c0e507735a9d4d456204962210360a4f: 
+      created: '1487684399'
+      domains: 
+        - csikarimnagardiocese.com
+        - mail.csikarimnagardiocese.com
+        - www.csikarimnagardiocese.com
+      friendly_name: csikarimnagardiocese.com, mail.csikarimnagardiocese.com, and www.csikarimnagardiocese.com 1
+      id: csikarimnagardiocese_com_c726f_09e9b_1495497599_c0e507735a9d4d456204962210360a4f
+      is_self_signed: 0
+      issuer.commonName: cPanel, Inc. Certification Authority
+      issuer.organizationName: cPanel, Inc.
+      modulus: c726f6f7555d54e0631a461b2ef4a7cb2120f92edb747e55cb321b8ccc3a2b58046abc6b6bd51fe06136fda50abcd0a073c224f1d35210d7b7335f9d9906ef26a487b6b5cbdf709569c807b36e34d22c288ae40657cdb358b6a2fb63cdff147c9c0a459f366e3487100cdb586df1d4ae8ab23810d00a39206e1e6920720410454083ac50a6907c2f43557a260cfbc796806b5fb4efdf9524cf50d23514b36fa06ae6f2d3674a4c3eb3e0f14d2f57c977f3c6b0475908fe80b9a4bd9037314691471cee9bfd61deef1c08d24d66c13d45f2bce90bd7f6b5f4008fe8afc273512fcc971ed617030110aea77cafe5f86b862cf42b820bacb57cceae1327b8b09e9b
+      modulus_length: 2048
+      not_after: '1495497599'
+      not_before: '1487635200'
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: csikarimnagardiocese.com
+      validation_type: dv
+    csikarimnagardiocese_com_d4148_028b7_1488931199_59977efb1dc1d076922596dce577fd93: 
+      created: '1481193927'
+      domains: 
+        - csikarimnagardiocese.com
+        - mail.csikarimnagardiocese.com
+        - www.csikarimnagardiocese.com
+      friendly_name: csikarimnagardiocese.com, mail.csikarimnagardiocese.com, and www.csikarimnagardiocese.com
+      id: csikarimnagardiocese_com_d4148_028b7_1488931199_59977efb1dc1d076922596dce577fd93
+      is_self_signed: 0
+      issuer.commonName: cPanel, Inc. Certification Authority
+      issuer.organizationName: cPanel, Inc.
+      modulus: d4148a4e1f136994ed99c2d86aaebce9f044926eec07dd73c738ecb53f6b16ae6b361df7399b53f67a1ebf71e1956184b72da163bd213a2573bb1ea88cbe30ef387e7de7075a92ac3fc4ef4aaf3e61febdb1582a6540cec2f93213449b9ea4dfcf2b8a451d7ef9c40940bb78161a21196a9f15fa68060103180753d75462b62255036e2f5de97f2c895cbfa0995daf7efe6c3562f5f6cfd11d1b3864cdb6759a12bac2d13eaccefb90ed6b6e125b2e2f89b7e21e2cb56870d854e07da6582e096a2f66300175c5100f38847952d35a75dc630e4e521f2812d8cb214798d4d4046f23204e2ddc9bd824d14c859e5318899154296d027a25914ded46769c7028b7
+      modulus_length: 2048
+      not_after: '1488931199'
+      not_before: '1481068800'
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: csikarimnagardiocese.com
+      validation_type: dv
+  key: 
+    afce2_64e93_69f867844b5d6869e1719ecce6b374ab: 
+      created: '1494314119'
+      friendly_name: 2,048 bits, created 5/9/17, 7:15 AM UTC
+      id: afce2_64e93_69f867844b5d6869e1719ecce6b374ab
+      modulus: afce2619c73f5195a7ef2d1584dd0c60e12a83803d12c0a4857404f256af71dc7a073c51fbeffdf560d8a887f2260bb543083bd7acddef87c9054267a7d1c57add9366777cf5a0e762cbfb0659101c9fd5fc02bb7856bfbfd6862e6391ce42d36bdaacbf97f4f7d433db45e4b57902b7c4d827f171e72ec793b9cd4618928d42c197a49622aefa114f924723c2f49c7e9fff2d79cbe6a7efceadb9102434c760873f65183c4f6d85f762c775ad8fac6e065f4a15bb4a594dd68c30e98f22e6af50d678737c4cac4d59a1c0b7b3bf69759fe462df4d13662e40300964c7031d2299838bb67311c1e59e1572054df7a254830f400e0f7481f927d47779b9e64e93
+      modulus_length: 2048
+    c726f_09e9b_4c410dd4f11ece85d5d6da1491e2d400: 
+      created: '1487684399'
+      friendly_name: 2,048 bits, created 2/21/17, 1:39 PM UTC
+      id: c726f_09e9b_4c410dd4f11ece85d5d6da1491e2d400
+      modulus: c726f6f7555d54e0631a461b2ef4a7cb2120f92edb747e55cb321b8ccc3a2b58046abc6b6bd51fe06136fda50abcd0a073c224f1d35210d7b7335f9d9906ef26a487b6b5cbdf709569c807b36e34d22c288ae40657cdb358b6a2fb63cdff147c9c0a459f366e3487100cdb586df1d4ae8ab23810d00a39206e1e6920720410454083ac50a6907c2f43557a260cfbc796806b5fb4efdf9524cf50d23514b36fa06ae6f2d3674a4c3eb3e0f14d2f57c977f3c6b0475908fe80b9a4bd9037314691471cee9bfd61deef1c08d24d66c13d45f2bce90bd7f6b5f4008fe8afc273512fcc971ed617030110aea77cafe5f86b862cf42b820bacb57cceae1327b8b09e9b
+      modulus_length: 2048
+    d4148_028b7_34969303fc66ac96e4700fe0f66b8bbf: 
+      created: '1481193927'
+      friendly_name: 2,048 bits, created 12/8/16, 10:45 AM UTC
+      id: d4148_028b7_34969303fc66ac96e4700fe0f66b8bbf
+      modulus: d4148a4e1f136994ed99c2d86aaebce9f044926eec07dd73c738ecb53f6b16ae6b361df7399b53f67a1ebf71e1956184b72da163bd213a2573bb1ea88cbe30ef387e7de7075a92ac3fc4ef4aaf3e61febdb1582a6540cec2f93213449b9ea4dfcf2b8a451d7ef9c40940bb78161a21196a9f15fa68060103180753d75462b62255036e2f5de97f2c895cbfa0995daf7efe6c3562f5f6cfd11d1b3864cdb6759a12bac2d13eaccefb90ed6b6e125b2e2f89b7e21e2cb56870d854e07da6582e096a2f66300175c5100f38847952d35a75dc630e4e521f2812d8cb214798d4d4046f23204e2ddc9bd824d14c859e5318899154296d027a25914ded46769c7028b7
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      afce2619c73f5195a7ef2d1584dd0c60e12a83803d12c0a4857404f256af71dc7a073c51fbeffdf560d8a887f2260bb543083bd7acddef87c9054267a7d1c57add9366777cf5a0e762cbfb0659101c9fd5fc02bb7856bfbfd6862e6391ce42d36bdaacbf97f4f7d433db45e4b57902b7c4d827f171e72ec793b9cd4618928d42c197a49622aefa114f924723c2f49c7e9fff2d79cbe6a7efceadb9102434c760873f65183c4f6d85f762c775ad8fac6e065f4a15bb4a594dd68c30e98f22e6af50d678737c4cac4d59a1c0b7b3bf69759fe462df4d13662e40300964c7031d2299838bb67311c1e59e1572054df7a254830f400e0f7481f927d47779b9e64e93: 
+        csikarimnagardiocese_com_afce2_64e93_1502150399_1e14f58bfdf252d850762eeb163f335a: ~
+      c726f6f7555d54e0631a461b2ef4a7cb2120f92edb747e55cb321b8ccc3a2b58046abc6b6bd51fe06136fda50abcd0a073c224f1d35210d7b7335f9d9906ef26a487b6b5cbdf709569c807b36e34d22c288ae40657cdb358b6a2fb63cdff147c9c0a459f366e3487100cdb586df1d4ae8ab23810d00a39206e1e6920720410454083ac50a6907c2f43557a260cfbc796806b5fb4efdf9524cf50d23514b36fa06ae6f2d3674a4c3eb3e0f14d2f57c977f3c6b0475908fe80b9a4bd9037314691471cee9bfd61deef1c08d24d66c13d45f2bce90bd7f6b5f4008fe8afc273512fcc971ed617030110aea77cafe5f86b862cf42b820bacb57cceae1327b8b09e9b: 
+        csikarimnagardiocese_com_c726f_09e9b_1495497599_c0e507735a9d4d456204962210360a4f: ~
+      d4148a4e1f136994ed99c2d86aaebce9f044926eec07dd73c738ecb53f6b16ae6b361df7399b53f67a1ebf71e1956184b72da163bd213a2573bb1ea88cbe30ef387e7de7075a92ac3fc4ef4aaf3e61febdb1582a6540cec2f93213449b9ea4dfcf2b8a451d7ef9c40940bb78161a21196a9f15fa68060103180753d75462b62255036e2f5de97f2c895cbfa0995daf7efe6c3562f5f6cfd11d1b3864cdb6759a12bac2d13eaccefb90ed6b6e125b2e2f89b7e21e2cb56870d854e07da6582e096a2f66300175c5100f38847952d35a75dc630e4e521f2812d8cb214798d4d4046f23204e2ddc9bd824d14c859e5318899154296d027a25914ded46769c7028b7: 
+        csikarimnagardiocese_com_d4148_028b7_1488931199_59977efb1dc1d076922596dce577fd93: ~
+    subject.commonName: 
+      csikarimnagardiocese.com: 
+        csikarimnagardiocese_com_afce2_64e93_1502150399_1e14f58bfdf252d850762eeb163f335a: ~
+        csikarimnagardiocese_com_c726f_09e9b_1495497599_c0e507735a9d4d456204962210360a4f: ~
+        csikarimnagardiocese_com_d4148_028b7_1488931199_59977efb1dc1d076922596dce577fd93: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      csikarimnagardiocese.com, mail.csikarimnagardiocese.com, and www.csikarimnagardiocese.com: csikarimnagardiocese_com_d4148_028b7_1488931199_59977efb1dc1d076922596dce577fd93
+      csikarimnagardiocese.com, mail.csikarimnagardiocese.com, and www.csikarimnagardiocese.com 1: csikarimnagardiocese_com_c726f_09e9b_1495497599_c0e507735a9d4d456204962210360a4f
+      csikarimnagardiocese.com, mail.csikarimnagardiocese.com, and www.csikarimnagardiocese.com 2: csikarimnagardiocese_com_afce2_64e93_1502150399_1e14f58bfdf252d850762eeb163f335a
+  key: 
+    friendly_name: 
+      2,048 bits, created 12/8/16, 10:45 AM UTC: d4148_028b7_34969303fc66ac96e4700fe0f66b8bbf
+      2,048 bits, created 2/21/17, 1:39 PM UTC: c726f_09e9b_4c410dd4f11ece85d5d6da1491e2d400
+      2,048 bits, created 5/9/17, 7:15 AM UTC: afce2_64e93_69f867844b5d6869e1719ecce6b374ab
+    modulus: 
+      afce2619c73f5195a7ef2d1584dd0c60e12a83803d12c0a4857404f256af71dc7a073c51fbeffdf560d8a887f2260bb543083bd7acddef87c9054267a7d1c57add9366777cf5a0e762cbfb0659101c9fd5fc02bb7856bfbfd6862e6391ce42d36bdaacbf97f4f7d433db45e4b57902b7c4d827f171e72ec793b9cd4618928d42c197a49622aefa114f924723c2f49c7e9fff2d79cbe6a7efceadb9102434c760873f65183c4f6d85f762c775ad8fac6e065f4a15bb4a594dd68c30e98f22e6af50d678737c4cac4d59a1c0b7b3bf69759fe462df4d13662e40300964c7031d2299838bb67311c1e59e1572054df7a254830f400e0f7481f927d47779b9e64e93: afce2_64e93_69f867844b5d6869e1719ecce6b374ab
+      c726f6f7555d54e0631a461b2ef4a7cb2120f92edb747e55cb321b8ccc3a2b58046abc6b6bd51fe06136fda50abcd0a073c224f1d35210d7b7335f9d9906ef26a487b6b5cbdf709569c807b36e34d22c288ae40657cdb358b6a2fb63cdff147c9c0a459f366e3487100cdb586df1d4ae8ab23810d00a39206e1e6920720410454083ac50a6907c2f43557a260cfbc796806b5fb4efdf9524cf50d23514b36fa06ae6f2d3674a4c3eb3e0f14d2f57c977f3c6b0475908fe80b9a4bd9037314691471cee9bfd61deef1c08d24d66c13d45f2bce90bd7f6b5f4008fe8afc273512fcc971ed617030110aea77cafe5f86b862cf42b820bacb57cceae1327b8b09e9b: c726f_09e9b_4c410dd4f11ece85d5d6da1491e2d400
+      d4148a4e1f136994ed99c2d86aaebce9f044926eec07dd73c738ecb53f6b16ae6b361df7399b53f67a1ebf71e1956184b72da163bd213a2573bb1ea88cbe30ef387e7de7075a92ac3fc4ef4aaf3e61febdb1582a6540cec2f93213449b9ea4dfcf2b8a451d7ef9c40940bb78161a21196a9f15fa68060103180753d75462b62255036e2f5de97f2c895cbfa0995daf7efe6c3562f5f6cfd11d1b3864cdb6759a12bac2d13eaccefb90ed6b6e125b2e2f89b7e21e2cb56870d854e07da6582e096a2f66300175c5100f38847952d35a75dc630e4e521f2812d8cb214798d4d4046f23204e2ddc9bd824d14c859e5318899154296d027a25914ded46769c7028b7: d4148_028b7_34969303fc66ac96e4700fe0f66b8bbf

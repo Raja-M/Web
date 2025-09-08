@@ -93,9 +93,9 @@ const MainHeader = () => {
                     variant="h1"
                     sx={{
                       fontFamily: '"DM Serif Text", serif',
-                      fontWeight: 600,
+                      fontWeight: 700,
                       fontStyle: 'normal',
-                      fontSize: '5rem',
+                      fontSize: '4rem',
                       letterSpacing: '0.05em',
                     }}
                   >
@@ -165,7 +165,8 @@ const MainHeader = () => {
                      onClick={handleClick}
                      sx={{ flex: 1, color: 'white' }}
                    >
-                     Home
+                     
+                      
                    </Button>
                    <Button
                      onClick={handleClick}

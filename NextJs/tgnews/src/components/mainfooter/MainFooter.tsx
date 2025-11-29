@@ -8,7 +8,7 @@ const MainFooter = () => {
         <a  target="_blank"  href="https://www.facebook.com/tgnews.co/"> https://www.facebook.com/tgnews.co/ </a>
     </Box>
     <Box    >
-        <a  target="_blank" href="https://x.com/tgnews_com">https://x.com/tgnews_com </a>
+        <a  target="_blank" href="https://x.com/tgnews_com">click this link https://x.com/tgnews_com  </a>
     
     </Box>
   </Box>

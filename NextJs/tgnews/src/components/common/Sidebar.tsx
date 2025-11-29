@@ -1,7 +1,7 @@
 import { Box } from '@mui/material'
 import React from 'react'
 
-function Sidebar() {
+const Sidebar = () => {
   return (
     <Box  flex={1}  sx={{ minHeight: "200px", display: "flex", flexDirection: "column", justifyContent: "flex-start" , px: 2   }}> 
       <Box    sx={{ height: "100%",  border: "1px" ,   justifyContent: "flex-start" }} >

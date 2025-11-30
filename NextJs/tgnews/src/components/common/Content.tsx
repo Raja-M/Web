@@ -7,10 +7,10 @@ function Content() {
        
        <Box    sx={{  width: "100%",  display: "flex", flexDirection: "column",    paddingBottom: 2, py: 2  }} >
           <Typography  variant="h1" sx={{ fontSize: "2rem", fontWeight: "bold", color: "black" }} >
-          The election process for the Telangana Legislative Council (MLC) is in progress
+          Gram Panchayat Elections-2025 is in progress
           </Typography>
           <Box    sx={{ height: "50vh",  width: "100%",  border: "1px" , borderStyle: "Sold", borderColor: "black" }} >
-            <img src="/assets/MLC.png" style={{ height: "100%", width: "100%", objectFit: "cover" }} alt="Logo" />
+            <img src="/assets/Election.jpg" style={{ height: "100%", width: "100%", objectFit: "cover" }} alt="Logo" />
           </Box>
         </Box> 
 
@@ -20,9 +20,8 @@ function Content() {
             <img src="/assets/RevanthReddy.jpg" style={{ height: "100%", width: "100%", objectFit: "fill" }} alt="Logo" />
           </Box>
            <Box sx={{ flex: 2,   alignSelf: "flex-start",   }}> 
-            <Typography  sx={{ fontSize: "1rem", color: "black" }} > Hyderabad: Telangana Chief Minister A. Revanth Reddy 
-            met Congress leader Rahul Gandhi in Delhi on Saturday and extended an invitation for two public meetings in the state. 
-            The events will mark the completion of a detailed caste survey and the categorization of Scheduled Castes.
+            <Typography  sx={{ fontSize: "1rem", color: "black" }} > The State Election Commission (SEC) of Telangana has officially initiated the first phase of the Gram Panchayat Elections-2025. 
+              The election notice was issued on Thursday, November 27, 2025, by the Returning Officer, setting the electoral process in motion for thousands of local government positions.
             </Typography>
            </Box>
         </Box>
@@ -31,10 +30,11 @@ function Content() {
             <img src="/assets/SridharBabu.jpeg" style={{ height: "100%", width: "100%", objectFit: "fill" }} alt="Logo" />
           </Box>
            <Box sx={{ flex: 2,   alignSelf: "flex-start",   }}> 
-            <Typography  sx={{ fontSize: "1rem", color: "black" }} > Hyderabad: Telangana IT and Industries Minister Duddilla Sridhar Babu emphasized on Friday 
-            said that the state has played a crucial role in India's economic growth and urged the Union government to fulfill its commitments made during bifurcation.
-             He called for greater budgetary support, highlighting the need for increased allocations in key sectors such as
-              education, IT, industries, healthcare, and panchayat raj.
+            <Typography  sx={{ fontSize: "1rem", color: "black" }} > Key Details at a Glance Aspect	Details
+Election Body	                    : Telangana State Election Commission (SEC)
+Phase	First Phase Date of Notice	: Thursday, November 27, 2025
+Posts to be Filled	              : 4,236 Sarpanch & 37,440 Ward Member
+Key Voter Action                  :	Voter list will be displayed at Gram Panchayat offices.
             </Typography>
 
            </Box>
@@ -46,16 +46,25 @@ function Content() {
           </Box>
            <Box sx={{ flex: 2,   alignSelf: "flex-start",   }}> 
             <Typography  sx={{ fontSize: "1rem", color: "black" }} >  
-            Hyderabad: Rabi (Yasangi) farmers in Telangana are facing growing distress as they reach the midpoint of the crop season. 
-           While a significant portion of the crops still requires irrigation for another 2 months, some areas need water for an additional 15 days.
-            However, uncertainty looms over their survival. With a severe shortage of irrigation water, many farmers are struggling to sustain their 
-            crops.
+            Official Start: The issuance of the election notice is the formal beginning of the election process for this phase. It triggers a series of events like filing nominations, scrutiny, and polling.
+
+Scale of Elections: The first phase alone is massive, covering over 4,000 villages (each with one Sarpanch) and nearly 37,500 ward-level constituencies.
+
+Voter Verification: The display of the voters list at Gram Panchayat offices is a critical step. It allows voters to check their names, ensure details are correct, and raise objections or make corrections if necessary before the polls.
             </Typography>
 
            </Box>
         </Box>
         
-        API Call results can be shown here
+        Filing of Nominations: Candidates will submit their nomination papers to the Returning Officer.
+
+Scrutiny of Nominations: The submitted papers will be verified for validity.
+
+Withdrawal of Candidatures: Candidates can choose to withdraw their nominations.
+
+Final List of Candidates: A final list of contesting candidates will be published.
+
+Polling Date: The actual date for voting will be announced.v
         
     </Box>
   )

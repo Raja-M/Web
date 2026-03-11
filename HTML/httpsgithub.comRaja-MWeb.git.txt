@@ -1,0 +1,26 @@
+https://github.com/Raja-M/Web.git
+
+develop-mar-2026-akhil
+
+git bash
+
+
+git clone https://github.com/Raja-M/Web.git
+
+cd web
+cd HTML
+
+\Web\HTML
+
+git pull
+
+git checkout develop-mar-2026-akhil
+
+git status 
+
+git add  Basics.html
+
+
+git commit -m "Basics part1"
+
+git push

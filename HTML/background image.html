@@ -2,17 +2,23 @@
 <html>
 <head>
 <style>
-
+  body {
+    /* Use the url() function and forward slashes */
+    background-image: url('file:///C:/Users/Akhil/Desktop/Images/nature.jpg');
+    
+    /* These properties handle the stretching */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+  }
 </style>
 </head>
-<body 
-  background="nature.jpg">
-
 <body>
 
 <h2>Background Stretch</h2>
-
-<p>Set the background-size property to "100% 100%" and the background image will be stretched to cover the entire element, in this case the body element.</p>
+<p>The background image is now stretched to cover the entire body element.</p>
 
 </body>
 </html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Image:</p>
+<img id="pic" src="C:/Users/Akhil/Desktop/Images/nature.jpg" alt="Nature" width="200" height="150">
+
+<p>Canvas:</p>
+<canvas id="myCanvas" width="300" height="200" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML canvas tag.
+</canvas>
+
+<p><button onclick="drawImg()">Show Image</button></p>
+
+<script>
+function drawImg() {
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  var img = document.getElementById("pic");
+  ctx.drawImage(img, 50, 30);
+}
+</script>
+
+</body>
+</html>

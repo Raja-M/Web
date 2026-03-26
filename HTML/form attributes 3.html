@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Feedback Form</h2>
+
+<form action="/feedback.php">
+  <label for="fname">Name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+
+  <textarea name="message"></textarea><br><br>
+
+  <input type="submit" value="Send Feedback">
+  <input type="submit" formaction="/save_draft.php" value="Save Draft">
+</form>
+
+</body>
+</html>

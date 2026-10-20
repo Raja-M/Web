@@ -1,0 +1,3444 @@
+# Webalizer V2.23-05 Incremental Data - 06/30/2017 19:56:22
+2017 6 30 19 56 22
+9458 7489 777 171 83 206 150718202 924 617 0
+23 1 222 1 30
+141 100 2781838 27 10 9
+284 244 3582877 40 42 18
+195 137 3372788 41 21 18
+388 341 6410049 36 19 17
+152 103 1699915 42 23 23
+476 382 9300375 38 47 20
+321 204 5027944 29 23 18
+102 81 2691343 28 23 21
+506 406 9255332 37 44 17
+235 198 3759862 41 21 20
+92 56 1943529 40 21 21
+161 125 2699860 29 44 20
+329 272 4620028 56 27 23
+442 365 7067457 65 56 32
+636 503 11678264 62 37 21
+235 178 3100084 39 30 21
+654 523 9773723 49 35 25
+126 95 1816331 33 24 18
+518 428 8098953 38 32 17
+127 99 2688136 75 33 27
+444 335 5960409 81 23 20
+247 179 3823239 41 47 24
+248 199 3420323 36 25 23
+439 384 6520152 59 24 18
+523 446 7190703 37 26 20
+325 241 5515891 43 42 27
+268 201 4456807 56 43 26
+608 518 8412039 28 45 21
+133 83 2254348 37 24 20
+103 63 1795603 23 13 12
+0 0 0 0 0 0
+68 36 1003083 9
+186 115 2894755 39
+79 33 469155 24
+88 45 1675498 42
+195 150 3530973 41
+255 193 4710337 34
+209 165 3133461 25
+438 363 5842179 27
+784 633 11174100 61
+541 448 8022910 38
+710 561 12753699 76
+587 472 11897604 26
+658 536 11976949 41
+197 150 4309908 30
+556 469 9438407 60
+410 286 6346223 33
+333 251 6140269 36
+351 283 7010060 32
+279 212 4774307 46
+518 399 6626730 37
+305 262 3826155 33
+418 301 5716581 44
+516 444 6653712 29
+777 682 10791147 61
+0
+0
+0
+7489
+0
+0
+0
+0
+0
+26
+0
+0
+0
+0
+380
+0
+0
+0
+0
+0
+0
+1563
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/images/image029.jpg
+0 16 8028073654081892401 66600 0 0
+/images/twitter0.png
+0 89 22868 94920 0 0
+/images/March2017.jpg
+0 1 470020206190 0 0 0
+/images/image040.jpg
+0 18 3275365297555729664 364021 0 0
+/images/image003.jpg
+0 21 3688730669304774656 179500 0 0
+/images/image068.jpg
+0 16 3328216410948186418 58350 0 0
+/images/image083.jpg
+0 19 3616722764568866352 98379 0 0
+/images/youtube0.png
+0 89 8242820375032783721 79716 0 0
+/images/image1.jpg
+0 99 87035339959644462 8449259 0 0
+/images/image043.jpg
+0 18 8243121136808755200 122944 0 0
+/images/jquery03.js
+0 125 3832895559550697728 295239 0 0
+/images/ddsmooth.css
+0 138 0 358036 0 0
+/images/green000.css
+0 127 0 3660 0 0
+/images/image023.jpg
+0 16 0 107790 0 0
+/images/image019.jpg
+0 18 0 187833 0 0
+/images/image006.jpg
+0 21 0 159048 0 0
+/images/image090.jpg
+0 16 0 78498 0 0
+/images/image008.jpg
+0 19 0 115974 0 0
+/images/jquery08.js
+0 121 0 341991 0 0
+/images/image044.jpg
+0 18 0 112160 0 0
+/images/image031.jpg
+0 18 0 207417 0 0
+/images/image051.jpg
+0 19 0 112336 0 0
+/images/image027.jpg
+0 16 0 106515 0 0
+/images/roundabo.jpg
+0 86 0 1113294 0 0
+/images/style000.css
+0 139 0 5474790 0 0
+/images/cufon-yu.js
+0 110 0 1917090 0 0
+/images/image010.jpg
+0 18 0 133875 0 0
+/images/image061.jpg
+0 17 0 139648 0 0
+/images/image038.jpg
+0 19 0 166976 0 0
+/images/image091.jpg
+0 16 0 88829 0 0
+/images/image047.jpg
+0 16 0 66375 0 0
+/images/april 2017.jpg
+0 5 0 1252210 0 0
+/images/image097.jpg
+0 15 0 189420 0 0
+/images/image6.jpg
+0 92 0 11941099 0 0
+/images/image049.jpg
+0 18 0 63968 0 0
+/images/image8.jpg
+0 88 0 11334120 0 0
+/statement03.html
+0 18 0 284706 6 0
+/images/image026.jpg
+0 16 0 127680 0 0
+/images/image045.jpg
+0 17 0 118380 0 0
+/images/prettyPh.css
+0 126 0 2044137 0 0
+/images/transpar.png
+0 56 7308830314132304485 154220 0 0
+/images/image078.jpg
+0 16 3976959945944858624 95865 0 0
+/images/jquery00.js
+0 128 3543827364142186496 11337430 0 0
+/images/image095.jpg
+0 17 30803244232897389 191136 0 0
+/images/image037.jpg
+0 16 8390032857336971264 94710 0 0
+/images/flickr00.png
+0 88 3832845857380630528 72744 0 0
+/images/image062.jpg
+0 18 7306085860425741360 116160 0 0
+/images/image012.jpg
+0 17 3258409516437340160 117328 0 0
+/images/image024.jpg
+0 17 0 97695 0 0
+/statement05.html
+0 25 0 375584 12 7
+/images/image011.jpg
+0 16 0 119685 0 0
+/images/image017.jpg
+0 19 0 197280 0 0
+/images/may 2017.jpg
+0 11 0 1959176 0 0
+/images/image099.jpg
+0 16 0 281664 0 0
+/images/logo.png
+0 116 0 2273130 0 0
+/images/image046.jpg
+0 17 0 67696 0 0
+/images/image018.jpg
+0 16 0 106590 0 0
+/statement04.html
+0 19 0 214540 5 1
+/images/pdf00000.gif
+0 76 0 250632 0 0
+/images/filterab.js
+0 122 0 200364 0 0
+/images/image030.jpg
+0 18 0 76296 0 0
+/images/image009.jpg
+0 17 0 92960 0 0
+/images/image052.jpg
+0 18 0 112608 0 0
+/images/image096.jpg
+0 15 0 168840 0 0
+/images/image071.jpg
+0 17 0 141424 0 0
+/images/image033.jpg
+0 16 0 175440 0 0
+/images/image036.jpg
+0 15 0 106414 0 0
+/images/image072.jpg
+0 18 0 247350 0 0
+/images/custom_s.css
+0 132 0 52632 0 0
+/images/image094.jpg
+0 17 0 90440 0 0
+/images/function.js
+0 97 0 312852 0 0
+/images/rss00000.png
+0 90 0 111945 0 0
+/images/image056.jpg
+0 16 0 86730 0 0
+/images/image039.jpg
+0 19 0 268650 0 0
+/images/image086.jpg
+0 17 0 74416 0 0
+/images/image014.jpg
+0 18 0 71010 0 0
+/images/image079.jpg
+0 16 0 106995 0 0
+/statements/oct 2015 to dece 2015.pdf
+0 3 3531103582835179629 1361916 0 0
+/images/jquery04.js
+0 113 7885630523621731630 4686564 0 0
+/images/jquery05.js
+0 114 8026098927956656128 2018390 0 0
+/images/image077.jpg
+0 17 6419791267797283374 274352 0 0
+/images/image055.jpg
+0 17 1852386932 109248 0 0
+/images/image5.jpg
+0 99 7596835273554799984 9375436 0 0
+/images/image063.jpg
+0 16 126934242389867 90286 0 0
+/images/roundabo.css
+0 137 8462653405468193381 120734 0 0
+/news.htm
+0 93 3834864780647936048 7028436 59 17
+/images/line-div.jpg
+0 82 0 840640 0 0
+/images/image102.jpg
+0 14 0 154546 0 0
+/images/image060.jpg
+0 17 0 88544 0 0
+/images/side_image2.jpg
+0 27 0 354267 0 0
+/images/jquery06.js
+0 129 0 593352 0 0
+/images/image081.jpg
+0 18 0 105383 0 0
+/images/comment-.js
+0 121 0 91962 0 0
+/images/image070.jpg
+0 19 0 145386 0 0
+/images/kwicks00.css
+0 136 0 288610 0 0
+/images/image058.jpg
+0 17 0 86608 0 0
+/images/june 2017.jpg
+0 13 0 5945832 0 0
+/images/image028.jpg
+0 16 0 67965 0 0
+/images/facebook.png
+0 87 0 85362 0 0
+/statement02.html
+0 20 0 357941 7 4
+/images/image098.jpg
+0 18 0 168705 0 0
+/images/image069.jpg
+0 16 0 80310 0 0
+/images/jquery01.js
+0 120 0 2834838 0 0
+/images/linkedin.png
+0 86 0 93234 0 0
+/images/image076.jpg
+0 17 0 445936 0 0
+/images/Titilliu.js
+0 119 0 3831225 0 0
+/images/jquery02.js
+0 127 0 1949919 0 0
+/images/icon-3.png
+0 70 0 156750 0 0
+/images/image101.jpg
+0 14 0 140868 0 0
+/images/image054.jpg
+0 19 0 88956 0 0
+/images/icon-2.png
+0 73 0 236394 0 0
+/images/image042.jpg
+0 21 0 338380 0 0
+/images/image041.jpg
+0 20 0 182058 0 0
+/images/image067.jpg
+0 17 0 60150 0 0
+/images/image082.jpg
+0 16 0 88170 0 0
+/images/image013.jpg
+0 16 1701064306 125445 0 0
+/images/image057.jpg
+0 17 8386112019185546797 91888 0 0
+/images/image092.jpg
+0 14 1478282579 85787 0 0
+/images/image075.jpg
+0 20 7885630523621731630 448818 0 0
+/images/image066.jpg
+0 16 7092733375143739392 56130 0 0
+/images/icon-1.png
+0 72 0 321164 0 0
+/images/image022.jpg
+0 18 3615600171786531951 84949 0 0
+/images/icon.png
+0 76 120325172786037 263968 0 0
+/images/image073.jpg
+0 16 0 127425 0 0
+/images/image065.jpg
+0 16 0 107590 0 0
+/images/image050.jpg
+0 16 0 90090 0 0
+/images/image035.jpg
+0 16 0 83700 0 0
+/images/lightbox.css
+0 117 0 447108 0 0
+/images/image074.jpg
+0 18 0 124882 0 0
+/images/image020.jpg
+0 16 0 79110 0 0
+/images/ddsmooth.js
+0 126 0 1049810 0 0
+/images/image085.jpg
+0 17 0 66540 0 0
+/
+0 548 0 6584697 461 208
+/images/image007.jpg
+0 19 0 109026 0 0
+/contact.htm
+0 76 0 709122 27 9
+/images/image088.jpg
+0 17 0 115504 0 0
+/images/side_image1.jpg
+0 26 0 334334 0 0
+/images/image034.jpg
+0 18 0 116768 0 0
+/images/image048.jpg
+0 16 0 62355 0 0
+/images/lightbox.js
+0 90 0 1024164 0 0
+/images/image4.jpg
+0 108 0 14011282 0 0
+/images/image032.jpg
+0 18 0 153680 0 0
+/images/jquery09.js
+0 110 0 264718 0 0
+/images/image093.jpg
+0 16 0 108735 0 0
+/statement06.html
+0 20 0 261040 4 3
+/images/Feb.jpg
+0 1 0 0 0 0
+/statement01.html
+0 23 0 335892 10 2
+/images/image021.jpg
+0 18 0 113664 0 0
+/images/image084.jpg
+0 16 0 54705 0 0
+/images/image100.jpg
+0 17 0 122626 0 0
+/images/image103.jpg
+0 14 0 101332 0 0
+/images/image064.jpg
+0 15 0 100352 0 0
+/images/image059.jpg
+0 17 72057594037927936 70016 0 0
+/statement.htm
+0 45 3531103582835179629 457649 15 10
+/images/jquery07.js
+0 117 7309955938284025648 335384 0 0
+/images/image004.jpg
+0 18 3474577935723017525 148648 0 0
+/images/image025.jpg
+0 20 7867340375392871795 101524 0 0
+/images/image015.jpg
+0 17 3328780460413432064 65536 0 0
+/images/page-hea.jpg
+0 26 3615881646760329216 1625121 0 0
+/images/image002.jpg
+0 24 3615604565471343922 279884 0 0
+/images/page-hea1.jpg
+0 44 0 2671934 0 0
+/images/image005.jpg
+0 19 0 186912 0 0
+/images/image016.jpg
+0 21 0 105460 0 0
+/images/image080.jpg
+0 17 0 90345 0 0
+/images/nivo-sli.css
+0 147 0 402048 0 0
+/images/image104.jpg
+0 16 0 172320 0 0
+/images/image089.jpg
+0 16 0 132660 0 0
+/images/Client1.jpg
+0 35 0 1477028 0 0
+/images/reset000.css
+0 133 0 129792 0 0
+/images/image087.jpg
+0 16 0 71685 0 0
+/images/image053.jpg
+0 20 0 110789 0 0
+# End Of Table - urls
+# -sites- (monthly)
+5.250.151.41
+0 1 0 0 0 0
+-
+static.16.53.201.138.clients.your-server.de
+0 1 0 0 0 0
+-
+fulltextrobot-77-75-77-36.seznam.cz
+0 1 0 0 0 0
+-
+msnbot-199-30-24-89.search.msn.com
+0 1 1 18349 0 0
+-
+msnbot-40-77-167-121.search.msn.com
+0 6 6 129256 0 0
+-
+46.229.168.74
+0 1 1 17072 1 1497989540
+/statement05.html
+msnbot-199-30-24-203.search.msn.com
+0 1 1 8744 0 0
+-
+nicefoundation.in
+0 2 2 350829 0 0
+-
+crawl-66-249-75-8.googlebot.com
+0 3 2 3100 0 0
+-
+msnbot-199-30-25-146.search.msn.com
+0 1 1 137254 0 0
+-
+2.92.32.178
+0 47 46 729179 1 1498298568
+/contact.htm
+b110359.yse.yahoo.net
+0 1 0 0 0 0
+-
+107.24.192.35.bc.googleusercontent.com
+0 1 1 12786 1 1497557157
+/
+159.203.81.93
+0 1 1 10643 1 1497661694
+/statement.htm
+157.48.1.57
+0 3 3 365517 0 0
+-
+google-proxy-66-249-82-197.google.com
+0 1 1 12722 0 0
+-
+msnbot-199-30-25-191.search.msn.com
+0 1 1 30 0 0
+-
+blexhn31.webmeup.com
+0 4 0 0 0 0
+-
+msnbot-157-55-39-15.search.msn.com
+0 1 0 0 0 0
+-
+msnbot-199-30-24-46.search.msn.com
+0 2 2 52326 0 0
+-
+54.e1.2bd0.ip4.static.sl-reverse.com
+0 35 33 577169 5 1498692555
+/
+fulltextrobot-77-75-77-72.seznam.cz
+0 4 2 105921 0 0
+-
+gdfert133.mailduyum.net
+0 3 0 0 0 0
+-
+fulltextrobot-77-75-79-72.seznam.cz
+0 4 2 19877 1 1498365083
+/statement01.html
+107.170.96.6
+0 1 1 12786 1 1497661722
+/
+crawl-66-249-66-133.googlebot.com
+0 2 2 25570 2 1496416316
+/
+carbon052.a.ahrefs.com
+0 10 0 0 0 0
+-
+202.133.54.23
+0 4 2 283156 0 0
+-
+63.243.252.50
+0 1 0 0 1 1497896131
+/
+msnbot-199-30-24-30.search.msn.com
+0 4 4 41659 0 0
+-
+spider-141-8-143-230.yandex.com
+0 6 4 90072 2 1498832344
+/statement01.html
+msnbot-207-46-13-196.search.msn.com
+0 2 0 0 0 0
+-
+40.77.179.67
+0 42 37 801502 0 0
+-
+40.77.178.238
+0 14 11 83529 0 0
+-
+msnbot-65-55-210-59.search.msn.com
+0 7 6 147949 0 0
+-
+msnbot-199-30-24-93.search.msn.com
+0 2 2 7966 0 0
+-
+msnbot-207-46-13-6.search.msn.com
+0 5 4 51144 4 1497796398
+/
+89.235.88.137
+0 1 0 0 0 0
+-
+msnbot-65-55-210-110.search.msn.com
+0 1 0 0 0 0
+-
+msnbot-157-55-39-47.search.msn.com
+0 5 0 0 0 0
+-
+msnbot-199-30-24-183.search.msn.com
+0 7 6 60095 0 0
+-
+bbb73da1.virtua.com.br
+0 1 0 0 1 1498733663
+-
+baiduspider-180-76-15-9.crawl.baidu.com
+0 2 0 0 0 0
+-
+msnbot-40-77-167-124.search.msn.com
+0 3 2 25572 2 1498845763
+/
+msnbot-157-55-39-0.search.msn.com
+0 4 0 0 0 0
+-
+104.236.233.37
+0 24 22 439318 1 1498127069
+/statement05.html
+213-13-86-185.ip.idealhosting.net.tr
+0 1 0 0 0 0
+-
+fulltextrobot-77-75-78-169.seznam.cz
+0 4 2 20018 1 1498575703
+/
+hydrogen180.a.ahrefs.com
+0 1 1 81726 1 1497193013
+/news.htm
+hydrogen125.a.ahrefs.com
+0 1 1 12786 1 1497821818
+/
+163.1.192.35.bc.googleusercontent.com
+0 1 0 0 0 0
+-
+157.48.2.138
+0 39 34 599085 1 1496605266
+/news.htm
+195-164.86.185.ip.idealhosting.net.tr
+0 2 0 0 0 0
+-
+173.252.124.198
+0 1 1 9000 0 0
+-
+static-223.65.99.14-tataidc.co.in
+0 66 53 1164028 1 1496830946
+/statement06.html
+fulltextrobot-77-75-77-62.seznam.cz
+0 8 4 32707 0 0
+-
+103.214.232.41
+0 53 2 25572 1 1498057916
+/
+vz29.hostlife.net
+0 1 1 12786 1 1497089168
+/
+163-172-4-153.rev.poneytelecom.eu
+0 5 5 63928 5 1498287069
+/
+msnbot-207-46-13-190.search.msn.com
+0 15 15 296893 2 1498273799
+/
+msnbot-199-30-24-62.search.msn.com
+0 2 2 11294 0 0
+-
+173.252.124.224
+0 1 1 12785 1 1496435066
+/
+msnbot-157-55-39-177.search.msn.com
+0 20 20 542572 2 1498557408
+/
+msnbot-157-55-39-172.search.msn.com
+0 6 6 275748 1 1496466067
+/news.htm
+ec2-13-58-187-100.us-east-2.compute.amazonaws.com
+0 1 1 12786 1 1497170052
+/
+msnbot-157-55-2-181.search.msn.com
+0 9 8 146802 0 0
+-
+106.66.128.184
+0 53 48 1544897 1 1497742580
+/
+msnbot-65-55-210-6.search.msn.com
+0 15 14 235975 0 0
+-
+spider-77-88-47-23.yandex.com
+0 1 0 0 0 0
+-
+46-118-124-89.broadband.kyivstar.net
+0 4 0 0 2 1498721700
+/
+msnbot-40-77-167-96.search.msn.com
+0 10 8 177764 0 0
+-
+customer.worldstream.nl
+0 1 1 12786 1 1496827393
+/
+msnbot-157-55-39-11.search.msn.com
+0 3 3 123681 1 1497507174
+/
+fulltextrobot-77-75-77-17.seznam.cz
+0 7 3 27551 0 0
+-
+fulltextrobot-77-75-76-171.seznam.cz
+0 2 1 7010 0 0
+-
+google-proxy-66-102-6-135.google.com
+0 47 46 535835 0 0
+-
+103.89.40.254
+0 2 2 230587 0 0
+-
+202.133.54.20
+0 47 42 637976 2 1498062504
+/
+msnbot-40-77-167-156.search.msn.com
+0 13 12 364048 4 1496891983
+/
+msnbot-65-55-210-68.search.msn.com
+0 5 4 28512 0 0
+-
+msnbot-157-55-39-26.search.msn.com
+0 1 0 0 0 0
+-
+61.72.202.155
+0 1 0 0 1 1497704073
+-
+ec2-34-223-218-57.us-west-2.compute.amazonaws.com
+0 1 1 12785 1 1496703434
+/
+ec2-52-213-135-50.eu-west-1.compute.amazonaws.com
+0 2 1 12785 1 1496519577
+/
+hydrogen337.a.ahrefs.com
+0 1 1 10643 1 1496556267
+/statement.htm
+msnbot-199-30-24-185.search.msn.com
+0 2 2 36599 0 0
+-
+msnbot-199-30-24-228.search.msn.com
+0 1 0 0 0 0
+-
+msnbot-207-46-13-3.search.msn.com
+0 9 8 180426 0 0
+-
+fulltextrobot-77-75-79-109.seznam.cz
+0 9 4 35092 0 0
+-
+google-proxy-66-102-7-227.google.com
+0 22 20 490080 0 0
+-
+google-proxy-66-102-6-105.google.com
+0 27 24 737335 1 1497597874
+/
+193.201.225.45
+0 1 1 12786 1 1497787796
+/
+spider-141-8-143-178.yandex.com
+0 3 1 12786 1 1497147282
+/
+117.213.168.179
+0 1 1 141578 0 0
+-
+spider-100-43-81-139.yandex.com
+0 5 3 35286 3 1498836167
+/
+95.85.43.170
+0 7 5 131450 1 1498743064
+/contact.htm
+40.77.178.147
+0 8 4 14244 0 0
+-
+server.wearelondoners.net
+0 2 0 0 0 0
+-
+fulltextrobot-77-75-76-168.seznam.cz
+0 2 0 0 1 1497750522
+/statement04.html
+46.229.164.100
+0 5 0 0 0 0
+-
+msnbot-199-30-25-54.search.msn.com
+0 3 3 26009 0 0
+-
+204.79.180.10
+0 1 1 4824 0 0
+-
+74.e9.36a9.ip4.static.sl-reverse.com
+0 3 3 38358 1 1498625683
+/
+robot.deusu.de
+0 2 1 12786 1 1497051525
+/
+baiduspider-180-76-15-143.crawl.baidu.com
+0 1 0 0 0 0
+-
+204.79.180.18
+0 1 1 16619 0 0
+-
+b115433.yse.yahoo.net
+0 2 0 0 1 1496586865
+/
+84-201-133-43.spider.yandex.com
+0 3 2 27390 2 1497063158
+/
+a59.sub213.net78.udm.net
+0 1 0 0 0 0
+-
+google-proxy-66-102-6-103.google.com
+0 18 17 316328 1 1496605109
+/
+dolabuy.example.com
+0 2 0 0 0 0
+-
+msnbot-199-30-24-234.search.msn.com
+0 1 0 0 0 0
+-
+150-242-62-49.dhcp.tripleplay.in
+0 2 1 12785 1 1496611459
+/
+192.241.159.130
+0 1 0 0 0 0
+-
+ec2-34-207-98-73.compute-1.amazonaws.com
+0 3 2 22499 1 1496770024
+/contact.htm
+117.206.241.252
+0 80 56 1255558 1 1498675989
+/
+ns322237.ip-213-251-184.eu
+0 1 0 0 0 0
+-
+190.85.146.156
+0 2 0 0 0 0
+-
+blf.ediantra.com
+0 1 0 0 0 0
+-
+msnbot-65-55-210-204.search.msn.com
+0 1 1 2170 0 0
+-
+fulltextrobot-77-75-77-32.seznam.cz
+0 2 1 12786 1 1498821103
+/
+a01-10-02.opera-mini.net
+0 397 345 6310018 2 1497905764
+/
+46.229.168.68
+0 3 3 42534 2 1498540358
+/statement.htm
+msnbot-157-55-39-14.search.msn.com
+0 1 0 0 0 0
+-
+117.213.170.78
+0 4 4 507095 0 0
+-
+hydrogen058.a.ahrefs.com
+0 1 1 9714 1 1496944011
+/contact.htm
+msnbot-199-30-25-174.search.msn.com
+0 4 4 59099 0 0
+-
+msnbot-65-55-210-44.search.msn.com
+0 2 2 11834 0 0
+-
+google-proxy-66-102-6-5.google.com
+0 42 37 514836 1 1496824219
+/
+52.95.75.0
+0 53 47 1049411 1 1497099384
+/
+c-75-72-74-123.hsd1.mn.comcast.net
+0 1 0 0 0 0
+-
+mta-01-spark3.requestedoffers.clu
+0 3 0 0 0 0
+-
+fulltextrobot-77-75-78-162.seznam.cz
+0 5 3 25750 0 0
+-
+spider-141-8-143-236.yandex.com
+0 2 1 17072 1 1498652478
+/statement05.html
+hydrogen181.a.ahrefs.com
+0 1 1 12786 1 1498235622
+/
+59.44.47.106
+0 2 0 0 0 0
+-
+46.229.164.98
+0 14 0 0 0 0
+-
+40.77.179.146
+0 23 18 263641 0 0
+-
+msnbot-157-55-39-54.search.msn.com
+0 6 3 38355 3 1496565344
+/
+msnbot-199-30-25-189.search.msn.com
+0 3 2 20991 0 0
+-
+msnbot-207-46-13-197.search.msn.com
+0 1 0 0 0 0
+-
+baiduspider-180-76-15-149.crawl.baidu.com
+0 3 2 15709 1 1498686916
+/
+91.106.49.145
+0 1 0 0 0 0
+-
+ns323296.ip-176-31-236.eu
+0 3 0 0 1 1497290063
+-
+121.141.59.199
+0 1 1 12786 1 1497704071
+/
+msnbot-199-30-25-186.search.msn.com
+0 42 40 971896 0 0
+-
+spider-178-154-189-204.yandex.com
+0 2 0 0 1 1498205568
+/
+hydrogen064.a.ahrefs.com
+0 1 1 12620 1 1496825181
+/statement04.html
+msnbot-157-55-39-20.search.msn.com
+0 2 0 0 0 0
+-
+msnbot-199-30-24-22.search.msn.com
+0 7 6 139231 0 0
+-
+178.90.250.222.megaline.telecom.kz
+0 1 0 0 0 0
+-
+msnbot-199-30-24-162.search.msn.com
+0 2 2 7305 0 0
+-
+47.29.11.224
+0 45 42 1036611 1 1498073732
+/
+spider-5-255-250-47.yandex.com
+0 2 1 12786 1 1496892537
+/
+msnbot-199-30-25-7.search.msn.com
+0 3 3 26607 0 0
+-
+hydrogen056.a.ahrefs.com
+0 1 1 9714 1 1498109600
+/contact.htm
+msnbot-199-30-25-111.search.msn.com
+0 2 2 135796 0 0
+-
+hydrogen319.a.ahrefs.com
+0 1 1 17072 1 1496905877
+/statement05.html
+ec2-107-21-1-8.compute-1.amazonaws.com
+0 4 4 32804 2 1497923602
+/
+40.77.179.151
+0 49 44 1014751 0 0
+-
+216.244.66.243
+0 8 4 189024 3 1497750470
+/
+fulltextrobot-77-75-79-62.seznam.cz
+0 2 0 0 0 0
+-
+baiduspider-180-76-15-156.crawl.baidu.com
+0 1 0 0 1 1497668943
+/
+msnbot-207-46-13-198.search.msn.com
+0 1 0 0 0 0
+-
+crawl-66-249-79-140.googlebot.com
+0 8 4 43092 2 1497143423
+/
+37.231.108.9
+0 167 157 2595074 1 1497043631
+/news.htm
+baiduspider-180-76-15-7.crawl.baidu.com
+0 2 2 12506 1 1497082227
+/contact.htm
+42.104.97.19
+0 60 49 1129918 1 1497528786
+/contact.htm
+hydrogen270.a.ahrefs.com
+0 1 1 15817 1 1497411569
+/statement03.html
+msnbot-199-30-25-51.search.msn.com
+0 1 1 6608 0 0
+-
+216.244.66.246
+0 2 1 12786 1 1497450157
+/
+60.174.72.241
+0 1 0 0 0 0
+-
+server-mx14.brigterjobs.site
+0 5 0 0 0 0
+-
+45.116.79.51
+0 3 1 12785 1 1496295314
+/
+crawl-66-249-75-4.googlebot.com
+0 8 7 34370 1 1498467827
+/contact.htm
+msnbot-157-55-39-215.search.msn.com
+0 6 6 138567 2 1497844383
+/
+p6126044-ipngn29701marunouchi.tokyo.ocn.ne.jp
+0 4 2 25572 2 1497288509
+/
+120.red-79-148-169.dynamicip.rima-tde.net
+0 4 2 25572 1 1498843617
+/
+46.229.164.101
+0 3 0 0 0 0
+-
+hydrogen137.a.ahrefs.com
+0 1 1 12620 1 1497528389
+/statement04.html
+msnbot-65-55-210-93.search.msn.com
+0 4 2 20047 0 0
+-
+msnbot-65-55-210-120.search.msn.com
+0 1 1 18258 0 0
+-
+msnbot-157-55-39-13.search.msn.com
+0 1 0 0 0 0
+-
+baiduspider-180-76-15-134.crawl.baidu.com
+0 1 1 786 0 0
+-
+170-245-245-119.nexxlink.net.br
+0 1 0 0 1 1498575423
+/
+117.196.171.5
+0 96 80 3311367 1 1496747083
+/contact.htm
+msnbot-65-55-210-21.search.msn.com
+0 1 1 1014 0 0
+-
+msnbot-207-46-13-162.search.msn.com
+0 1 1 12786 1 1497724410
+/
+120.27.6.97
+0 3 1 12786 1 1498463681
+/
+204.79.180.6
+0 3 3 63345 0 0
+-
+68-200-182-48.res.bhn.net
+0 1 1 141578 0 0
+-
+msnbot-131-253-25-197.search.msn.com
+0 21 20 261358 0 0
+-
+crawl-66-249-79-142.googlebot.com
+0 3 3 57262 1 1497145347
+/
+ec2-54-86-154-151.compute-1.amazonaws.com
+0 1 0 0 0 0
+-
+softbank219204159157.bbtec.net
+0 2 1 12785 1 1496648131
+/
+18-37-15-51.rev.cloud.scaleway.com
+0 6 3 38358 1 1497787801
+-
+hydrogen330.a.ahrefs.com
+0 1 1 495486 0 0
+-
+msnbot-199-30-24-38.search.msn.com
+0 1 1 12201 0 0
+-
+84-201-133-76.spider.yandex.com
+0 3 2 14259 1 1497384432
+/statement.htm
+msnbot-199-30-25-116.search.msn.com
+0 1 1 1317 0 0
+-
+204.79.180.4
+0 1 1 2968 0 0
+-
+static-202-65-141-229.pol.net.in
+0 3 3 372165 0 0
+-
+msnbot-199-30-25-57.search.msn.com
+0 3 3 32071 0 0
+-
+baiduspider-180-76-15-15.crawl.baidu.com
+0 3 2 2578 0 0
+-
+msnbot-199-30-24-171.search.msn.com
+0 46 41 1011812 0 0
+-
+gdfert134.mailduyum.net
+0 2 0 0 0 0
+-
+173.252.124.236
+0 1 1 4723 0 0
+-
+40.77.178.87
+0 6 4 9302 0 0
+-
+google-proxy-66-102-6-131.google.com
+0 37 36 361309 2 1498142465
+/
+188.165.26.121
+0 1 1 12786 1 1498789730
+/
+4-189-85-185.ip.idealhosting.net.tr
+0 1 0 0 0 0
+-
+117.198.46.253
+0 4 2 25572 1 1498502969
+/
+msnbot-207-46-13-68.search.msn.com
+0 14 12 168802 0 0
+-
+baiduspider-180-76-15-11.crawl.baidu.com
+0 1 0 0 1 1497516670
+/
+baiduspider-180-76-15-154.crawl.baidu.com
+0 1 1 786 0 0
+-
+a127.sub148.net78.udm.net
+0 1 0 0 0 0
+-
+baiduspider-180-76-15-145.crawl.baidu.com
+0 2 1 33315 0 0
+-
+spider-141-8-143-168.yandex.com
+0 2 2 22500 2 1497818212
+/
+msnbot-65-55-210-45.search.msn.com
+0 1 1 15853 0 0
+-
+spider-141-8-143-214.yandex.com
+0 1 0 0 0 0
+-
+c-73-241-205-231.hsd1.ca.comcast.net
+0 1 1 12786 1 1497627244
+/
+msnbot-199-30-24-147.search.msn.com
+0 1 0 0 0 0
+-
+ip-176-193-115-240.bb.netbynet.ru
+0 142 138 1474231 1 1498435064
+/news.htm
+msnbot-199-30-24-71.search.msn.com
+0 2 2 8312 0 0
+-
+msnbot-157-55-39-92.search.msn.com
+0 1 1 12786 1 1497750113
+/
+msnbot-157-55-39-24.search.msn.com
+0 1 0 0 0 0
+-
+ec2-52-91-147-64.compute-1.amazonaws.com
+0 2 1 12785 1 1496501485
+/
+msnbot-199-30-25-170.search.msn.com
+0 3 3 11228 0 0
+-
+msnbot-157-55-39-1.search.msn.com
+0 1 0 0 0 0
+-
+google-proxy-64-233-173-17.google.com
+0 167 154 2584010 2 1496826776
+/
+baiduspider-180-76-15-146.crawl.baidu.com
+0 2 1 12786 1 1498339666
+/
+spider-141-8-143-195.yandex.com
+0 3 3 107297 3 1497085903
+/
+google-proxy-64-233-173-16.google.com
+0 168 152 2072681 1 1498384569
+/news.htm
+69.58.178.58
+0 12 10 255310 1 1497004947
+/statement.htm
+msnbot-199-30-24-124.search.msn.com
+0 1 1 2923 0 0
+-
+147.133.154.104.bc.googleusercontent.com
+0 1 1 12786 1 1498161218
+/
+tri69-1-82-67-41-4.fbx.proxad.net
+0 34 2 25572 1 1497727120
+-
+msnbot-131-253-25-237.search.msn.com
+0 37 33 783271 0 0
+-
+pool-72-81-215-179.bltmmd.fios.verizon.net
+0 4 2 25572 1 1498146076
+/
+msnbot-157-55-39-120.search.msn.com
+0 12 10 396164 8 1496454240
+/
+spider-100-43-91-11.yandex.com
+0 1 1 3616 0 0
+-
+hydrogen159.a.ahrefs.com
+0 1 1 13052 1 1497705036
+/statement06.html
+157.49.1.66
+0 1 1 134930 0 0
+-
+msnbot-65-55-210-183.search.msn.com
+0 1 1 137254 0 0
+-
+b110181.yse.yahoo.net
+0 9 6 140440 3 1497281223
+/
+msnbot-199-30-24-4.search.msn.com
+0 1 1 134930 0 0
+-
+msnbot-207-46-13-101.search.msn.com
+0 1 1 14604 1 1496746476
+/statement01.html
+msnbot-199-30-25-228.search.msn.com
+0 1 1 8605 0 0
+-
+a03-07-07.opera-mini.net
+0 104 94 2098822 1 1497524895
+/
+msnbot-199-30-25-46.search.msn.com
+0 2 2 3389 0 0
+-
+43.250.242.67
+0 1 0 0 0 0
+-
+host-95-104-61-163.customer.co.ge
+0 2 0 0 0 0
+-
+157.48.5.251
+0 148 142 1425646 1 1497742854
+/news.htm
+msnbot-65-55-210-37.search.msn.com
+0 7 7 178498 0 0
+-
+baiduspider-180-76-15-151.crawl.baidu.com
+0 1 1 12786 1 1497668371
+/
+146.185.144.64
+0 1 1 12786 1 1496828049
+/
+jobqueue-listener.jobqueue.netcraft.com-u1e4bceeb2efc489286c957c90f6b52e2u-digitalocean-2gb
+0 1 1 12786 1 1497025777
+/
+190.116.46.60
+0 2 1 12786 1 1498187473
+/
+fulltextrobot-77-75-77-54.seznam.cz
+0 6 0 0 0 0
+-
+msnbot-157-55-12-80.search.msn.com
+0 7 4 6540 0 0
+-
+google-proxy-66-102-8-196.google.com
+0 5 5 24166 0 0
+-
+216.244.66.201
+0 6 0 0 0 0
+-
+msnbot-65-55-210-131.search.msn.com
+0 2 2 96581 0 0
+-
+msnbot-199-30-24-140.search.msn.com
+0 4 4 10888 0 0
+-
+178-137-4-41.broadband.kyivstar.net
+0 3 0 0 1 1498270255
+/
+msnbot-199-30-24-196.search.msn.com
+0 4 4 74194 0 0
+-
+crawl-66-249-79-71.googlebot.com
+0 81 25 659944 6 1498222952
+/
+fulltextrobot-77-75-78-161.seznam.cz
+0 6 2 17572 0 0
+-
+msnbot-199-30-24-14.search.msn.com
+0 5 5 98763 0 0
+-
+msnbot-207-46-13-201.search.msn.com
+0 1 0 0 0 0
+-
+crawl-66-249-79-9.googlebot.com
+0 7 4 39372 3 1497630563
+/
+google-proxy-66-249-82-105.google.com
+0 2 2 146177 0 0
+-
+crawl-66-249-69-67.googlebot.com
+0 8 6 61376 1 1497649512
+/
+ns7000652.ip-158-69-229.net
+0 1 1 12786 1 1497177614
+/
+49.161.198.104.bc.googleusercontent.com
+0 1 1 12786 1 1498484197
+/
+msnbot-157-55-2-148.search.msn.com
+0 7 4 6540 0 0
+-
+baiduspider-180-76-15-31.crawl.baidu.com
+0 2 1 16619 0 0
+-
+msnbot-207-46-13-202.search.msn.com
+0 1 0 0 0 0
+-
+msnbot-199-30-24-232.search.msn.com
+0 9 8 210944 0 0
+-
+spider-141-8-143-217.yandex.com
+0 1 1 12785 1 1496628881
+/
+msnbot-40-77-167-145.search.msn.com
+0 4 4 288800 1 1496908350
+/
+spider-141-8-143-197.yandex.com
+0 2 2 28602 2 1496643258
+/statement03.html
+baiduspider-180-76-15-140.crawl.baidu.com
+0 3 3 15986 1 1498045862
+/
+abts-kk-static-231.205.166.122.airtelbroadband.in
+0 61 50 1130959 2 1498561871
+/contact.htm
+187.77.154.104.bc.googleusercontent.com
+0 1 1 12786 1 1498155632
+/
+204.79.180.9
+0 3 3 38061 1 1498571219
+/
+carbon142.a.ahrefs.com
+0 10 0 0 0 0
+-
+msnbot-207-46-13-54.search.msn.com
+0 10 9 201223 2 1498727733
+/
+msnbot-131-253-27-137.search.msn.com
+0 42 37 914175 0 0
+-
+hdca.n1.ips.mtn.co.ug
+0 3 1 12786 1 1498620440
+/
+centro-39.grapeshot.co.uk
+0 1 1 12786 1 1497144761
+/
+63.243.252.250
+0 1 0 0 0 0
+-
+msnbot-65-55-210-198.search.msn.com
+0 1 1 2692 0 0
+-
+msnbot-199-30-25-44.search.msn.com
+0 1 1 1014 0 0
+-
+fulltextrobot-77-75-78-167.seznam.cz
+0 8 2 154173 0 0
+-
+msnbot-199-30-25-6.search.msn.com
+0 45 40 998372 0 0
+-
+msnbot-199-30-25-117.search.msn.com
+0 1 0 0 0 0
+-
+174.34.185.243
+0 1 0 0 1 1496530073
+-
+204.79.180.16
+0 6 6 104927 0 0
+-
+msnbot-65-55-210-61.search.msn.com
+0 5 5 78535 0 0
+-
+hydrogen049.a.ahrefs.com
+0 1 1 244897 0 0
+-
+107-79-15-51.rev.cloud.scaleway.com
+0 1 1 12786 1 1498650688
+/
+62.33.138.199
+0 2 0 0 0 0
+-
+fulltextrobot-77-75-78-170.seznam.cz
+0 6 2 14783 1 1498581498
+/news.htm
+msnbot-199-30-24-99.search.msn.com
+0 7 4 6540 0 0
+-
+msnbot-199-30-24-174.search.msn.com
+0 5 5 25465 0 0
+-
+msnbot-65-55-210-184.search.msn.com
+0 7 7 33064 0 0
+-
+40.77.177.217
+0 6 4 49952 0 0
+-
+c-73-15-184-109.hsd1.ca.comcast.net
+0 1 1 134930 0 0
+-
+fulltextrobot-77-75-78-165.seznam.cz
+0 9 5 41459 0 0
+-
+fulltextrobot-77-75-77-109.seznam.cz
+0 4 2 254611 1 1497880524
+/contact.htm
+fulltextrobot-77-75-79-101.seznam.cz
+0 6 3 44183 0 0
+-
+spider-100-43-85-8.yandex.com
+0 1 1 13121 0 0
+-
+msnbot-40-77-167-4.search.msn.com
+0 3 1 2692 0 0
+-
+55.e1.2bd0.ip4.static.sl-reverse.com
+0 34 27 699073 4 1498692584
+/news.htm
+static-202-65-142-75.pol.net.in
+0 1 1 93333 0 0
+-
+msnbot-65-55-210-135.search.msn.com
+0 1 1 30 0 0
+-
+baiduspider-180-76-15-5.crawl.baidu.com
+0 2 1 12786 2 1497934354
+/
+msnbot-157-55-39-6.search.msn.com
+0 9 0 0 0 0
+-
+204.79.180.15
+0 2 2 20823 0 0
+-
+58.83.184.35.bc.googleusercontent.com
+0 7 6 140441 1 1498507699
+/
+227.82-83-5-red-servicios.onlycable.es
+0 2 0 0 0 0
+-
+li1236-155.members.linode.com
+0 1 0 0 0 0
+-
+msnbot-199-30-25-58.search.msn.com
+0 1 0 0 0 0
+-
+crawl-66-249-64-18.googlebot.com
+0 1 0 0 0 0
+-
+b115365.yse.yahoo.net
+0 11 4 117012 4 1498486163
+/
+84-201-133-56.spider.yandex.com
+0 4 2 25572 2 1498374363
+/
+vps91.barnabasfund.org
+0 1 0 0 1 1496644244
+-
+baiduspider-180-76-15-19.crawl.baidu.com
+0 1 1 12786 1 1497622251
+/
+fulltextrobot-77-75-76-172.seznam.cz
+0 2 0 0 0 0
+-
+msnbot-131-253-27-120.search.msn.com
+0 8 4 14244 0 0
+-
+105-225-131-127.south.dsl.telkomsa.net
+0 2 1 12786 1 1498537312
+/
+ec2-107-23-86-155.compute-1.amazonaws.com
+0 1 1 12786 1 1497245410
+/
+msnbot-207-46-13-153.search.msn.com
+0 1 0 0 0 0
+-
+baiduspider-180-76-15-8.crawl.baidu.com
+0 2 2 13194 1 1498371341
+/
+msnbot-65-55-210-119.search.msn.com
+0 1 1 30 0 0
+-
+110-164.86.185.ip.idealhosting.net.tr
+0 3 0 0 0 0
+-
+msnbot-65-55-210-72.search.msn.com
+0 3 3 96989 0 0
+-
+baiduspider-180-76-15-27.crawl.baidu.com
+0 1 1 81726 1 1497341521
+/news.htm
+baiduspider-180-76-15-150.crawl.baidu.com
+0 1 0 0 1 1498274606
+/
+baiduspider-180-76-15-135.crawl.baidu.com
+0 1 0 0 1 1498355355
+-
+msnbot-199-30-24-177.search.msn.com
+0 1 1 1317 0 0
+-
+baiduspider-180-76-15-17.crawl.baidu.com
+0 1 0 0 1 1497639285
+/
+msnbot-40-77-167-9.search.msn.com
+0 3 3 235076 1 1498550721
+/news.htm
+msnbot-65-55-210-191.search.msn.com
+0 3 0 0 0 0
+-
+msnbot-199-30-24-7.search.msn.com
+0 2 2 7020 0 0
+-
+support11.besteviewoption1.top
+0 3 0 0 0 0
+-
+baiduspider-180-76-15-12.crawl.baidu.com
+0 3 3 31543 1 1497138669
+/
+dynamicip-94-181-219-222.pppoe.kirov.ertelecom.ru
+0 1 1 81726 1 1498833499
+/news.htm
+173.252.124.233
+0 1 1 3481 0 0
+-
+crawl-66-249-69-198.googlebot.com
+0 1 0 0 0 0
+-
+84-201-133-73.spider.yandex.com
+0 9 8 214635 5 1498370347
+/
+us-wa-2.dayz.verthosting.com
+0 4 0 0 0 0
+-
+msnbot-40-77-167-62.search.msn.com
+0 23 23 651707 2 1496827690
+/news.htm
+baiduspider-180-76-15-10.crawl.baidu.com
+0 3 3 98434 2 1497941561
+/news.htm
+fulltextrobot-77-75-78-164.seznam.cz
+0 2 1 7333 0 0
+-
+crawl-66-249-66-135.googlebot.com
+0 1 0 0 0 0
+-
+e5.66.caa1.ip4.static.sl-reverse.com
+0 2 0 0 0 0
+-
+59.93.16.245
+0 59 50 1130959 1 1498646138
+/contact.htm
+msnbot-65-55-210-143.search.msn.com
+0 1 0 0 0 0
+-
+host-176-43-213-89.reverse.superonline.net
+0 1 0 0 0 0
+-
+103.246.39.212
+0 2 2 22500 1 1497528786
+/contact.htm
+crawl-66-249-69-72.googlebot.com
+0 4 4 60447 1 1496667035
+/
+msnbot-65-55-210-173.search.msn.com
+0 1 1 949 0 0
+-
+vds-daniel.robenson-83807.itldc-customer.net
+0 2 0 0 0 0
+-
+84-201-133-37.spider.yandex.com
+0 3 2 25571 2 1497947599
+/
+hydrogen076.a.ahrefs.com
+0 2 2 25837 2 1497033397
+/statement06.html
+crawl-66-249-79-74.googlebot.com
+0 24 17 277759 5 1498759602
+/
+46.229.168.69
+0 1 1 14604 1 1498401582
+/statement01.html
+ec2-54-204-209-209.compute-1.amazonaws.com
+0 1 0 0 1 1497900450
+-
+msnbot-65-55-210-146.search.msn.com
+0 8 5 9332 0 0
+-
+msnbot-199-30-24-80.search.msn.com
+0 4 4 286347 0 0
+-
+msnbot-65-55-210-51.search.msn.com
+0 1 1 901 0 0
+-
+bardolino1.netestate.de
+0 4 4 120972 1 1498558184
+/statement03.html
+msnbot-199-30-24-212.search.msn.com
+0 3 3 32862 0 0
+-
+198.27.85.233
+0 1 1 12786 1 1498732120
+/
+crawl-66-249-69-200.googlebot.com
+0 2 1 12786 1 1497666595
+/
+2.55.112.181.static.pichincha.andinanet.net
+0 2 0 0 0 0
+-
+spider-141-8-143-175.yandex.com
+0 1 1 81726 1 1497325870
+/news.htm
+google-proxy-66-249-83-7.google.com
+0 17 15 211542 0 0
+-
+46.229.168.79
+0 2 2 25572 1 1497989558
+/
+baiduspider-180-76-15-32.crawl.baidu.com
+0 2 2 43028 0 0
+-
+msnbot-65-55-210-192.search.msn.com
+0 1 1 10508 0 0
+-
+msnbot-199-30-24-19.search.msn.com
+0 6 6 31543 0 0
+-
+axaptus.2cloud.eu
+0 4 0 0 0 0
+-
+45.77.68.173.vultr.com
+0 1 0 0 1 1497052075
+/
+msnbot-207-46-13-85.search.msn.com
+0 8 8 157779 2 1496307550
+/
+185.156.173.45
+0 1 1 12786 1 1497428959
+/
+61.38.164.5
+0 61 50 1130959 1 1497442958
+/contact.htm
+msnbot-199-30-25-67.search.msn.com
+0 2 1 1317 0 0
+-
+51.141.34.156
+0 1 1 12786 1 1498071243
+/
+hydrogen203.a.ahrefs.com
+0 1 1 17072 1 1497633168
+/statement05.html
+msnbot-199-30-24-36.search.msn.com
+0 7 7 62271 0 0
+-
+msnbot-199-30-24-23.search.msn.com
+0 2 2 4522 0 0
+-
+40.77.179.242
+0 1 1 30 0 0
+-
+msnbot-157-55-39-226.search.msn.com
+0 10 10 325773 2 1498724662
+/news.htm
+msnbot-199-30-25-157.search.msn.com
+0 4 1 2968 0 0
+-
+84-201-133-5.spider.yandex.com
+0 1 0 0 0 0
+-
+46.229.168.80
+0 1 1 9714 1 1497989504
+/contact.htm
+msnbot-199-30-24-215.search.msn.com
+0 1 1 2792 0 0
+-
+spider-141-8-143-135.yandex.com
+0 14 7 288319 2 1498768730
+/statement02.html
+40.77.178.40
+0 24 23 294914 0 0
+-
+google-proxy-66-102-8-199.google.com
+0 8 7 67772 0 0
+-
+better8.betterthansummery.club
+0 5 0 0 0 0
+-
+broadband.actcorp.in
+0 513 437 9293553 9 1498500847
+/
+196.52.43.65
+0 1 1 12786 1 1498010466
+/
+157.48.4.34
+0 16 0 0 0 0
+-
+crawl-66-249-69-71.googlebot.com
+0 14 4 32475 1 1496690442
+/
+msnbot-207-46-13-45.search.msn.com
+0 2 0 0 0 0
+-
+117.194.49.26
+0 5 5 642025 0 0
+-
+hydrogen242.a.ahrefs.com
+0 1 1 10643 1 1496670978
+/statement.htm
+38.100.21.68
+0 11 11 194613 1 1497889859
+/statement.htm
+baiduspider-180-76-15-34.crawl.baidu.com
+0 2 0 0 1 1498681535
+/
+baiduspider-180-76-15-33.crawl.baidu.com
+0 2 1 11772 0 0
+-
+191.239.185.35.bc.googleusercontent.com
+0 1 1 12786 1 1497663861
+/
+ec2-54-146-50-77.compute-1.amazonaws.com
+0 1 1 12786 1 1497365671
+/
+msnbot-207-46-13-72.search.msn.com
+0 8 8 172423 2 1498021956
+/news.htm
+pool-72-79-54-220.nwrknj.east.verizon.net
+0 1 0 0 0 0
+-
+msnbot-40-77-167-118.search.msn.com
+0 14 13 252367 6 1497072172
+/
+msnbot-157-55-39-167.search.msn.com
+0 8 7 177734 0 0
+-
+62-210-103-72.rev.poneytelecom.eu
+0 1 1 12786 1 1497474680
+/
+fulltextrobot-77-75-76-165.seznam.cz
+0 15 5 46088 3 1498337332
+/news.htm
+fulltextrobot-77-75-79-36.seznam.cz
+0 7 4 37556 1 1498800432
+/statement03.html
+194.44.247.218
+0 1 1 12786 1 1498165411
+/
+104.132.20.77
+0 61 50 1130959 1 1497460726
+/contact.htm
+hydrogen246.a.ahrefs.com
+0 1 1 14604 1 1497350315
+/statement01.html
+ns3035518.ip-149-202-207.eu
+0 3 0 0 2 1497935595
+/
+223.182.114.180
+0 30 29 841277 1 1498215768
+/news.htm
+msnbot-207-46-13-188.search.msn.com
+0 76 69 1733745 33 1498692921
+/
+hydrogen359.a.ahrefs.com
+0 1 1 244897 0 0
+-
+msnbot-65-55-210-163.search.msn.com
+0 1 1 2474 0 0
+-
+msnbot-157-55-39-217.search.msn.com
+0 2 2 25572 2 1498814896
+/
+fulltextrobot-77-75-77-11.seznam.cz
+0 6 3 97961 1 1497422088
+/news.htm
+119.28.21.109
+0 2 1 12786 1 1498447263
+/
+msnbot-199-30-24-136.search.msn.com
+0 4 4 29871 0 0
+-
+112.133.214.26
+0 1 1 27871 0 0
+-
+google-proxy-66-102-7-229.google.com
+0 13 13 350713 1 1498142466
+/
+182.55.56.251
+0 146 142 1425646 1 1498290560
+/news.htm
+84.255.154.205
+0 1 1 93333 0 0
+-
+baiduspider-180-76-15-138.crawl.baidu.com
+0 1 0 0 0 0
+-
+crawl-66-249-69-202.googlebot.com
+0 3 1 12786 2 1498456435
+/contact.htm
+42-3-228-052.static.netvigator.com
+0 1 0 0 0 0
+-
+msnbot-157-55-39-98.search.msn.com
+0 2 1 3922 0 0
+-
+msnbot-199-30-24-236.search.msn.com
+0 2 2 43823 0 0
+-
+host-static-212-0-211-106.moldtelecom.md
+0 1 0 0 0 0
+-
+182.18.238.28
+0 1 1 12785 1 1496817188
+/
+103.12.119.158
+0 1 1 9040 0 0
+-
+msnbot-199-30-24-243.search.msn.com
+0 3 3 144672 0 0
+-
+hydrogen031.a.ahrefs.com
+0 1 1 12786 1 1497595665
+/
+88.201.58.30
+0 94 57 1387700 2 1498158645
+/
+msnbot-199-30-25-52.search.msn.com
+0 2 2 5696 0 0
+-
+google-proxy-66-102-8-201.google.com
+0 11 11 73791 0 0
+-
+msnbot-157-55-39-4.search.msn.com
+0 11 11 444645 1 1497671954
+/news.htm
+46.229.168.73
+0 1 1 10643 1 1497306026
+/statement.htm
+msnbot-65-55-210-186.search.msn.com
+0 5 5 60935 0 0
+-
+msnbot-199-30-24-21.search.msn.com
+0 4 4 116971 0 0
+-
+160.176.129.95
+0 4 2 25572 1 1497828959
+/
+crawl-66-249-79-7.googlebot.com
+0 16 8 40528 1 1497628757
+/
+fulltextrobot-77-75-78-160.seznam.cz
+0 4 2 12415 0 0
+-
+fulltextrobot-77-75-77-95.seznam.cz
+0 6 2 98330 1 1498710668
+/news.htm
+broadband-77-37-181-147.moscow.rt.ru
+0 28 27 508282 1 1497847587
+/news.htm
+46.229.164.102
+0 8 0 0 0 0
+-
+msnbot-65-55-210-56.search.msn.com
+0 2 1 30 0 0
+-
+117.209.220.177
+0 141 136 1360632 1 1498638084
+/news.htm
+msnbot-65-55-210-65.search.msn.com
+0 3 3 112029 0 0
+-
+45.115.1.170
+0 1 1 16919 0 0
+-
+46.229.164.99
+0 24 0 0 0 0
+-
+8.37.235.167
+0 115 114 1240008 1 1496613778
+/
+baiduspider-180-76-15-23.crawl.baidu.com
+0 2 1 12786 1 1497973607
+/
+static.98.60.76.144.clients.your-server.de
+0 12 11 219657 1 1496792629
+/statement06.html
+msnbot-199-30-24-199.search.msn.com
+0 2 1 4231 0 0
+-
+196.52.43.57
+0 1 1 12786 1 1497560554
+/
+baiduspider-180-76-15-22.crawl.baidu.com
+0 3 3 36289 1 1497360272
+/statement05.html
+spider-77-88-47-12.yandex.com
+0 10 5 57790 4 1498771162
+/statement03.html
+msnbot-65-55-210-134.search.msn.com
+0 4 4 108454 0 0
+-
+hydrogen289.a.ahrefs.com
+0 1 1 12786 1 1497086767
+/
+crawl-66-249-75-195.googlebot.com
+0 1 1 12786 1 1498495074
+/
+185.47.62.214
+0 1 0 0 1 1498743336
+/
+msnbot-207-46-13-203.search.msn.com
+0 1 0 0 0 0
+-
+54-240-197-227.amazon.com
+0 1 1 7298 0 0
+-
+cpe-1-121-136-164.qwl9.woo.bigpond.net.au
+0 1 0 0 1 1498575423
+/
+msnbot-199-30-24-75.search.msn.com
+0 1 1 2481 0 0
+-
+msnbot-199-30-24-237.search.msn.com
+0 1 0 0 0 0
+-
+msnbot-199-30-24-3.search.msn.com
+0 1 1 3922 0 0
+-
+msnbot-65-55-210-28.search.msn.com
+0 1 0 0 0 0
+-
+baiduspider-180-76-15-136.crawl.baidu.com
+0 3 3 27351 2 1497721916
+/
+40.77.178.15
+0 23 22 479185 0 0
+-
+msnbot-65-55-210-161.search.msn.com
+0 2 2 69244 0 0
+-
+msnbot-199-30-25-108.search.msn.com
+0 50 45 1033009 0 0
+-
+spider-100-43-91-16.yandex.com
+0 1 1 9714 1 1496892557
+/contact.htm
+crawl-66-249-69-70.googlebot.com
+0 11 10 71102 0 0
+-
+bardolino2.netestate.de
+0 13 10 137045 3 1498558206
+/contact.htm
+msnbot-65-55-210-140.search.msn.com
+0 1 1 3426 0 0
+-
+msnbot-65-55-210-17.search.msn.com
+0 4 4 47390 0 0
+-
+a47.sub239.net78.udm.net
+0 1 0 0 0 0
+-
+fulltextrobot-77-75-79-54.seznam.cz
+0 2 1 23622 0 0
+-
+msnbot-199-30-24-109.search.msn.com
+0 1 1 4824 0 0
+-
+google-proxy-66-102-6-133.google.com
+0 35 34 276538 0 0
+-
+rrcs-70-61-220-194.midsouth.biz.rr.com
+0 2 2 12786 1 1497467112
+/
+msnbot-199-30-24-47.search.msn.com
+0 2 2 101401 0 0
+-
+msnbot-199-30-24-11.search.msn.com
+0 25 20 289520 0 0
+-
+173.252.124.232
+0 1 1 12786 1 1497219688
+/
+110.224.135.243
+0 2 2 350829 0 0
+-
+msnbot-157-55-39-96.search.msn.com
+0 1 1 81726 1 1496450237
+/news.htm
+msnbot-157-55-39-56.search.msn.com
+0 7 6 84401 0 0
+-
+msnbot-157-55-39-25.search.msn.com
+0 1 0 0 0 0
+-
+108-65-108-76.lightspeed.tukrga.sbcglobal.net
+0 52 47 1049410 1 1496813723
+/
+abts-north-dynamic-044.167.64.182.airtelbroadband.in
+0 61 50 1130959 1 1498666416
+/contact.htm
+www.whois.sc
+0 4 2 25571 2 1498113723
+/
+msnbot-199-30-24-55.search.msn.com
+0 3 3 97297 0 0
+-
+155.133.82.119
+0 1 1 9714 1 1498513149
+/contact.htm
+7.66.117.45-in-addr.arpa-hireachdns.com
+0 227 162 4352240 4 1498495168
+/statement06.html
+hydrogen039.a.ahrefs.com
+0 1 1 18839 1 1496746074
+/statement02.html
+msnbot-157-55-39-241.search.msn.com
+0 22 19 329071 12 1496798569
+/
+baiduspider-180-76-15-18.crawl.baidu.com
+0 1 0 0 1 1498541021
+/
+msnbot-199-30-25-33.search.msn.com
+0 1 1 24867 0 0
+-
+msnbot-157-55-39-53.search.msn.com
+0 1 0 0 0 0
+-
+google-proxy-66-102-6-9.google.com
+0 48 46 782820 1 1497462950
+/contact.htm
+abts-tn-static-056.208.165.122.airtelbroadband.in
+0 8 8 447726 0 0
+-
+msnbot-199-30-24-133.search.msn.com
+0 1 1 14925 0 0
+-
+msnbot-199-30-25-251.search.msn.com
+0 3 3 141379 0 0
+-
+crawl-66-249-69-74.googlebot.com
+0 2 1 12785 1 1496675831
+/
+google-proxy-66-249-83-9.google.com
+0 17 15 356328 0 0
+-
+115.254.120.162
+0 2 2 34058 0 0
+-
+fulltextrobot-77-75-76-170.seznam.cz
+0 8 4 21092 0 0
+-
+google-proxy-64-233-173-15.google.com
+0 143 133 1862840 3 1498380834
+/contact.htm
+www22.aname.net
+0 5 0 0 0 0
+-
+static.66.12.76.144.clients.your-server.de
+0 1 0 0 0 0
+-
+47.9.132.92
+0 2 1 12786 1 1496929802
+/
+ec2-54-91-38-177.compute-1.amazonaws.com
+0 2 1 12786 1 1497407461
+/
+msnbot-207-46-13-134.search.msn.com
+0 7 7 147605 0 0
+-
+mdaa.globaltrust.club
+0 1 0 0 0 0
+-
+hydrogen241.a.ahrefs.com
+0 1 1 18839 1 1497472484
+/statement02.html
+173.252.124.201
+0 1 1 12785 1 1496435067
+/
+msnbot-207-46-13-13.search.msn.com
+0 9 9 308701 1 1497162461
+/news.htm
+crawl-66-249-75-200.googlebot.com
+0 1 0 0 0 0
+-
+msnbot-199-30-24-130.search.msn.com
+0 6 6 37220 0 0
+-
+baiduspider-180-76-15-139.crawl.baidu.com
+0 1 1 2923 0 0
+-
+163-172-108-151.rev.poneytelecom.eu
+0 3 0 0 0 0
+-
+hydrogen285.a.ahrefs.com
+0 1 1 495486 0 0
+-
+server.techajans.net
+0 1 0 0 0 0
+-
+32.80.01a8.ip4.static.sl-reverse.com
+0 1 1 12786 1 1498206778
+/
+msnbot-199-30-24-119.search.msn.com
+0 4 4 112424 0 0
+-
+msnbot-207-46-13-53.search.msn.com
+0 13 13 773618 2 1497374308
+/news.htm
+92.96.39.6
+0 1 1 17147 0 0
+-
+msnbot-131-253-25-151.search.msn.com
+0 2 2 2822 0 0
+-
+yournetmarket.com
+0 2 0 0 0 0
+-
+kaersf125.royaladventure.net
+0 1 0 0 0 0
+-
+msnbot-65-55-210-197.search.msn.com
+0 8 6 101460 0 0
+-
+fulltextrobot-77-75-76-161.seznam.cz
+0 4 2 13786 0 0
+-
+msnbot-65-55-210-137.search.msn.com
+0 3 3 2136 0 0
+-
+www.shopascents.com
+0 1 0 0 0 0
+-
+193.254.37.99
+0 2 0 0 0 0
+-
+163-172-107-12.rev.poneytelecom.eu
+0 1 0 0 0 0
+-
+168.235.201.235
+0 173 167 1874038 1 1497354136
+/news.htm
+225.158.184.35.bc.googleusercontent.com
+0 1 1 12786 1 1497478211
+/
+msnbot-207-46-13-51.search.msn.com
+0 11 10 345619 1 1496310868
+/
+msnbot-199-30-24-52.search.msn.com
+0 70 66 790064 0 0
+-
+sender17p4.offresduweb.fr
+0 2 2 22500 2 1497286872
+/contact.htm
+baiduspider-180-76-15-152.crawl.baidu.com
+0 1 0 0 1 1498506762
+-
+msnbot-199-30-24-78.search.msn.com
+0 1 1 1014 0 0
+-
+111.50.9.171
+0 2 0 0 0 0
+-
+jobqueue-listener.jobqueue.netcraft.com-u1d018cfede954cfd946ff3fb83dd1d1du-digitalocean
+0 24 22 439318 1 1497277433
+/statement05.html
+spider-100-43-91-1.yandex.com
+0 1 0 0 0 0
+-
+baiduspider-180-76-15-28.crawl.baidu.com
+0 1 1 2792 0 0
+-
+msnbot-199-30-24-56.search.msn.com
+0 1 1 20583 0 0
+-
+58.56.145.94
+0 2 0 0 0 0
+-
+fulltextrobot-77-75-78-172.seznam.cz
+0 4 1 11946 0 0
+-
+msnbot-65-55-210-50.search.msn.com
+0 6 6 92431 0 0
+-
+msnbot-65-55-210-67.search.msn.com
+0 6 6 54447 0 0
+-
+msnbot-199-30-24-74.search.msn.com
+0 5 3 95897 0 0
+-
+fulltextrobot-77-75-76-166.seznam.cz
+0 7 2 8374 0 0
+-
+crawl-66-249-79-131.googlebot.com
+0 15 6 552562 2 1497279116
+/news.htm
+msnbot-65-55-210-158.search.msn.com
+0 2 2 12206 0 0
+-
+crawl-93-180-64-230.botje.com
+0 2 1 81726 1 1496465376
+/news.htm
+crawl-66-249-79-73.googlebot.com
+0 49 15 173669 11 1498814726
+/
+msnbot-199-30-24-214.search.msn.com
+0 2 2 45919 0 0
+-
+baiduspider-180-76-15-163.crawl.baidu.com
+0 6 2 109742 0 0
+-
+212.118.126.43
+0 1 1 244897 0 0
+-
+msnbot-40-77-167-92.search.msn.com
+0 19 19 541368 3 1496773784
+/contact.htm
+msnbot-199-30-24-72.search.msn.com
+0 2 2 193720 0 0
+-
+google-proxy-66-102-6-100.google.com
+0 21 18 483001 0 0
+-
+89-24-222-103.tmcz.cz
+0 4 2 25572 2 1497495750
+/
+84-201-133-27.spider.yandex.com
+0 1 1 12786 1 1497325875
+/
+msnbot-65-55-210-122.search.msn.com
+0 1 0 0 0 0
+-
+fulltextrobot-77-75-76-169.seznam.cz
+0 4 1 4096 0 0
+-
+222.218.17.181
+0 2 0 0 0 0
+-
+41.100.48.126
+0 1 0 0 0 0
+-
+204.79.180.0
+0 2 2 3478 0 0
+-
+msnbot-199-30-24-230.search.msn.com
+0 3 3 165587 0 0
+-
+msnbot-131-253-27-33.search.msn.com
+0 3 0 0 0 0
+-
+msnbot-40-77-167-89.search.msn.com
+0 1 1 12786 1 1498780520
+/
+40.77.179.75
+0 2 2 19250 0 0
+-
+evo-hl21-1.gameservers.net
+0 1 0 0 0 0
+-
+baiduspider-180-76-15-148.crawl.baidu.com
+0 2 2 13687 1 1497208508
+/
+msnbot-199-30-24-65.search.msn.com
+0 2 2 43522 0 0
+-
+crawl-66-249-79-72.googlebot.com
+0 20 18 115416 2 1498235455
+/
+baiduspider-180-76-15-157.crawl.baidu.com
+0 2 2 94512 2 1497618879
+/
+msnbot-40-77-167-128.search.msn.com
+0 34 30 994988 8 1498377548
+/news.htm
+abts-ap-static-131.202.169.122.airtelbroadband.in
+0 173 157 2177290 1 1496791132
+/news.htm
+104.131.147.112
+0 1 1 12786 1 1497388359
+/
+spider-5-255-250-14.yandex.com
+0 3 3 36214 3 1497494016
+/
+msnbot-40-77-167-75.search.msn.com
+0 8 4 36612 2 1497918937
+/contact.htm
+157.48.12.112
+0 157 147 1456479 1 1497709886
+/news.htm
+google-proxy-66-249-83-5.google.com
+0 9 9 102477 0 0
+-
+li505-226.members.linode.com
+0 1 0 0 0 0
+-
+baiduspider-180-76-15-14.crawl.baidu.com
+0 4 3 54725 2 1497939561
+/
+msnbot-199-30-25-97.search.msn.com
+0 2 2 7098 0 0
+-
+a06-02-06.opera-mini.net
+0 162 141 3148233 1 1497568385
+/
+123.207.29.152
+0 2 1 12786 1 1497760829
+/
+ec2-54-85-114-49.compute-1.amazonaws.com
+0 1 0 0 0 0
+-
+google-proxy-66-102-6-7.google.com
+0 38 33 638712 1 1497462521
+/
+msnbot-157-55-39-33.search.msn.com
+0 1 0 0 0 0
+-
+msnbot-157-55-39-228.search.msn.com
+0 12 8 180426 0 0
+-
+msnbot-207-46-13-200.search.msn.com
+0 1 0 0 0 0
+-
+hydrogen071.a.ahrefs.com
+0 1 1 81726 1 1496471747
+/news.htm
+fulltextrobot-77-75-78-171.seznam.cz
+0 4 1 6443 0 0
+-
+58.57.100.2
+0 1 0 0 0 0
+-
+46.229.168.72
+0 4 4 129002 3 1498401600
+/statement04.html
+fulltextrobot-77-75-76-160.seznam.cz
+0 4 2 249385 0 0
+-
+msnbot-199-30-25-184.search.msn.com
+0 1 1 949 0 0
+-
+srv3.servers.com.tr
+0 1 0 0 0 0
+-
+46.2.166.86
+0 1 0 0 0 0
+-
+204.79.180.17
+0 2 2 9506 0 0
+-
+msnbot-199-30-24-18.search.msn.com
+0 3 3 13688 0 0
+-
+x4db3e0d3.dyn.telefonica.de
+0 70 54 1229720 1 1497013447
+/statement.htm
+msnbot-199-30-24-182.search.msn.com
+0 1 1 2170 0 0
+-
+103.251.59.240
+0 4 2 25572 2 1497056639
+/
+43.247.156.6
+0 214 149 1957948 2 1498690148
+/news.htm
+msnbot-199-30-24-45.search.msn.com
+0 1 1 2792 0 0
+-
+host86-185-63-8.range86-185.btcentralplus.com
+0 52 48 1089965 1 1498330556
+/
+msnbot-199-30-25-64.search.msn.com
+0 1 1 5782 0 0
+-
+msnbot-65-55-210-108.search.msn.com
+0 1 1 3481 0 0
+-
+google-proxy-66-102-7-231.google.com
+0 16 13 205002 0 0
+-
+baiduspider-180-76-15-13.crawl.baidu.com
+0 6 5 32690 1 1497210508
+/contact.htm
+crawl-66-249-75-199.googlebot.com
+0 1 1 12786 1 1498498480
+/
+p5deec1a5.dip0.t-ipconnect.de
+0 2 0 0 0 0
+-
+123.143.201.76
+0 1 0 0 1 1498756444
+/
+crawl-66-249-75-202.googlebot.com
+0 2 2 12816 1 1498493046
+/
+msnbot-199-30-25-114.search.msn.com
+0 9 6 50012 0 0
+-
+msnbot-207-46-13-199.search.msn.com
+0 2 0 0 0 0
+-
+msnbot-199-30-24-77.search.msn.com
+0 4 4 167173 0 0
+-
+msnbot-199-30-24-208.search.msn.com
+0 2 2 19235 0 0
+-
+msnbot-199-30-24-219.search.msn.com
+0 17 13 329826 0 0
+-
+163.172.74.104-mj12bot.com-crawler.software
+0 1 0 0 0 0
+-
+baiduspider-180-76-15-147.crawl.baidu.com
+0 1 1 2968 0 0
+-
+crawl-94-199-151-22.wotbox.com
+0 12 11 219659 1 1496972279
+/statement06.html
+msnbot-199-30-24-120.search.msn.com
+0 3 2 19542 0 0
+-
+173.252.124.220
+0 1 1 12786 1 1497219688
+/
+msnbot-207-46-13-115.search.msn.com
+0 10 10 312065 1 1496317678
+/news.htm
+221.7.182.88
+0 2 0 0 0 0
+-
+63.243.252.125
+0 1 1 12785 1 1496629376
+/
+159.203.196.79
+0 1 1 9714 1 1497661650
+/contact.htm
+msnbot-157-55-39-31.search.msn.com
+0 16 14 274290 9 1497952762
+/
+msnbot-40-77-167-112.search.msn.com
+0 13 12 442695 1 1498026650
+/
+fulltextrobot-77-75-76-163.seznam.cz
+0 4 2 12256 0 0
+-
+fulltextrobot-77-75-78-163.seznam.cz
+0 6 2 11612 0 0
+-
+msnbot-199-30-24-245.search.msn.com
+0 1 0 0 0 0
+-
+184.242.198.104.bc.googleusercontent.com
+0 1 1 12786 1 1497639036
+/
+msnbot-157-55-39-211.search.msn.com
+0 17 15 264857 0 0
+-
+msnbot-207-46-13-103.search.msn.com
+0 1 1 12785 1 1496742313
+/
+pion-net-192.dataline.net.ua
+0 1 0 0 0 0
+-
+baiduspider-180-76-15-16.crawl.baidu.com
+0 1 1 81726 1 1497414748
+/news.htm
+103.209.88.57
+0 79 63 1412215 1 1496503402
+/contact.htm
+spider-141-8-143-182.yandex.com
+0 1 0 0 0 0
+-
+204.79.180.2
+0 3 3 18190 1 1498571244
+/
+crawl-66-249-79-5.googlebot.com
+0 20 12 126204 2 1497642412
+/
+msnbot-65-55-210-154.search.msn.com
+0 32 27 778114 0 0
+-
+msnbot-207-46-13-30.search.msn.com
+0 18 14 264827 0 0
+-
+baiduspider-180-76-15-162.crawl.baidu.com
+0 1 0 0 0 0
+-
+msnbot-207-46-13-161.search.msn.com
+0 22 18 404897 0 0
+-
+static.3.141.99.88.clients.your-server.de
+0 1 1 12786 1 1498375779
+/
+174.34.185.246
+0 7 1 12785 1 1496397165
+-
+fulltextrobot-77-75-77-101.seznam.cz
+0 6 2 88945 1 1498082389
+/news.htm
+crawl-66-249-79-70.googlebot.com
+0 37 32 223926 5 1498761094
+/
+212.43.48.186
+0 1 0 0 0 0
+-
+crawl-66-249-79-135.googlebot.com
+0 12 2 25572 2 1496954729
+/
+hymhw.nearbymediaic.net
+0 2 1 12786 1 1498248072
+/
+msnbot-199-30-25-211.search.msn.com
+0 1 1 20583 0 0
+-
+msnbot-65-55-210-80.search.msn.com
+0 3 3 18173 0 0
+-
+111.92.75.33
+0 115 56 1270471 1 1497561244
+/
+msnbot-40-77-167-13.search.msn.com
+0 13 13 397245 3 1498732639
+/
+msnbot-65-55-210-85.search.msn.com
+0 3 3 252473 0 0
+-
+msnbot-157-55-39-2.search.msn.com
+0 1 0 0 0 0
+-
+190.37.192.35.bc.googleusercontent.com
+0 1 1 12786 1 1497566967
+/
+fulltextrobot-77-75-78-168.seznam.cz
+0 8 3 26561 0 0
+-
+104.236.112.149
+0 24 22 439314 1 1496429610
+/statement04.html
+msnbot-199-30-25-12.search.msn.com
+0 3 3 113484 0 0
+-
+msnbot-65-55-210-175.search.msn.com
+0 5 2 22072 0 0
+-
+hydrogen202.a.ahrefs.com
+0 1 1 14604 1 1496675656
+/statement01.html
+baiduspider-180-76-15-25.crawl.baidu.com
+0 2 2 84207 1 1497244860
+/news.htm
+46.229.168.76
+0 1 1 12786 1 1498032399
+/
+msnbot-199-30-24-29.search.msn.com
+0 1 1 408 0 0
+-
+116.255.221.106
+0 2 0 0 0 0
+-
+fulltextrobot-77-75-76-164.seznam.cz
+0 10 5 125688 2 1498193810
+/news.htm
+54.24.192.35.bc.googleusercontent.com
+0 1 1 12786 1 1497626382
+/
+46-118-125-174.broadband.kyivstar.net
+0 2 2 25572 1 1497858892
+/
+fulltextrobot-77-75-76-162.seznam.cz
+0 10 5 44284 0 0
+-
+baiduspider-180-76-15-155.crawl.baidu.com
+0 6 5 63318 1 1497668370
+/
+smtp-01-a24.happyoffer.club
+0 7 0 0 0 0
+-
+ec2-52-87-86-158.compute-1.amazonaws.com
+0 1 1 12786 1 1498257048
+/
+204.79.180.8
+0 3 3 99403 0 0
+-
+109-93-205-6.dynamic.isp.telekom.rs
+0 4 2 25572 1 1498665987
+/
+broadband-77-37-181-176.moscow.rt.ru
+0 30 29 379952 1 1497653593
+/contact.htm
+msnbot-199-30-25-134.search.msn.com
+0 2 2 96370 0 0
+-
+hydrogen199.a.ahrefs.com
+0 1 1 15817 1 1496786691
+/statement03.html
+195-154-233-112.rev.poneytelecom.eu
+0 2 0 0 0 0
+-
+msnbot-65-55-210-106.search.msn.com
+0 1 1 7685 0 0
+-
+msnbot-207-46-13-28.search.msn.com
+0 64 58 1301682 32 1497840281
+/news.htm
+crawl-66-249-75-6.googlebot.com
+0 5 4 68918 2 1498488894
+/
+baiduspider-180-76-15-153.crawl.baidu.com
+0 3 2 5725 1 1498218698
+/
+36.5.161.6
+0 2 0 0 0 0
+-
+173.252.124.218
+0 2 2 12426 0 0
+-
+crawl-66-249-79-138.googlebot.com
+0 14 8 517378 1 1496891915
+/
+msnbot-207-46-13-102.search.msn.com
+0 9 9 308701 1 1496994931
+/news.htm
+fulltextrobot-77-75-77-119.seznam.cz
+0 2 0 0 0 0
+-
+84-201-133-23.spider.yandex.com
+0 1 0 0 0 0
+-
+msnbot-199-30-24-105.search.msn.com
+0 1 1 15853 0 0
+-
+crawl-66-249-79-133.googlebot.com
+0 15 10 77954 4 1496915787
+/
+static-218.27.93.111-tataidc.co.in
+0 4 4 375099 0 0
+-
+223.182.114.93
+0 59 48 1084636 1 1496987755
+/
+spider-141-8-143-204.yandex.com
+0 4 4 48144 3 1498636088
+/
+msnbot-199-30-24-122.search.msn.com
+0 5 5 29098 0 0
+-
+spider-141-8-143-242.yandex.com
+0 3 2 466758 1 1498146698
+/
+fulltextrobot-77-75-79-32.seznam.cz
+0 2 0 0 0 0
+-
+42.104.97.17
+0 1 1 1041 0 0
+-
+99-113-201-229.lightspeed.gnvlsc.sbcglobal.net
+0 1 1 495486 0 0
+-
+msnbot-131-253-27-15.search.msn.com
+0 50 45 1033009 0 0
+-
+baiduspider-180-76-15-21.crawl.baidu.com
+0 1 1 40554 0 0
+-
+msnbot-199-30-24-224.search.msn.com
+0 1 1 18349 0 0
+-
+106.0.39.58
+0 3 3 372165 0 0
+-
+msnbot-199-30-25-138.search.msn.com
+0 4 3 21463 0 0
+-
+msnbot-65-55-210-202.search.msn.com
+0 4 4 54528 0 0
+-
+94.23.171.176
+0 3 3 38357 3 1498022324
+/
+baiduspider-180-76-15-159.crawl.baidu.com
+0 1 1 10643 1 1498121718
+/statement.htm
+baiduspider-180-76-15-29.crawl.baidu.com
+0 1 0 0 0 0
+-
+msnbot-65-55-210-153.search.msn.com
+0 4 4 86747 0 0
+-
+168.235.205.167
+0 74 70 1408447 1 1497546028
+/
+msnbot-65-55-210-87.search.msn.com
+0 4 4 24486 0 0
+-
+spider-141-8-143-213.yandex.com
+0 24 9 539254 6 1497592678
+/
+192.187.117.10
+0 2 0 0 0 0
+-
+msnbot-40-77-167-95.search.msn.com
+0 2 2 223304 1 1497502327
+/news.htm
+fulltextrobot-77-75-78-166.seznam.cz
+0 2 1 12201 0 0
+-
+msnbot-199-30-25-20.search.msn.com
+0 2 2 2171 0 0
+-
+ec2-54-149-158-155.us-west-2.compute.amazonaws.com
+0 1 1 12786 1 1498224936
+/
+5.35.95.56
+0 1 0 0 0 0
+-
+77.66.120.33
+0 2 1 12785 1 1496526096
+/
+c-73-70-193-73.hsd1.ca.comcast.net
+0 79 54 1784425 1 1497703414
+/
+baiduspider-180-76-15-26.crawl.baidu.com
+0 2 0 0 1 1498448276
+-
+ec2-54-81-73-46.compute-1.amazonaws.com
+0 2 1 12785 1 1496682298
+/
+msnbot-157-55-39-48.search.msn.com
+0 1 0 0 0 0
+-
+43.225.24.170
+0 53 47 1049411 1 1498565140
+/
+exit2.tor.outfall.net
+0 3 0 0 0 0
+-
+11.185.211.130.bc.googleusercontent.com
+0 1 1 12786 1 1498162837
+/
+84-201-133-38.spider.yandex.com
+0 1 1 13121 0 0
+-
+202.93.46.186.static.pichincha.andinanet.net
+0 2 0 0 0 0
+-
+crawl-66-249-69-73.googlebot.com
+0 5 1 2792 0 0
+-
+crawl-66-249-75-198.googlebot.com
+0 9 9 79936 1 1498491214
+/
+msnbot-207-46-13-177.search.msn.com
+0 47 44 1255555 5 1497375831
+/
+msnbot-199-30-24-254.search.msn.com
+0 3 0 0 0 0
+-
+msnbot-199-30-24-82.search.msn.com
+0 3 3 19409 0 0
+-
+40.77.178.29
+0 7 4 6540 0 0
+-
+crawl-66-249-79-67.googlebot.com
+0 168 104 1966613 10 1498757164
+/
+23.19.5.166
+0 1 1 10643 1 1496889223
+/statement.htm
+51.120.188.35.bc.googleusercontent.com
+0 7 6 140441 1 1498535990
+/
+84-201-133-8.spider.yandex.com
+0 1 0 0 0 0
+-
+22-237-206-104-static.rdns.serverhub.com
+0 1 1 12786 1 1497936800
+/
+spider-16.lipperhey.com
+0 1 0 0 1 1498343855
+/
+baiduspider-180-76-15-20.crawl.baidu.com
+0 3 0 0 1 1497536234
+/
+msnbot-199-30-25-164.search.msn.com
+0 2 1 2923 0 0
+-
+201-191-85-185.ip.idealhosting.net.tr
+0 1 0 0 0 0
+-
+103.200.87.48
+0 82 56 1737992 1 1498429124
+/statement.htm
+ec2-54-169-175-82.ap-southeast-1.compute.amazonaws.com
+0 1 1 12785 1 1496697783
+/
+146.185.223.113
+0 1 1 12786 1 1497906034
+/
+52.191.174.84
+0 1 1 12786 1 1498346717
+/
+198.199.68.42
+0 1 1 12786 1 1498098571
+/
+google-proxy-66-249-82-100.google.com
+0 2 2 147652 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+fulltextrobot-77-75-77-72.seznam.cz
+0 2 1 100387 0 0
+-
+spider-141-8-143-230.yandex.com
+0 1 1 14604 1 1498832344
+/statement01.html
+msnbot-40-77-167-124.search.msn.com
+0 3 2 25572 2 1498845763
+/
+fulltextrobot-77-75-79-109.seznam.cz
+0 2 0 0 0 0
+-
+spider-100-43-81-139.yandex.com
+0 1 1 12786 1 1498836167
+/
+fulltextrobot-77-75-77-32.seznam.cz
+0 2 1 12786 1 1498821103
+/
+117.213.170.78
+0 4 4 507095 0 0
+-
+mta-01-spark3.requestedoffers.clu
+0 1 0 0 0 0
+-
+server-mx14.brigterjobs.site
+0 1 0 0 0 0
+-
+120.red-79-148-169.dynamicip.rima-tde.net
+0 4 2 25572 1 1498843617
+/
+188.165.26.121
+0 1 1 12786 1 1498789730
+/
+msnbot-131-253-25-237.search.msn.com
+0 37 33 783271 0 0
+-
+crawl-66-249-79-71.googlebot.com
+0 14 5 64166 0 0
+-
+baiduspider-180-76-15-140.crawl.baidu.com
+0 1 1 408 0 0
+-
+dynamicip-94-181-219-222.pppoe.kirov.ertelecom.ru
+0 1 1 81726 1 1498833499
+/news.htm
+84-201-133-5.spider.yandex.com
+0 1 0 0 0 0
+-
+fulltextrobot-77-75-79-36.seznam.cz
+0 2 1 15817 1 1498800432
+/statement03.html
+msnbot-157-55-39-217.search.msn.com
+0 2 2 25572 2 1498814896
+/
+fulltextrobot-77-75-77-95.seznam.cz
+0 2 1 93333 0 0
+-
+46.229.164.102
+0 2 0 0 0 0
+-
+crawl-66-249-79-73.googlebot.com
+0 6 1 12786 1 1498814726
+/
+fulltextrobot-77-75-76-169.seznam.cz
+0 2 0 0 0 0
+-
+crawl-66-249-79-67.googlebot.com
+0 11 5 6936 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+http://int.search.myway.com/search/GGmain.jhtml
+0 1
+http://csikarimnagardiocese.com
+0 1
+http://csikarimnagardiocese.com/statement03.html
+0 10
+http://csikarimnagardiocese.com/wp-content/plugins/contact-form-7/login.php
+0 1
+http://csikarimnagardiocese.com/index.htm
+0 88
+http://pizza-imperia.com/
+0 1
+http://www.csikarimnagardiocese.com/statement06.html
+0 3
+http://www.csikarimnagardiocese.com/contact.htm
+0 272
+http://www.csikarimnagardiocese.com/images/style000.css
+0 101
+http://www.csikarimnagardiocese.com/images/custom_s.css
+0 81
+http://csikarimnagardiocese.com/wp-content/plugins/log.php
+0 1
+http://csikarimnagardiocese.com/indax.php
+0 1
+http://csikarimnagardiocese.com/wp-content/plugins/ubh/up.php
+0 1
+http://anglicansonline.org/world/bips.html
+0 2
+http://csikarimnagardiocese.com/wp-admin/logo_img.php
+0 1
+http://www.csikarimnagardiocese.com/index.htm
+0 44
+http://csikarimnagardiocese.com/wp-content/themes/error-log.php
+0 1
+http://www.google.com/search
+0 1
+http://www.csikarimnagardiocese.com/statement05.html
+0 38
+android-app://com.google.android.googlequicksearchbox
+0 2
+http://csikarimnagardiocese.com/wp-content/plugins/wp-easy-gallery-pro/admin/php.php
+0 1
+https://www.google.com.bh/
+0 1
+http://csikarimnagardiocese.com/wp-content/plugins/easyrotator-for-wordpress/b.php
+0 1
+http://csikarimnagardiocese.com/statement04.html
+0 1
+http://csikarimnagardiocese.com/statement.htm
+0 49
+http://csikarimnagardiocese.com/wp-includes/logo_img.php
+0 1
+http://csikarimnagardiocese.com/
+0 743
+https://www.google.com/
+0 4
+- (Direct Request)
+0 2809
+http://irkutsk.zrus.org/
+0 2
+http://www.csikarimnagardiocese.com/statement04.html
+0 1
+http://csikarimnagardiocese.com/contact.htm
+0 55
+http://www.csikarimnagardiocese.com/statement.htm
+0 33
+http://chatroulette.si/
+0 3
+https://www.google.com.kw/
+0 2
+http://csikarimnagardiocese.com/wp-content/upgrade/theme-compat/popup-pomo.php
+0 1
+https://www.google.co.in
+0 1
+http://www.csisynod.com/dioceses.php
+0 11
+http://csikarimnagardiocese.com/images/lightbox.css
+0 10
+http://csikarimnagardiocese.com/statement02.html
+0 1
+http://csikarimnagardiocese.com/wp-includes/images/media/rss.php
+0 2
+http://huron.anglican.org/
+0 1
+http://images.search.yahoo.com/search/images
+0 2
+http://www.google.co.in/url
+0 1
+http://csikarimnagardiocese.com/wp-content/plugins/500.php
+0 1
+http://csikarimnagardiocese.com/wp-conde.php
+0 1
+http://podshipniki-nsk.ru/
+0 3
+http://csikarimnagardiocese.com/wp-content/themes/headway-166/style.css
+0 1
+http://csikarimnagardiocese.com/wp-content/indes.php
+0 1
+http://csikarimnagardiocese.com/images/icon.png
+0 2
+http://www.csikarimnagardiocese.com/images/image4.jpg
+0 1
+http://csikarimnagardiocese.com/images/custom_s.css
+0 21
+http://google.com
+0 23
+http://www.csikarimnagardiocese.com
+0 3
+http://csikarimnagardiocese.com/wp-content/plugins/myshe.php
+0 1
+https://www.google.ie
+0 1
+http://csikarimnagardiocese.com/wp-includes/css/style.css.php
+0 1
+http://csikarimnagardiocese.com/random.php
+0 1
+http://burger-imperia.com/
+0 1
+https://www.bing.com/
+0 2
+http://csikarimnagardiocese.com/statement06.html
+0 2
+http://www.google.co.in/search
+0 6
+http://csikarimnagardiocese.com/maill.php
+0 1
+http://csikarimnagardiocese.com/images/style000.css
+0 26
+android-app://com.google.android.googlequicksearchbox/googlequicksearchbox/suggest
+0 2
+https://www.google.co.in/
+0 71
+csikarimnagardiocese.com
+0 5
+https://google.com/
+0 4
+http://www.csikarimnagardiocese.com/news.htm
+0 1985
+http://www.csikarimnagardiocese.com/
+0 2773
+http://csikarimnagardiocese.com/wp-content/plugins/photo-gallery/filemanager/UploadHandler.php
+0 1
+http://videochat.bz/
+0 1
+http://csikarimnagardiocese.com/ytt.php
+0 1
+http://csikarimnagardiocese.com/news.htm
+0 64
+https://www.google.com.sa/
+0 1
+https://duckduckgo.com/
+0 1
+http://whois.domaintools.com/csikarimnagardiocese.com
+0 2
+http://www.csikarimnagardiocese.com/images/lightbox.css
+0 51
+https://www.google.com.sg/
+0 1
+http://csikarimnagardiocese.com/wp-includes/class.wp-tmps.php
+0 1
+https://www.google.co.in/search
+0 2
+http://yandex.ru/clck/jsredir
+0 4
+http://www.google.co.uk/url
+0 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+0 2
+Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+0 51
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2702.78 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +http://megaindex.com/crawler)
+0 12
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 5.1; rv:29.0) Gecko/20100101 Firefox/29.0
+0 30
+Opera/9.80 (J2ME/MIDP; Opera Mini/4.5.40312/64.218; U; en) Presto/2.12.423 Version/12.16
+0 266
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+0 348
+Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+0 58
+Mozilla/5.0 (compatible; GrapeshotCrawler/2.0; +http://www.grapeshot.co.uk/crawler.php)
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8
+0 168
+Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/1.0; +http://duckduckgo.com)
+0 4
+Mozilla/5.0 (compatible; DotBot/1.1; http://www.opensiteexplorer.org/dotbot, help@moz.com)
+0 16
+Mozilla/5.0 (Linux; Android 5.1.1; SM-J200G Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile S
+0 196
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:48.0) Gecko/20100101 Firefox/48.0
+0 8
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) GSA/29.0.159059490 Mobile/1
+0 57
+Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)
+0 12
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/41.0.2272.118 Safari/537.36
+0 51
+Mozilla/5.0 (Linux; U; Android 6.0; en-US; Lenovo S1a40 Build/MRA58K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBr
+0 74
+Mozilla/5.0 (Windows NT 6.1; rv:17.0) Gecko/17.0 Firefox/17.0
+0 5
+SafeDNSBot (https://www.safedns.com/searchbot)
+0 7
+Mozilla/5.0 (Linux; Android 6.0.1; Redmi Note 3 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Mobi
+0 147
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322)
+0 1
+Mozilla/5.0 (Windows NT 5.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:47.0) Gecko/20100101 Firefox/47.0
+0 2
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+0 435
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b
+0 156
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36
+0 8
+com.google.GoogleMobile/28.0.0 iPhone/10.3.2 hw/iPhone7_2
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36
+0 4
+Mozilla/5.0 (Windows NT 6.1; rv:53.0) Gecko/20100101 Firefox/53.0
+0 71
+Mozilla/5.0 (Linux; Android 5.0.1; MicromaxP480 Build/LRX21M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Safa
+0 59
+rogerbot/1.1 (http://moz.com/help/guides/search-overview/crawl-diagnostics#more-help, rogerbot-crawler+pr4-crawler-15@moz.com
+0 2
+Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+0 90
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; F43)
+0 1
+Mozilla/5.0 (Linux; Android 6.0.1; SM-N910K Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:30.0) Gecko/20100101 Firefox/30.0
+0 1
+Mozilla/5.0 (Linux; Android 6.0.1; SM-J210F Build/MMB29Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile S
+0 45
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:45.0) Gecko/20100101 Firefox/45.0
+0 1
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152
+0 28
+Mozilla/5.0 (X11; Linux i686; rv:45.0) Gecko/20100101 Firefox/45.0
+0 54
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 GTB6 (.NET CLR 3.5.30729)
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:26.0) Gecko/20100101 Firefox/26.0
+0 4
+Mozilla/5.0 (compatible; MJ12bot/v1.4.7; http://mj12bot.com/)
+0 4
+panscient.com
+0 1
+Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+0 14
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0;  Trident/5.0)
+0 27
+Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+0 68
+Mozilla/5.0 (Windows NT 6.1; rv:32.0) Gecko/20100101 Firefox/32.0
+0 1
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+0 105
+ia_archiver
+0 3
+BindedBot/0.1 (+https://binded.com/bot.html)
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0
+0 3
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 383
+Mozilla/5.0 (compatible; IDBot/1.1; +http://www.id-search.xyz/bot.html)
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/59.0.3071.102 Mobile/
+0 99
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 5.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0
+0 1
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+0 241
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+0 1
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.9.0.13) Gecko/2009073022 Firefox/3.5.2 (.NET CLR 3.5.30729) SurveyBot/2.3 (
+0 4
+Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobile S
+0 147
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; BCD)
+0 1
+Mozilla/5.0 (Linux; Android 5.0.1; SAMSUNG GT-I9505 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 C
+0 146
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2969.21 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2772.85 Safari/537.36
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; TheFreeDictionary.com; .NET CLR 1.1.4322; .NET CLR 1.0.3705; .NET CLR 2.0.
+0 3
+Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)
+0 6
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36
+0 23
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 OPR/45.0.
+0 49
+com.google.GoogleMobile/29.0.0 iPhone/10.0.2 hw/iPhone9_3
+0 2
+Googlebot-Image/1.0
+0 161
+Mozilla/5.0 (Windows NT 6.1; rv:54.0) Gecko/20100101 Firefox/54.0
+0 72
+python-requests/2.10.0
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+0 7
+Mozilla/5.0 (Linux; Android 6.0.1; SM-J710F Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2820.83 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux i686 on x86_64; rv:49.0) Gecko/20100101 Firefox/49.0
+0 1
+TestiTest
+0 1
+Mozilla/5.0 (compatible; YaK/1.0; http://linkfluence.com/; bot@linkfluence.com)
+0 2
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.84 Safari/535.11 SE 2.X MetaSr 1.0
+0 1
+Mozilla/5.0 (Windows NT 5.1; rv:45.0) Gecko/20100101 Firefox/45.0
+0 1
+Mozilla/5.0 (compatible; SemrushBot/1.2~bl; +http://www.semrush.com/bot.html)
+0 68
+Mozilla/5.0 (X11; Linux i686 on x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2962.24 Safari/537.36
+0 1
+Wotbox/2.01 (+http://www.wotbox.com/bot/)
+0 12
+Mozilla/5.0 (Linux; Android 4.4.4; HM NOTE 1LTE Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobi
+0 93
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+0 80
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.2; WOW64; x64) AppleWebKit/531.89.32 (KHTML, like Gecko) Chrome/56.3.9150.4422 Safari/534.40 OPR/44
+0 2
+Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36
+0 63
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2)
+0 11
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:51.0) Gecko/20100101 Firefox/51.0
+0 2
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+0 3
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; APC; .NET CLR 1.0.3705; .NET CLR 1.1.4322; .NET CLR 2.0.50215; InfoPath.1)
+0 3
+Mozilla/5.0 (Windows NT 5.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0
+0 1
+Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
+0 2
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36
+0 7
+HEADMasterSEO
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133            Safari/537.3
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; spbot/5.0.3; +http://OpenLinkProfiler.org/bot )
+0 72
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.3; Trident/6.0)
+0 1
+Python/3.5 aiohttp/2.1.0
+0 1
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+0 6
+Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 5.1; rv:36.0) Gecko/20100101 Firefox/36.0
+0 53
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:15.0) Gecko/20100101 Firefox/15.0.1
+0 2
+Mozilla/5.0 (compatible; SiteExplorer/1.1b; +http://siteexplorer.info/Backlink-Checker-Spider/)
+0 69
+: Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+0 2
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+0 9
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
+0 3
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+0 422
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1
+0 45
+Mozilla/5.0 (Windows NT 6.2; WOW64; rv:29.0) Gecko/20100101 Firefox/29.0
+0 1
+Mozilla/5.0 (compatible; AhrefsBot/5.2; +http://ahrefs.com/robot/)
+0 47
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36
+0 61
+Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)
+0 4
+Mozilla/5.0 (Linux; Android 6.0.1; SM-N910K Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile S
+0 78
+Python-urllib/2.7
+0 1
+Mozilla/5.0 (Linux; U; Android 5.1.1; en-US; Lenovo A6020a46 Build/LMY47V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0
+0 115
+Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0
+0 1
+Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)
+0 23
+Mozilla/5.0 (Linux; Android 5.1.1; 2014818 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.132 Mobile S
+0 1
+Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+0 11
+Mozilla/5.0 (Linux; Android 6.0.1; SM-J700F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile S
+0 53
+Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+0 16
+Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393
+0 2
+Mozilla/5.0 (X11; Linux i686 on x86_64; rv:49.0) Gecko/20100101 Firefox/49.0
+0 1
+netEstate NE Crawler (+http://www.website-datenbank.de/)
+0 17
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2962.80 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 6.0; Lenovo A7020a48 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mob
+0 64
+Mozilla/5.0 (compatible; Gluten Free Crawler/1.0; +http://glutenfreepleasure.com/)
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/601.6.17 (KHTML, like Gecko) Version/9.1.1 Safari/601.6.17
+0 59
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CL
+0 34
+Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)
+0 1
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+0 40
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile S
+0 29
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.1
+0 1
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+0 107
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+0 2
+Mozilla/5.0 (compatible; SeznamBot/3.2; +http://napoveda.seznam.cz/en/seznambot-intro/)
+0 224
+Mozilla/5.0 (compatible; Dataprovider.com;)
+0 1
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36 OPR/44.0.2510.8
+0 1
+Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0
+0 1
+Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+0 351
+Mozilla/5.0 (compatible; DeuSu/5.0.2; +https://deusu.de/robot.html)
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; ips-agent)
+0 12
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36
+0 5
+yacybot (-global; amd64 Windows 2003 5.2; java 1.8.0_131; Europe/en) http://yacy.net/bot.html
+0 2
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon
+0 6
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0
+0 1
+Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8552 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile
+0 53
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36 OPR/41.0.2353.46
+0 61
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.34 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; rv:46.0) Gecko/20100101 Firefox/46.0
+0 1
+Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:46.0) Gecko/20100101 Firefox/46.0
+0 1
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+0 82
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2811.55 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux i686 on x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2885.87 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+0 47
+Mozilla/5.0 (Windows; U; Windows NT 5.1; pl; rv:1.9) Gecko/2008052906 Firefox/3.0
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux i686 on x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2745.31 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; MJ12bot/v1.4.7; http://www.majestic12.co.uk/bot.php?+)
+0 1
+Mozilla/5.0 (Linux; U; Android 5.1; en-US; LS-5020 Build/LMY47D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser
+0 189
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.00
+0 1
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.2102
+0 1
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.14 Safari/537.36
+0 96
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0
+0 53
+Contacts-Crawler/0.1 (+http://www.scrapinghub.com)
+0 1
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+0 3
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+0 4
+Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0
+0 3
+Mozilla/5.0 (compatible; Cliqzbot/1.0; +http://cliqz.com/company/cliqzbot)
+0 2
+Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
+0 7
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2841.65 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 6.0.1; Redmi Note 4 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobi
+0 60
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:49.0) Gecko/20100101 Firefox/49.0
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2695.29 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; Plukkie/1.6; http://www.botje.com/plukkie.htm)
+0 2
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+0 1
+Mozilla/3.0 (compatible; WebCapture 2.0; Auto; Windows)
+0 2
+Mozilla/5.0 (Windows NT 5.1; rv:49.0) Gecko/20100101 Firefox/49.0
+0 2
+Opera/9.80 (J2ME/MIDP; Opera Mini/4.5.40312/64.228; U; en) Presto/2.12.423 Version/12.16
+0 397
+Mozilla/5.0 (Windows NT x.y; rv:10.0) Gecko/20100101 Firefox/10.0
+0 1
+Mozilla/5.0 (Windows NT 6.3; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0)
+0 3
+Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko; googleweblight) Chrome
+0 248
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 5.1; Trident/6.0)
+0 1
+Mozilla/5.0 (compatible; Findxbot/1.0; +http://www.findxbot.com)
+0 2
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+0 5
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0
+0 1
+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+0 2
+Mozilla/5.0 (X11; Linux i686; rv:50.0) Gecko/20100101 Firefox/50.0
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safa
+0 1458
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.10.1500.9323 Safari/537.
+0 142
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:51.0) Gecko/20100101 Firefox/51.0
+0 1
+Mozilla/5.0 (Windows; U; Windows NT 5.1; pt-PT; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2 (.NET CLR 3.5.30729)
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+0 2
+# End Of Table - agents
+# -search strings- 
+csi order of service in telugu
+2
+pastors in karimnagar
+1
+csi karimnagar diocese
+3
+csi all diocese logo
+1
+csi karimnagar diocese logo
+1
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

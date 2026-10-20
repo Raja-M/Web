@@ -7,12 +7,9 @@ import MainHeader from './components/mainheader/MainHeader';
 
 export function App() {
   return (
-    <>  
-      
-      <MainHeader></MainHeader>
+    <><MainHeader></MainHeader>
       <MainBody></MainBody>
       <MainFooter></MainFooter>
-      
     </>
   );
 }

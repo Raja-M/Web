@@ -1,4 +1,4 @@
-import { Box } from '@mui/material';
+import { Box, Paper } from '@mui/material';
 import React from 'react';
 
 import Sidebar from '../common/Sidebar';
@@ -8,7 +8,8 @@ import Rightbar from '../common/Rightbar';
 
 const MainBody = () => {
   return (
-    <Box
+    <Paper
+      elevation={3}
       sx={{
         margin: '16vh 10%  0 10%',
       
@@ -16,14 +17,14 @@ const MainBody = () => {
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'flex-start',
+
       }}
-    > 
-    <Sidebar></Sidebar>
+    ><Sidebar></Sidebar>
     <Content>
        </Content>
     <Rightbar></Rightbar>
 
-    </Box>
+    </Paper>
   );
 };
 

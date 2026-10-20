@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="HTML tags demo page" />
+  <title>HTML Tags Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.5;
+    }
+    section {
+      border: 1px solid #ddd;
+      padding: 12px;
+      margin: 12px 0;
+      border-radius: 8px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #666;
+      padding: 6px;
+      text-align: left;
+    }
+    code, kbd, samp {
+      background: #f4f4f4;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>All Important HTML Tags Demo</h1>
+    <nav>
+      <a href="#text">Text</a> |
+      <a href="#media">Media</a> |
+      <a href="#table">Table</a> |
+      <a href="#form">Form</a> |
+      <a href="#semantic">Semantic</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="headings">
+      <h2>Heading Tags (h1 to h6)</h2>
+      <h1>This is h1</h1>
+      <h2>This is h2</h2>
+      <h3>This is h3</h3>
+      <h4>This is h4</h4>
+      <h5>This is h5</h5>
+      <h6>This is h6</h6>
+    </section>
+
+    <section id="text">
+      <h2>Text and Inline Tags</h2>
+      <p>This is a <strong>strong</strong>, <em>emphasized</em>, <mark>marked</mark>, and <small>small</small> text paragraph.</p>
+      <p>Use <abbr title="HyperText Markup Language">HTML</abbr> and press <kbd>Ctrl</kbd> + <kbd>S</kbd>.</p>
+      <p><b>Bold</b>, <i>italic</i>, <u>underline</u>, <s>strikethrough</s>, <sub>sub</sub>, <sup>sup</sup>.</p>
+      <blockquote cite="https://developer.mozilla.org/">This is a blockquote tag example.</blockquote>
+      <pre><code>const hello = "world";</code></pre>
+      <p><q>Inline quote</q> and a <cite>citation</cite>.</p>
+      <hr />
+      <br />
+    </section>
+
+    <section id="lists">
+      <h2>Lists</h2>
+      <ul>
+        <li>Unordered item 1</li>
+        <li>Unordered item 2</li>
+      </ul>
+      <ol>
+        <li>Ordered item 1</li>
+        <li>Ordered item 2</li>
+      </ol>
+      <dl>
+        <dt>HTML</dt>
+        <dd>Structure of web pages.</dd>
+      </dl>
+    </section>
+
+    <section id="media">
+      <h2>Media Tags</h2>
+      <figure>
+        <img src="../assets/sample-image.jpg" alt="Placeholder image" />
+        <figcaption>Example image using figure/figcaption.</figcaption>
+      </figure>
+      <audio controls>
+        <source src="../assets/sample-audio.mp3" type="audio/mpeg" />
+        Your browser does not support the audio tag.
+      </audio>
+      <video controls width="320">
+        <source src="../assets/sample-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <canvas id="demoCanvas" width="150" height="80" style="border:1px solid #444;">Canvas not supported.</canvas>
+      <svg width="160" height="70" role="img" aria-label="Simple SVG">
+        <rect x="10" y="10" width="140" height="50" fill="#66b3ff"></rect>
+      </svg>
+    </section>
+
+    <section id="table">
+      <h2>Table Tags</h2>
+      <table>
+        <caption>Student Scores</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Math</th>
+            <th>Science</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alice</td>
+            <td>92</td>
+            <td>88</td>
+          </tr>
+          <tr>
+            <td>Bob</td>
+            <td>85</td>
+            <td>90</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">End of table</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <section id="form">
+      <h2>Form Tags</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Registration Form</legend>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter name" required />
+          <br /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+          <br /><br />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" />
+          <br /><br />
+
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" min="1" max="120" />
+          <br /><br />
+
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" />
+          <br /><br />
+
+          <label for="color">Favorite Color:</label>
+          <input type="color" id="color" name="color" />
+          <br /><br />
+
+          <label for="volume">Volume (Slider):</label>
+          <input type="range" id="volume" name="volume" min="0" max="100" value="50" />
+          <br /><br />
+
+          <label for="file">Upload File:</label>
+          <input type="file" id="file" name="file" />
+          <br /><br />
+
+          <label for="country">Country:</label>
+          <select id="country" name="country">
+            <option value="">Select</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+          </select>
+          <br /><br />
+
+          <label for="bio">Bio:</label>
+          <textarea id="bio" name="bio" rows="3" cols="30"></textarea>
+          <br /><br />
+
+          <label>
+            <input type="checkbox" name="terms" />
+            Accept terms
+          </label>
+          <br />
+
+          <label>
+            <input type="radio" name="gender" value="male" />
+            Male
+          </label>
+          <label>
+            <input type="radio" name="gender" value="female" />
+            Female
+          </label>
+          <br /><br />
+
+          <input type="submit" value="Submit" />
+          <button type="reset">Reset</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <section id="semantic">
+      <h2>Semantic and Newer HTML Tags</h2>
+      <article>
+        <h3>Article Tag</h3>
+        <p>This content is in an article.</p>
+      </article>
+
+      <aside>
+        <p>This is aside content.</p>
+      </aside>
+
+      <details>
+        <summary>Click to expand details</summary>
+        <p>Details/summary example.</p>
+      </details>
+
+      <dialog open>This is a dialog tag example.</dialog>
+
+      <p>Progress: <progress value="60" max="100">60%</progress></p>
+      <p>Meter: <meter min="0" max="100" value="75">75%</meter></p>
+
+      <template id="cardTemplate">
+        <p>This is inside a template tag.</p>
+      </template>
+
+      <time datetime="2026-04-27">April 27, 2026</time>
+      <p><data value="1001">Product ID</data></p>
+      <p><output>Sample output</output></p>
+    </section>
+  </main>
+
+  <footer>
+    <address>Created for HTML practice demo.</address>
+  </footer>
+</body>
+</html>

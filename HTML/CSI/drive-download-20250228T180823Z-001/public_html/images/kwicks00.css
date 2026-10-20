@@ -1,0 +1,83 @@
+/* This css file serves as a template for styling your kwicks.  Feel free to modify, but please make note of the comments - some of them are important. */
+.kwicks {
+  margin: 20px auto 30px auto;
+  width: 940px;
+  height: 350px;
+  overflow: hidden;
+	list-style: none;
+	position: relative;
+	background:#000;
+}
+.kwicks li{
+	/* these are required, but the values are up to you (must be pixel) */
+	width: 188px;
+	height: 350px;
+
+	/*do not change these */
+	display: block;
+	overflow: hidden;
+	padding: 0;  /* if you need padding, do so with an inner div (or implement your own box-model hack) */
+  cursor: pointer;
+}
+.kwicks.horizontal li {
+	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
+	margin-right: 0px; /*Set to same as spacing option. */	
+	float: left;
+	background: #000 url(preloade.gif) no-repeat 50% 50%;
+}
+.kwicks li img {
+  overflow: hidden;
+}
+.kwicks.horizontal li {
+	/* This is optional and will be disregarded by the script. However, it should be provided for non-JS enabled browsers. */
+	margin-right: 0; /*Set to same as spacing option. */	
+	float: left;
+ 
+}
+.kwicks.vertical  li{
+	/* This is optional and will be disregarded by the script. However, it should be provided for non-JS enabled browsers. */
+	margin-bottom: 5px; /*Set to same as spacing option. */	
+}
+.kwicks li .kwicks-caption {
+  padding: 15px 20px 10px 20px;
+  width: 260px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: url(transpar.png) repeat;
+  text-align: right;
+}
+.kwicks li .heading-text {
+  padding: 15px 20px;
+  width: 260px;
+  position: absolute;
+  right: 0;
+  bottom: 49px;
+  background: url(transpar.png) repeat;
+  display: none;
+  text-align: right;
+}
+.kwicks li .heading-text h4,
+.kwicks li .kwicks-caption h5 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.kwicks li .heading-text h4 a {
+  color: #ffffff;
+}
+.kwicks li .heading-text p {
+  color: #ffffff;
+  margin-bottom: 0;
+  line-height: 18px;
+  display: none;  
+}
+    
+.kwicks li .shadow{
+  position:absolute;
+  z-index:100;
+  top:0;
+  right: 0;
+  height:350px !important;
+  width:20px;	
+  background:url(kwicks-s.png) left repeat-y;
+}

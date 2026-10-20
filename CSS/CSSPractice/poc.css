@@ -1,0 +1,51 @@
+
+body {
+    color:azure
+}
+p #p1 {
+    color: black;
+    font-size: 16px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* this is an example for tags with id when mouse enter  */
+#p3:hover {
+    color: red;
+    font-size: 24px;
+ 
+}
+
+
+
+.h1styles  {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1styles p {
+    color: rgb(75, 73, 73);
+     
+}
+
+#p1 {
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#p2 {
+    color: green;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p2class {
+    color: green;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
